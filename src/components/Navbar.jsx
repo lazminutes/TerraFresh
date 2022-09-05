@@ -44,7 +44,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/cart">
-                  Dasboard
+                  Cart
                 </NavLink>
               </li>
             </ul>
