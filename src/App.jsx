@@ -1,33 +1,64 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { Route, Routes } from "react-router-dom"
+import Navbar from "./components/Navbar"
+import Home from "./pages/Home"
+import Product from "./pages/Product"
+import About from "./pages/About"
+import Cart from "./pages/Cart"
+import Payment from "./pages/Payment"
+import Login from "./pages/Login"
+import Register from "./pages/Register"
+import LayoutDefault from "./layouts/LayoutDefault"
+import LayoutAuth from "./layouts/LayoutAuth"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={
+          <LayoutDefault>
+            <Home />
+          </LayoutDefault>
+        }
+        />
+        <Route path="/product" element={
+          <LayoutDefault>
+            <Product />
+          </LayoutDefault>
+        }
+        />
+        <Route path="/about" element={
+          <LayoutDefault>
+            <About />
+          </LayoutDefault>
+        }
+        />
+        <Route path="/cart" element={
+          <LayoutDefault>
+            <Cart />
+          </LayoutDefault>
+        }
+        />
+        <Route path="/payment" element={
+          <LayoutDefault>
+            <Payment />
+          </LayoutDefault>
+        }
+        />
+        <Route path="/login" element={
+          <LayoutAuth>
+            <Login />
+          </LayoutAuth>
+        }
+        />
+        <Route path="/register" element={
+          <LayoutAuth>
+            <Register />
+          </LayoutAuth>
+        }
+        />
+      </Routes>
+    </>
   )
 }
 
