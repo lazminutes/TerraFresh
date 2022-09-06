@@ -139,6 +139,59 @@ color:  #10ed1b;
         font-size: 13px;
         
      }
+/* Fitur */
+
+.fitur{
+    background-color: #ffc107;
+}
+.title-fitur{
+font-size: 20px;
+
+}
+
+.icon{
+    color: #fff;
+    font-size: 50px;
+}
+.icon:hover{
+font-size: 60px;
+}
+
+.fitur-all{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+} 
+
+/* fitur rinci */
+.fa-truck-fast{
+    margin-top: 15px;
+color: red;
+}
+.fa-hand-holding-dollar{
+    margin-top: 15px;
+color: green;
+}
+.fa-seedling{
+    margin-top: 15px;
+color:  #10ed1b;
+}
+
+.background-white{
+    background-color: #fff;
+    margin: 1.5px;
+    border-radius: 30px;
+}
+.background-white0{
+    background-color: #fff;
+    margin-left: 75px;
+    border-radius: 30px;
+}
+.background-white1{
+    background-color: #fff;
+    margin-right: 75px;
+    border-radius: 30px;
+}
 
     
      
