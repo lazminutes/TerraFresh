@@ -14,11 +14,12 @@ function App() {
 
   return (
     <>
+    <Navbar/>
       <Routes>
         <Route path="/" element={
-          <LayoutDefault>
+         
             <Home />
-          </LayoutDefault>
+         
         }
         />
         <Route path="/product" element={

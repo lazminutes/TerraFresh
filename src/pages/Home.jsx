@@ -1,21 +1,22 @@
-
+import slide1 from '../assets/Img/slide1.jpg'
 
 export default function Home() {
   return (
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div className=''>
+<div id="carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="" class="d-block w-100" alt="..."/ >
+      <img src={slide1} class="d-block w-100" alt="..."/>
       <div class="carousel-caption  d-md-block" >
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..."/>
+      <img src={slide1} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="..."/>
+      <img src={slide1} class="d-block w-100" alt="..."/>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -26,6 +27,7 @@ export default function Home() {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div>
 </div>
   )
 }
