@@ -7,21 +7,25 @@ import Navbar from '../components/Navbar'
 import '../CSS/Home/home.css'
 export default function Home() {
   return (
-    <div classNameName=''>
+
+
+    <div classNameName='home'>
+
+      {/* // Carousel start */}
       <Navbar />
       <div id="carouselExampleFade" className="carousel slide carousel-fade " data-bs-ride="carousel">
         <div className="carousel-inner">
-          
+
           {/* slide 1 */}
           <div className="carousel-item active">
             <div className='container d-flex justify-content-between'>
               <div className='d-flex justify-content-center align-items-start flex-column ms-5'>
-               
+
                 <h5 className='info'>#Baru Di Petik</h5>
                 <h1 className='Text'>  Apel Segar </h1>
                 <h3 className='Text'>It's Organic</h3>
                 <p className='deskripsi'>Apel yang kami tanam 100% Organik, tanpa menggunakan pestisida dalam Penanamannya, sehingga aman di konsumsi tanpa mengganggu kesehatan.   </p>
-               
+
                 <button type="button" class=" btn-Costum">Shop Now</button>
 
               </div>
@@ -37,12 +41,12 @@ export default function Home() {
           <div className="carousel-item ">
             <div className='container d-flex justify-content-between'>
               <div className='d-flex justify-content-center align-items-start flex-column ms-5'>
-               
+
                 <h5 className='info'>#Sayur Segar</h5>
                 <h1 className='Text'>  Sayuran Organik </h1>
                 <h3 className='Text'></h3>
                 <p className='deskripsi'>Sayuran kami langsung berasal dari Petani  yang ditanam dengan baik, tanpa menggunakan pestisida atau pun obat-obatan.Untuk lebih jelasnya bisa di baca di <b>tentang kami</b> </p>
-               
+
                 <button type="button" class=" btn-Costum">About Us</button>
 
               </div>
@@ -57,12 +61,12 @@ export default function Home() {
           <div className="carousel-item ">
             <div className='container d-flex justify-content-between'>
               <div className='d-flex justify-content-center align-items-start flex-column ms-5'>
-               
+
                 <h5 className='info'>#Diskon!!!</h5>
                 <h1 className='Text'>  For New User </h1>
                 <h3 className='Text'>Buruan Daftar</h3>
                 <p className='deskripsi'>kami memberikan diskon 40% bagi setiap pengguna baru, sebgai ucapan terima kasih kepada pengunjung yang menjadi Konsumnen kami </p>
-               
+
                 <button type="button" class=" btn-Costum">Login Now!!</button>
 
               </div>
@@ -82,6 +86,36 @@ export default function Home() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      {/* carousel end */}
+
+      {/* fitur */}
+      <div className='fitur'>
+        <div className='text-center'>
+          <h1>FITUR KAMI</h1>
+        </div>
+
+        <div className='fitur-all'>
+
+          <div className='fitur-1 col-md-4 text-center'>
+            <i class="fa-solid fa-truck-fast icon"></i>
+            <p className='deskripsi'>fast delivery daerah Sumbawa, aman sampai tujuan, Si paling Cepat</p>
+          </div>
+          <div className='fitur-1 col-md-4 text-center'>
+            <i class="fa-solid fa-hand-holding-dollar icon"></i>
+            <p className='deskripsi'>fast delivery daerah Sumbawa, aman sampai tujuan, Si paling Cepat</p>
+          </div>
+          <div className='fitur-1 col-md-4 text-center'>
+            <i class="fa-solid fa-truck-fast icon"></i>
+            <p className='deskripsi'>fast delivery daerah Sumbawa, aman sampai tujuan, Si paling Cepat</p>
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
     </div>
   )
 }
