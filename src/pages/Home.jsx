@@ -1,4 +1,4 @@
-import slide1 from '../assets/Img/slide1.jpg'
+import slide1 from '../assets/Img/slide1.png'
 import Navbar from '../components/Navbar'
 import '../CSS/Home/home.css'
 export default function Home() {
@@ -8,11 +8,15 @@ export default function Home() {
 <div id="carouselExampleFade" className="carousel slide carousel-fade " data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={slide1} className="d-block w-100" alt="..."/>
-      <div className="carousel-caption  d-md-block" >
-        <h5>Jangan sampai kelewatan </h5>
-       <button classNameName="btn-warning bg-warning">BUY NOW</button>
+    <div className='container d-flex justify-content-between'>
+      <div className='d-flex justify-content-center align-items-start flex-column ms-5'>
+        <h1>dwad</h1>
       </div>
+      <div>
+      <img src={slide1} className="d-block w-10" alt="..."/>
+      </div>
+      </div>  
+
     </div>
     <div className="carousel-item">
       <img src={slide1} className="d-block w-100" alt="..."/>
