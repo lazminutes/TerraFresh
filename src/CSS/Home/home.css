@@ -2,6 +2,17 @@
 .carousel-inner{
     background-color: #ffc107;
 }
+
+.img{
+    width: 700px;
+}
+
+.info{
+    background-color: black;
+    color: #fff;
+}
+
+
 /* teks */
 .Text{
     color: #fff;
@@ -28,8 +39,45 @@
 
  
 @media screen and (max-width:420px){
-    .d-block{
-        width: 150px !important;
-        margin-top: 100px;
+    .img{
+        width: 200px;
     }
+    .info{
+        background-color: black;
+        color: #fff;
+        font-size: 5px;
+    }
+    
+    
+    /* teks */
+    .Text{
+        color: #fff;
+        font-size: 10px;
+    }
+    
+    .deskripsi{
+        color: rgb(74, 74, 74);
+        font-size: 5px;
+    }
+    
+     /* Button */
+     .btn-Costum{
+        background-color: #d2a10e;
+        border: none;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 10px;
+        
+     }
+     .btn-Costum:hover{
+        background-color:white;
+        font-size: 23px;
+        color: #ffc107;
+        transition: 0.4s;
+        font-size: 13px;
+        
+     }
+
+    
+     
 }
