@@ -90,23 +90,34 @@ export default function Home() {
 
       {/* fitur */}
       <div className='fitur'>
-        <div className='text-center'>
+        <div className='text-center '>
           <h1>FITUR KAMI</h1>
+          <br />
         </div>
 
         <div className='fitur-all'>
 
-          <div className='fitur-1 col-md-4 text-center'>
-            <i class="fa-solid fa-truck-fast icon"></i>
+          <div className='fitur-1 col-md-3 text-center background-white0'>
+            <i class="fa-solid fa-truck-fast icon"></i> 
+            <br />
+            <br />    
             <p className='deskripsi'>fast delivery daerah Sumbawa, aman sampai tujuan, Si paling Cepat</p>
           </div>
-          <div className='fitur-1 col-md-4 text-center'>
+
+
+          <div className='fitur-1 col-md-3 text-center background-white'>
             <i class="fa-solid fa-hand-holding-dollar icon"></i>
-            <p className='deskripsi'>fast delivery daerah Sumbawa, aman sampai tujuan, Si paling Cepat</p>
+            <br />
+            <br />
+            <p className='deskripsi'>COD System, bisa bayar di tempat</p>
           </div>
-          <div className='fitur-1 col-md-4 text-center'>
-            <i class="fa-solid fa-truck-fast icon"></i>
-            <p className='deskripsi'>fast delivery daerah Sumbawa, aman sampai tujuan, Si paling Cepat</p>
+
+
+          <div className='fitur-1 col-md-3 text-center background-white1'>
+          <i class="fa-solid fa-seedling icon" ></i>
+          <br />
+            <br />
+            <p className='deskripsi'>100% Organic, tanpa Pestisida</p>
           </div>
 
 

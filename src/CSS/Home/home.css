@@ -30,6 +30,7 @@
     color: rgb(74, 74, 74);
 }
 
+
  /* Button */
  .btn-Costum{
     background-color: #d2a10e;
@@ -54,9 +55,45 @@
     color: #fff;
     font-size: 100px;
 }
+.icon:hover{
+font-size: 120px;
+}
+
 .fitur-all{
     display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
 } 
+
+/* fitur rinci */
+.fa-truck-fast{
+    margin-top: 15px;
+color: red;
+}
+.fa-hand-holding-dollar{
+    margin-top: 15px;
+color: green;
+}
+.fa-seedling{
+    margin-top: 15px;
+color:  #10ed1b;
+}
+
+.background-white{
+    background-color: #fff;
+    margin: 1.5px;
+    border-radius: 30px;
+}
+.background-white0{
+    background-color: #fff;
+    margin-left: 75px;
+    border-radius: 30px;
+}
+.background-white1{
+    background-color: #fff;
+    margin-right: 75px;
+    border-radius: 30px;
+}
 
 @media screen and (max-width:420px){
     .img{
