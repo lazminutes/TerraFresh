@@ -1,7 +1,7 @@
 // import Gambar
 import slide1 from '../assets/Img/slide1.png'
 import slide2 from '../assets/Img/slide2.png'
-
+import slide3 from '../assets/Img/slide3.png'
 
 import Navbar from '../components/Navbar'
 import '../CSS/Home/home.css'
@@ -34,7 +34,7 @@ export default function Home() {
 
 
           {/* slide 2 */}
-          <div className="carousel-item active">
+          <div className="carousel-item ">
             <div className='container d-flex justify-content-between'>
               <div className='d-flex justify-content-center align-items-start flex-column ms-5'>
                
@@ -54,20 +54,20 @@ export default function Home() {
           </div>
 
           {/* slide 3 */}
-          <div className="carousel-item active">
+          <div className="carousel-item ">
             <div className='container d-flex justify-content-between'>
               <div className='d-flex justify-content-center align-items-start flex-column ms-5'>
                
-                <h5 className='info'>#Baru Di Petik</h5>
-                <h1 className='Text'>  Apel Segar </h1>
-                <h3 className='Text'>It's Organic</h3>
-                <p className='deskripsi'>Buah yang kami punya semua nya Organik, Tanpa Pestisida dan aman di komsumsi bersama keluarga, rasa nya manis dan segar</p>
+                <h5 className='info'>#Diskon!!!</h5>
+                <h1 className='Text'>  For New User </h1>
+                <h3 className='Text'>Buruan Daftar</h3>
+                <p className='deskripsi'>kami memberikan diskon 40% bagi setiap pengguna baru, sebgai ucapan terima kasih kepada pengunjung yang menjadi Konsumnen kami </p>
                
-                <button type="button" class=" btn-Costum">Shop Now</button>
+                <button type="button" class=" btn-Costum">Login Now!!</button>
 
               </div>
               <div>
-                <img src={slide1} className="img" alt="..." />
+                <img src={slide3} className="img2" alt="..." />
 
               </div>
             </div>
