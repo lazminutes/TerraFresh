@@ -2,3 +2,34 @@
 .carousel-inner{
     background-color: #ffc107;
 }
+/* teks */
+.Text{
+    color: #fff;
+}
+
+.deskripsi{
+    color: rgb(74, 74, 74);
+}
+
+ /* Button */
+ .btn-Costum{
+    background-color: #d2a10e;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+ }
+ .btn-Costum:hover{
+    background-color:white;
+    font-size: 23px;
+    color: #ffc107;
+    transition: 0.4s;
+ }
+
+ 
+@media screen and (max-width:420px){
+    .d-block{
+        width: 150px !important;
+        margin-top: 100px;
+    }
+}
