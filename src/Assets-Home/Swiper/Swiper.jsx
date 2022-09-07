@@ -1,3 +1,4 @@
+import slide3 from '../Img Swiper/slide3.png'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/navigation';
@@ -12,16 +13,45 @@ export default () => {
     <Swiper
       spaceBetween={50}
       slidesPerView={3}
-      navigation
+    
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
+      <SwiperSlide>   
+        <div class="card" >
+            <img src={slide3} class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></SwiperSlide>
+      <SwiperSlide> <div class="card" >
+            <img src={slide3} class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></SwiperSlide>
+      <SwiperSlide> <div class="card" >
+            <img src={slide3} class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></SwiperSlide>
+      <SwiperSlide> <div class="card" >
+            <img src={slide3} class="card-img-top" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></SwiperSlide>
       ...
     </Swiper>
   );
