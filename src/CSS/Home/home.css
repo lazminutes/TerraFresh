@@ -50,6 +50,7 @@
  /* Fitur */
 .fitur{
     background-color: #ffc107;
+    height: 300px;
 }
 
 .icon{
@@ -95,6 +96,15 @@ color:  #10ed1b;
     margin-right: 75px;
     border-radius: 30px;
 }
+
+
+
+/* TopRecomned */
+
+.card{
+    width: 18rem;
+}
+
 
 @media screen and (max-width:420px){
     .img{
