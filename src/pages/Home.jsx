@@ -1,3 +1,4 @@
+import Swiper from '../Assets-Home/Swiper/Swiper'
 // import Gambar
 import slide1 from '../assets/Img/slide1.png'
 import slide2 from '../assets/Img/slide2.png'
@@ -7,7 +8,7 @@ import slide3 from '../assets/Img/slide3.png'
 import { Link } from 'react-router-dom'
 
 import Navbar from '../components/Navbar'
-import '../CSS/Home/home.css'
+import '../Assets-Home/Home-css/home.css'
 export default function Home() {
   return (
 
@@ -126,12 +127,14 @@ export default function Home() {
         </div>
       </div>
       {/* fitur end */}
+     
       <div className='Top-recomed'>
         <div className='container'>
-        <div className='heading'>Top Recomended</div>
+        <div className='heading'><h1>Top Recomended</h1></div>
+        <Swiper/>
         <div className='produk1'>
           <div class="card" >
-            <img src="" class="card-img-top" alt="" />
+            <img src={slide3} class="card-img-top" alt="" />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -139,11 +142,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-
-
-
-
       </div>
       </div>
     </div>

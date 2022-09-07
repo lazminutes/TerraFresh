@@ -9,19 +9,21 @@ import Login from "./pages/Login"
 import Register from "./pages/Register"
 import LayoutDefault from "./layouts/LayoutDefault"
 import LayoutAuth from "./layouts/LayoutAuth"
+import Swiper from "./Assets-Home/Swiper/Swiper"
 
 function App() {
 
   return (
     <>
-    
+          
+
       <Routes>
         <Route path="/" element={
          
             <Home />
-         
-        }
+           }
         />
+       
         <Route path="/product" element={
           <LayoutDefault>
             <Product />
@@ -59,6 +61,8 @@ function App() {
         }
         />
       </Routes>
+      
+   
     </>
   )
 }
