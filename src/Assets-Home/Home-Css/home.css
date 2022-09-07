@@ -195,18 +195,28 @@ color:  #10ed1b;
 }
 .background-white0{
     background-color: #fff;
-    margin-left: 75px;
+
     border-radius: 30px;
 }
 .background-white1{
     background-color: #fff;
-    margin-right: 75px;
+    
     border-radius: 30px;
 }
 .carousel-inner{
     background-color: #ffc107;
     height: 250px;
 }
-    
-     
+     /* TopREcomend */
+
+.card{
+    width: 10rem;
+    height: 7rem;
+    font-size: 8px;
+}
+
+
+.imgTR{
+    width: 10px;
+}
 }
