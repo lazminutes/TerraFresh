@@ -3,6 +3,9 @@ import slide1 from '../assets/Img/slide1.png'
 import slide2 from '../assets/Img/slide2.png'
 import slide3 from '../assets/Img/slide3.png'
 
+//import Link
+import { Link } from 'react-router-dom'
+
 import Navbar from '../components/Navbar'
 import '../CSS/Home/home.css'
 export default function Home() {
@@ -22,12 +25,12 @@ export default function Home() {
               <div className='d-flex justify-content-center align-items-start flex-column ms-5'>
 
                 <h5 className='info'>#Baru Di Petik</h5>
-                <h1 className='Text'>  Apel Segar </h1>
+                <h1 className='Text'>Apel Segar </h1>
                 <h3 className='Text'>It's Organic</h3>
                 <p className='deskripsi'>Apel yang kami tanam 100% Organik, tanpa menggunakan pestisida dalam Penanamannya, sehingga aman di konsumsi tanpa mengganggu kesehatan.   </p>
-
-                <button type="button" class=" btn-Costum">Shop Now</button>
-
+                <Link to='/product'>
+                  <button type="button" class=" btn-Costum">Shop Now</button>
+                </Link>
               </div>
               <div>
                 <img src={slide1} className="img" alt="..." />
@@ -46,9 +49,9 @@ export default function Home() {
                 <h1 className='Text'>  Sayuran Organik </h1>
                 <h3 className='Text'></h3>
                 <p className='deskripsi'>Sayuran kami langsung berasal dari Petani  yang ditanam dengan baik, tanpa menggunakan pestisida atau pun obat-obatan.Untuk lebih jelasnya bisa di baca di <b>tentang kami</b> </p>
-
-                <button type="button" class=" btn-Costum">About Us</button>
-
+                <Link to="/about">
+                  <button type="button" class=" btn-Costum">About Us</button>
+                </Link>
               </div>
               <div>
                 <img src={slide2} className="img2" alt="..." />
@@ -64,11 +67,11 @@ export default function Home() {
 
                 <h5 className='info'>#Diskon!!!</h5>
                 <h1 className='Text'>  For New User </h1>
-                <h3 className='Text'>Buruan Daftar</h3>
+
                 <p className='deskripsi'>kami memberikan diskon 40% bagi setiap pengguna baru, sebgai ucapan terima kasih kepada pengunjung yang menjadi Konsumnen kami </p>
-
-                <button type="button" class=" btn-Costum">Login Now!!</button>
-
+                <Link to='/login'>
+                  <button type="button" class=" btn-Costum">Login Now!!</button>
+                </Link>
               </div>
               <div>
                 <img src={slide3} className="img2" alt="..." />
@@ -98,11 +101,11 @@ export default function Home() {
         <div className='fitur-all'>
 
           <div className='fitur-1 col-md-3 text-center background-white0'>
-            <i class="fa-solid fa-truck-fast icon"></i> 
+            <i class="fa-solid fa-truck-fast icon"></i>
             <br />
-            <br />    
-            <p className='deskripsi'>fast delivery 
-             aman sampai tujuan</p>
+            <br />
+            <p className='deskripsi'>fast delivery
+              aman sampai tujuan</p>
           </div>
 
 
@@ -115,8 +118,8 @@ export default function Home() {
 
 
           <div className='fitur-1 col-md-3 text-center background-white1'>
-          <i class="fa-solid fa-seedling icon" ></i>
-          <br />
+            <i class="fa-solid fa-seedling icon" ></i>
+            <br />
             <br />
             <p className='deskripsi'>100% Organic, tanpa Pestisida</p>
           </div>
