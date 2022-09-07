@@ -2,6 +2,7 @@
 /* background corusel */
 .carousel-inner{
     background-color: #ffc107;
+    height: 600px;
 }
 
 .img{
@@ -192,7 +193,10 @@ color:  #10ed1b;
     margin-right: 75px;
     border-radius: 30px;
 }
-
+.carousel-inner{
+    background-color: #ffc107;
+    height: 250px;
+}
     
      
 }
