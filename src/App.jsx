@@ -10,6 +10,7 @@ import Register from "./pages/Register"
 import LayoutDefault from "./layouts/LayoutDefault"
 import LayoutAuth from "./layouts/LayoutAuth"
 import Swiper from "./Assets-Home/Swiper/Swiper"
+import Footer from "./pages/Footer"
 
 function App() {
 
@@ -61,7 +62,7 @@ function App() {
         }
         />
       </Routes>
-      
+<Footer/>
    
     </>
   )

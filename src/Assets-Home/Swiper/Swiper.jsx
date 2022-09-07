@@ -1,4 +1,12 @@
-import slide3 from '../Img Swiper/slide3.png'
+
+//import gambar
+import apel from '../Img Swiper/apel.png'
+import pepaya from '../Img Swiper/pepaya.png'
+import mangga from '../Img Swiper/mangga.png'
+import sawi from '../Img Swiper/sawi.png'
+import cabai from '../Img Swiper/cabai.png'
+
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/navigation';
@@ -21,7 +29,7 @@ export default () => {
     >
       <SwiperSlide>
         <div class="card" >
-          <img src={slide3} class="card-img-top" alt="" />
+          <img src={mangga} class="card-img-top" alt="" />
           <div class="card-body">
           <div class="stars">
             <i class="fas fa-star"></i>
@@ -35,8 +43,10 @@ export default () => {
             <a href="#" class="btn btn-warning btn-costum">Detail</a>
           </div>
         </div></SwiperSlide>
-      <SwiperSlide> <div class="card" >
-        <img src={slide3} class="card-img-top imgTR" alt="" />
+      <SwiperSlide>
+      <div className='fruit'>
+         <div class="card" >
+        <img src={apel} class="card-img-top imgTR" alt="" />
         <div class="card-body">
           <div class="stars">
             <i class="fas fa-star"></i>
@@ -45,13 +55,17 @@ export default () => {
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
           </div>
+         
           <h5 class="card-title">Apel</h5>
           <p class="card-text"> Rp 5000</p>
           <a href="#" class="btn btn-warning btn-costum">Detail</a>
         </div>
-      </div></SwiperSlide>
+      </div>
+      </div>
+      
+      </SwiperSlide>
       <SwiperSlide> <div class="card" >
-        <img src={slide3} class="card-img-top" alt="" />
+        <img src={pepaya} class="card-img-top" alt="" />
         <div class="card-body">
         <div class="stars">
             <i class="fas fa-star"></i>
@@ -67,7 +81,7 @@ export default () => {
       </div>
       </SwiperSlide>
       <SwiperSlide> <div class="card" >
-        <img src={slide3} class="card-img-top" alt="" />
+        <img src={sawi} class="card-img-top" alt="" />
         <div class="card-body">
         <div class="stars">
             <i class="fas fa-star"></i>
@@ -81,8 +95,10 @@ export default () => {
           <a href="#" class="btn btn-warning btn-costum">Detail</a>
         </div>
       </div></SwiperSlide>
-      <SwiperSlide> <div class="card" >
-        <img src={slide3} class="card-img-top" alt="" />
+      <SwiperSlide>
+      <div className='fruit'>
+         <div class="card" >
+        <img src={cabai} class="card-img-top" alt="" />
         <div class="card-body">
         <div class="stars">
             <i class="fas fa-star"></i>
@@ -95,7 +111,9 @@ export default () => {
           <p class="card-text">Rp 2000</p>
           <a href="#" class="btn btn-warning btn-costum">Detail</a>
         </div>
-      </div></SwiperSlide>
+      </div>
+      </div>
+      </SwiperSlide>
       
       
     </Swiper>

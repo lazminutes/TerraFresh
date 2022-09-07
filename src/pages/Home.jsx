@@ -132,7 +132,6 @@ export default function Home() {
         <div className='container'>
         <div className='heading'><h1>Top Recomended</h1></div>
         <Swiper/>
-      
         </div>
       </div>
       </div>
