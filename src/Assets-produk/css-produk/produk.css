@@ -1,0 +1,21 @@
+.imgproduk{
+    width: 500px;
+}
+.imgproduk:hover{
+    width: 600px;
+    transition: 0.4s;
+}
+
+
+
+@media screen and (max-width:420px){
+
+    .imgproduk{
+        width: 500px;
+    }
+    .imgproduk:hover{
+        width: 600px;
+        transition: 0.4s;
+    }
+
+}

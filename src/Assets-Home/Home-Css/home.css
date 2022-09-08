@@ -133,6 +133,7 @@ color:  #10ed1b;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem;
+    
 }
 
 .footer .box-container .box h3{

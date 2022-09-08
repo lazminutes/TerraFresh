@@ -1,3 +1,4 @@
+import '../Assets-Home/Home-css/home.css'
 export default function () {
     return (
      
@@ -41,7 +42,7 @@ export default function () {
         <a href="#">linkedin</a>
     </div>
 
-</div>
+</div >
 
 <div className="credit"> copyright @ 2022 by <span>TerraFress</span> </div>
 
