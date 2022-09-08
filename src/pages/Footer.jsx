@@ -1,12 +1,12 @@
 export default function () {
     return (
-      <div>
-<section className="footer">
+     
+<div className="footer">
 
 <div className="box-container">
 
-    <div className="box">
-        <h3>locations</h3>
+    <div className="box location">
+        <h3 className="titlefooter" >locations</h3>
         <a href="#">Maluk</a>
         <a href="#">Jereweh</a>
         <a href="#">Taliwang</a>
@@ -15,7 +15,7 @@ export default function () {
     </div>
 
     <div className="box">
-        <h3>quick links</h3>
+        <h3 className="titlefooter">quick links</h3>
         <a href="#home">home</a>
         <a href="#rekommendation">rekommendation</a>
         <a href="#fitur">fitur</a>
@@ -25,7 +25,7 @@ export default function () {
     </div>
 
     <div className="box">
-        <h3>contact info</h3>
+        <h3 className="titlefooter">contact info</h3>
         <a href="#">+62 8234567890</a>
         <a href="#">911</a>
         <a href="#">TereFresh@gmail.com</a>
@@ -34,7 +34,7 @@ export default function () {
     </div>
 
     <div className="box">
-        <h3>follow us</h3>
+        <h3 className="titlefooter">follow us</h3>
         <a href="#">facebook</a>
         <a href="#">twitter</a>
         <a href="#">instagram</a>
@@ -45,9 +45,9 @@ export default function () {
 
 <div className="credit"> copyright @ 2022 by <span>TerraFress</span> </div>
 
-</section>
+</div>
 
-      </div>
+      
     )
   }
   

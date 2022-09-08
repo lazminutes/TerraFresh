@@ -45,7 +45,7 @@ export default () => {
             <p class="card-text">Rp 6000</p>
             <div className='shopnow'>
             <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           <a href=""> <button class="btn-Costum">Buy Now</button> </a> 
+           
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -71,7 +71,7 @@ export default () => {
           <p class="card-text"> Rp 5000</p>
           <div className='shopnow'>
             <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           <a href=""> <button class="btn-Costum">Buy Now</button> </a> 
+           
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -96,7 +96,7 @@ export default () => {
           <p class="card-text">Rp 10.000</p>
           <div className='shopnow'>
             <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           <a href=""> <button class="btn-Costum">Buy Now</button> </a> 
+           
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -119,7 +119,7 @@ export default () => {
           <p class="card-text">Rp 3000</p>
           <div className='shopnow'>
             <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           <a href=""> <button class="btn-Costum">Buy Now</button> </a> 
+           
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -143,7 +143,7 @@ export default () => {
           <p class="card-text">Rp 2000</p>
           <div className='shopnow'>
             <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           <a href=""> <button class="btn-Costum">Buy Now</button> </a> 
+           
             <i className="fas fa-shopping-cart" />
             </div>
         </div>
