@@ -102,14 +102,31 @@ color:  #10ed1b;
 /* TopRecomned */
 
 .card{
-    width: 18rem;
+   width: rem;
 }
 
 /* swiper img*/
 .fruit{
-height: 1000px;
+    height: 330px;
 }
 
+.btn-warning{
+    margin: 0;
+}
+
+.stars{
+    color: #ffc107;
+}
+
+.shopnow{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container{
+    background-color: #fff ;
+}
 
 /*Footer*/
 .footer .box-container{
@@ -263,6 +280,18 @@ color:  #10ed1b;
     height: 7rem;
     font-size: 8px;
 }
+
+
+/* swiper img*/
+.fruit{
+    height: 70px;
+    width: 50px;
+}
+
+.btn-warning{
+    font-size: 10px !important;
+}
+
 
 
 .imgTR{

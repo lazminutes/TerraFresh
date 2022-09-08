@@ -26,10 +26,13 @@ export default () => {
       scrollbar={{ draggable: true }}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
+      className='bgshop'
     >
       <SwiperSlide>
         <div class="card" >
+        <div className='fruit'>
           <img src={mangga} class="card-img-top" alt="" />
+          </div>
           <div class="card-body">
           <div class="stars">
             <i class="fas fa-star"></i>
@@ -40,13 +43,21 @@ export default () => {
           </div>
             <h5 class="card-title">Manggo</h5>
             <p class="card-text">Rp 6000</p>
-            <a href="#" class="btn btn-warning btn-costum">Detail</a>
+            <div className='shopnow'>
+            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <a href=""> <button class="btn-Costum">Buy Now</button> </a> 
+            <i className="fas fa-shopping-cart" />
+            </div>
+            <p>stock:10</p>
+           
           </div>
         </div></SwiperSlide>
       <SwiperSlide>
-      <div className='fruit'>
+      
          <div class="card" >
-        <img src={apel} class="card-img-top imgTR" alt="" />
+          <div className='fruit'>
+         <img src={apel} class="card-img-top imgTR" alt="" />
+          </div>
         <div class="card-body">
           <div class="stars">
             <i class="fas fa-star"></i>
@@ -58,14 +69,21 @@ export default () => {
          
           <h5 class="card-title">Apel</h5>
           <p class="card-text"> Rp 5000</p>
-          <a href="#" class="btn btn-warning btn-costum">Detail</a>
+          <div className='shopnow'>
+            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <a href=""> <button class="btn-Costum">Buy Now</button> </a> 
+            <i className="fas fa-shopping-cart" />
+            </div>
+            <p>stock:10</p>
         </div>
       </div>
-      </div>
+     
       
       </SwiperSlide>
       <SwiperSlide> <div class="card" >
+      <div className='fruit'>
         <img src={pepaya} class="card-img-top" alt="" />
+        </div>
         <div class="card-body">
         <div class="stars">
             <i class="fas fa-star"></i>
@@ -76,12 +94,19 @@ export default () => {
           </div>
           <h5 class="card-title">Pepaya</h5>
           <p class="card-text">Rp 10.000</p>
-          <a href="#" class="btn btn-warning btn-costum">Detail</a>
+          <div className='shopnow'>
+            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <a href=""> <button class="btn-Costum">Buy Now</button> </a> 
+            <i className="fas fa-shopping-cart" />
+            </div>
+            <p>stock:10</p>
         </div>
       </div>
       </SwiperSlide>
       <SwiperSlide> <div class="card" >
+      <div className='fruit'>
         <img src={sawi} class="card-img-top" alt="" />
+        </div>
         <div class="card-body">
         <div class="stars">
             <i class="fas fa-star"></i>
@@ -92,13 +117,20 @@ export default () => {
           </div>
           <h5 class="card-title">Sawi</h5>
           <p class="card-text">Rp 3000</p>
-          <a href="#" class="btn btn-warning btn-costum">Detail</a>
+          <div className='shopnow'>
+            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <a href=""> <button class="btn-Costum">Buy Now</button> </a> 
+            <i className="fas fa-shopping-cart" />
+            </div>
+            <p>stock:10</p>
         </div>
       </div></SwiperSlide>
       <SwiperSlide>
-      <div className='fruit'>
+     
          <div class="card" >
-        <img src={cabai} class="card-img-top" alt="" />
+         <div className='fruit'>
+        <img src={cabai} class="card-img-top" alt="" />  
+        </div>
         <div class="card-body">
         <div class="stars">
             <i class="fas fa-star"></i>
@@ -109,10 +141,15 @@ export default () => {
           </div>
           <h5 class="card-title">Cabai</h5>
           <p class="card-text">Rp 2000</p>
-          <a href="#" class="btn btn-warning btn-costum">Detail</a>
+          <div className='shopnow'>
+            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <a href=""> <button class="btn-Costum">Buy Now</button> </a> 
+            <i className="fas fa-shopping-cart" />
+            </div>
         </div>
+        <p>stock:10</p>
       </div>
-      </div>
+    
       </SwiperSlide>
       
       
