@@ -30,7 +30,7 @@ export default () => {
     >
       <SwiperSlide>
         <div class="card" >
-        <div className='fruit'>
+        <div className='fruit text-center '>
           <img src={mangga} class="card-img-top" alt="" />
           </div>
           <div class="card-body">
@@ -55,7 +55,7 @@ export default () => {
       <SwiperSlide>
       
          <div class="card" >
-          <div className='fruit'>
+          <div className='fruit text-center '>
          <img src={apel} class="card-img-top imgTR" alt="" />
           </div>
         <div class="card-body">
@@ -81,7 +81,7 @@ export default () => {
       
       </SwiperSlide>
       <SwiperSlide> <div class="card" >
-      <div className='fruit'>
+      <div className='fruit text-center '>
         <img src={pepaya} class="card-img-top" alt="" />
         </div>
         <div class="card-body">
@@ -104,7 +104,7 @@ export default () => {
       </div>
       </SwiperSlide>
       <SwiperSlide> <div class="card" >
-      <div className='fruit'>
+      <div className='fruit text-center '>
         <img src={sawi} class="card-img-top" alt="" />
         </div>
         <div class="card-body">
@@ -128,7 +128,7 @@ export default () => {
       <SwiperSlide>
      
          <div class="card" >
-         <div className='fruit'>
+         <div className='fruit text-center  '>
         <img src={cabai} class="card-img-top" alt="" />  
         </div>
         <div class="card-body">

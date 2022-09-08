@@ -11,9 +11,8 @@ import LayoutDefault from "./layouts/LayoutDefault"
 import LayoutAuth from "./layouts/LayoutAuth"
 import Swiper from "./Assets-Home/Swiper/Swiper"
 import Footer from "./pages/Footer"
-import Buah from "./pages/Pages-produk-tambahan/Buah"
-import Sayur from "./pages/Pages-produk-tambahan/Sayur"
-
+import Buah from "./Pages-produk-tambahan/Buah"
+import Sayur from "./Pages-produk-tambahan/Sayur"
 function App() {
 
   return (

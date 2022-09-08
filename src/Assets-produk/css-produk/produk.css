@@ -28,6 +28,17 @@
     height:400px;
 }
 
+/* SAyur page */
+.card{
+    width: 200px;
+}
+.item{
+    width: 150px;
+}
+.Sayur{
+    flex-wrap: wrap;
+}
+
 @media screen and (max-width:420px){
 
     .imgproduk{
@@ -51,4 +62,16 @@
     .produk{
         height: 450px;
     }
+
+    /* SAyur page */
+.card{
+    width: 100px;
+    height: 10px;
+}
+.item{
+    width: 50px;
+}
+.card-title{
+    font-size: 10px;
+}
 }
