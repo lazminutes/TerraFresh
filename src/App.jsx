@@ -26,9 +26,9 @@ function App() {
         />
        
         <Route path="/product" element={
-          <LayoutDefault>
+      
             <Product />
-          </LayoutDefault>
+        
         }
         />
         <Route path="/about" element={

@@ -1,5 +1,9 @@
+.produk{
+    background-color: #ffc107;
+}
 .imgproduk{
     width: 500px;
+    margin-top:60px;
 }
 .imgproduk:hover{
     width: 600px;
@@ -7,15 +11,44 @@
 }
 
 
+.imgprodukb{
+    width: 500px;
+    margin-top: 60px;
+}
+.imgprodukb:hover{
+    width: 600px;
+    transition: 0.4s;
+}
+
+
+.produk{
+    height: 600px;
+}
+.selsectproduk{
+    height:400px;
+}
 
 @media screen and (max-width:420px){
 
     .imgproduk{
-        width: 500px;
+        width: 100px;
     }
     .imgproduk:hover{
-        width: 600px;
+        width: 150px;
         transition: 0.4s;
     }
-
+    .imgprodukb{
+        width: 100px;
+        margin-top: 120px;
+    }
+    .imgprodukb:hover{
+        width: 150px;
+        transition: 0.4s;
+    }
+    .selsectproduk{
+        height:100px;
+    }
+    .produk{
+        height: 450px;
+    }
 }
