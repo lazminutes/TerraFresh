@@ -15,13 +15,13 @@ export default function Kecamba() {
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://nusantaranews.co/assets/uploads/2017/10/Kecambah-atau-Tauge.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://cdf.orami.co.id/unsafe/cdn-cas.orami.co.id/parenting/images/kecambah_uurvdk4.width-800.jpegquality-80.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg  )" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://cdn1.katadata.co.id/media/images/thumb/2021/09/21/Taoge-2021_09_21-13_46_10_4c101ff7774758c57679e71d6d7482f1_620x413_thumb.jpg  )" }}>
                 </button>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -35,15 +35,15 @@ export default function Kecamba() {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg" class="d-block w-100" alt="..." />
+                <img src="https://nusantaranews.co/assets/uploads/2017/10/Kecambah-atau-Tauge.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg" class="d-block w-100" alt="..." />
+                <img src="https://cdf.orami.co.id/unsafe/cdn-cas.orami.co.id/parenting/images/kecambah_uurvdk4.width-800.jpegquality-80.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg" class="d-block w-100" alt="..." />
+                <img src="https://cdn1.katadata.co.id/media/images/thumb/2021/09/21/Taoge-2021_09_21-13_46_10_4c101ff7774758c57679e71d6d7482f1_620x413_thumb.jpg" class="d-block w-100" alt="..." />
               </div>
 
             </div>
