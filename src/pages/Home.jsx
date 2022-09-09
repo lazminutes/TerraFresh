@@ -15,10 +15,10 @@ export default function Home() {
 
 
     <div classNameName='home'>
-
+<Navbar />
       {/* // Carousel start */}
-      <Navbar />
-      <div id="carouselExampleFade" className="carousel slide carousel-fade " data-bs-ride="carousel">
+     
+      <div id="carouselExampleFade" className="carousel slide carousel-fade " data-bs-ride="carousel"> 
         <div className="carousel-inner">
 
           {/* slide 1 */}
