@@ -15,13 +15,13 @@ export default function Wortel() {
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://asset.kompas.com/crops/0IdFfzSyf0w9DxTIauNwpCi8w9Q=/0x83:1000x583/750x500/data/photo/2019/08/06/5d492f045d831.jpg )" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://res.cloudinary.com/dk0z4ums3/image/upload/v1595842758/attached_image/manfaat-wortel-bagi-kesehatan.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg  )" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4J9VUAM-8wvYIfFNTdfqpiOCtdH5MxZs-CLWzqlBk2Ku771DSDz6ZDt91WA-oxKH_KXY&usqp=CAU  )" }}>
                 </button>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -35,15 +35,15 @@ export default function Wortel() {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg" class="d-block w-100" alt="..." />
+                <img src="https://asset.kompas.com/crops/0IdFfzSyf0w9DxTIauNwpCi8w9Q=/0x83:1000x583/750x500/data/photo/2019/08/06/5d492f045d831.jpg " class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg" class="d-block w-100" alt="..." />
+                <img src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1595842758/attached_image/manfaat-wortel-bagi-kesehatan.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg" class="d-block w-100" alt="..." />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4J9VUAM-8wvYIfFNTdfqpiOCtdH5MxZs-CLWzqlBk2Ku771DSDz6ZDt91WA-oxKH_KXY&usqp=CAU" class="d-block w-100" alt="..." />
               </div>
 
             </div>
@@ -54,27 +54,27 @@ export default function Wortel() {
 
         <div className="col-md-5 ">
           <div className="Detail-page text-center">
-            <h1>Sayur Sawi</h1>
+            <h1>Wortel</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
-              <p>terjual <span>10</span></p>
+              <p>terjual <span>60</span></p>
               <i class="fas fa-star stars">5</i>
-              <p><span>(20 rating)</span></p>
+              <p><span>(100 rating)</span></p>
             </div>
 
           </div>
           <br />
           <div className='harga'>
-            <h1>Rp 2000</h1>
+            <h1>Rp 4000</h1>
           </div>
 
           <div className=''>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>
-            <p><span>Berat:</span>100 g</p>
+            <p><span>Berat:</span>600 g</p>
             <p><span>Kategori:</span>Sayur</p>
-            <p> Sayur sawi yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Sawi merupakan sayur kaya vitamin A, C, dan K yang penting menjaga fungsi tubuh. Vitamin C dan A adalah antioksidan alami yang kuat melindungi tubuh dari radikal bebas, memperkuat imunitas dan menjaga kesehatan penglihatan. </p>
+            <p> wortel yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Konsumsi wortel yang terlalu banyak bisa menyebabkan kulit berubah menjadi kuning. Kondisi ini terjadi karena wortel memiliki kandungan beta karoten. Jika masuk ke dalam tubuh dalam dosis tinggi, beta karoten dapat menumpuk dan mengubah warna kulit menjadi kekuningan. </p>
           </div>
         </div>
 
@@ -84,7 +84,7 @@ export default function Wortel() {
                 <div className="row d-flex justify-content-between align-items-center">
                   
                 
-                    <h2 className="lead fw-normal mb-2">Sawi</h2>
+                    <h2 className="lead fw-normal mb-2">Wortel</h2>
                    <h5>Atur Jumlah Pembelian</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-2 d-flex">
