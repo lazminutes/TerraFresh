@@ -18,6 +18,8 @@ transform: translateX(-50%);
 .container .carousel-indicators button{
    width: 70px;
    height: 70px;
+   background-position: center;
+   background-size: cover;
     
 }
 span{
@@ -37,3 +39,10 @@ margin-top: 20px;
 
 }
 
+.container .Rincian{
+    margin-top: 200px;
+}
+.Link{
+    text-decoration: none;
+    color: black    ;
+}

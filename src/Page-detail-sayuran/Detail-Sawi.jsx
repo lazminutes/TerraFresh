@@ -1,10 +1,13 @@
+import { Link } from 'react-router-dom'
 import '../Assets-produk/Css-Detail/Detail.css'
 
 
 export default function Sawi() {
   return (
     <div className="container">
-      <h1>fe</h1>
+      <Link to='/produk/sayur' className='Link'>
+      <h1><i class="fa-solid fa-angle-left stars" ></i>Back</h1>
+      </Link>
       <div className="row d-flex">
 
         <div className="col-md-4">
@@ -12,13 +15,13 @@ export default function Sawi() {
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg  )" }}>
                 </button>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -75,14 +78,14 @@ export default function Sawi() {
           </div>
         </div>
 
-        <div className="col-md-3">
+        <div className="col-md-3 Rincian">
           <div className="cart-detail">
           <div className="card-body p-7">
                 <div className="row d-flex justify-content-between align-items-center">
                   
                 
                     <h2 className="lead fw-normal mb-2">Sawi</h2>
-                   <h5>Atur Jumlah Pembelian  </h5>
+                   <h5>Atur Jumlah Pembelian</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-2 d-flex">
                     <button
@@ -118,6 +121,7 @@ export default function Sawi() {
                 <br />
                 <div className='text-center btn-detail'>
                 <button className='btn btn-warning'>Keranjang</button>
+                <br />
                 <br />
                 <button className='btn-beli'>Beli Sekarang</button>
                 </div>
