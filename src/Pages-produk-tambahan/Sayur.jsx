@@ -9,6 +9,10 @@ import kentang from '../Assets-Home/Img Swiper/kentang.png'
 import kol from '../Assets-Home/Img Swiper/kol.png'
 import paprika from '../Assets-Home/Img Swiper/paprika.png'
 import wortel from '../Assets-Home/Img Swiper/wortel.png'
+import Kangkung from '../Page-detail-sayuran/Detail-kangkung'
+import Kecamba from '../Page-detail-sayuran/Detail-kecamba'
+import Terong from '../Page-detail-sayuran/Detail-Terong'
+
 
 export default function Sayur() {
 
@@ -64,7 +68,8 @@ export default function Sayur() {
             <h5 class="card-title">bayam</h5>
             <p class="card-text">Rp 3000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+              <Link to='/produk/sayur/detail-bayam'>
+            <button class="btn-Costum">Detail</button>  </Link>
            
             <i className="fas fa-shopping-cart" />
             </div>
@@ -88,8 +93,9 @@ export default function Sayur() {
             <h5 class="card-title">cabai</h5>
             <p class="card-text">Rp 5000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+              <Link to='/produk/sayur/detail-cabai'>
+            <button class="btn-Costum">Detail</button>  
+            </Link>
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -112,8 +118,9 @@ export default function Sayur() {
             <h5 class="card-title">Kentang</h5>
             <p class="card-text">Rp 5000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+              <Link to='/produk/sayur/detail-Kentang'>
+            <button class="btn-Costum">Detail</button>  
+           </Link>
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -136,8 +143,9 @@ export default function Sayur() {
             <h5 class="card-title">Kol</h5>
             <p class="card-text">Rp 2000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+              <Link to='/produk/sayur/detail-Kol'>
+            <button class="btn-Costum">Detail</button>  
+           </Link>
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -160,8 +168,9 @@ export default function Sayur() {
             <h5 class="card-title">Paprika</h5>
             <p class="card-text">Rp 6000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+              <Link to='/produk/sayur/detail-Paprika'>
+            <button class="btn-Costum">Detail</button>  
+           </Link>
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -181,11 +190,12 @@ export default function Sayur() {
             <i class="fas fa-star"></i>
           </div>
 
-            <h5 class="card-title">Manggo</h5>
+            <h5 class="card-title">Wortel</h5>
             <p class="card-text">Rp 4000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+              <Link to='/produk/sayur/detail-Wortel'> 
+            <button class="btn-Costum">Detail</button>  
+           </Link>
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -205,11 +215,12 @@ export default function Sayur() {
             <i class="fas fa-star"></i>
           </div>
 
-            <h5 class="card-title">Bayam</h5>
+            <h5 class="card-title">Kangkung</h5>
             <p class="card-text">Rp 3000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+              <Link to='/produk/sayur/detail-Kangkung'>
+            <button class="btn-Costum">Detail</button>  
+           </Link>
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -232,8 +243,9 @@ export default function Sayur() {
             <h5 class="card-title">Kecamba</h5>
             <p class="card-text">Rp 6000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+               <Link to='/produk/sayur/detail-Kecamba'>
+            <button class="btn-Costum">Detail</button>  
+          </Link>
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -254,11 +266,12 @@ export default function Sayur() {
             <i class="fas fa-star"></i>
           </div>
 
-            <h5 class="card-title">Manggo</h5>
+            <h5 class="card-title">Terong</h5>
             <p class="card-text">Rp 6000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+              <Link to='/produk/sayur/detail-Terong'>
+            <button class="btn-Costum">Detail</button>  
+           </Link>
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
