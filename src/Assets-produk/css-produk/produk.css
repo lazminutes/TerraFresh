@@ -37,6 +37,8 @@
 }
 .Sayur{
     flex-wrap: wrap;
+    
+    margin-left:50px ;
 }
 
 @media screen and (max-width:420px){
