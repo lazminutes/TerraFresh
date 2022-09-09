@@ -15,13 +15,13 @@ export default function Kentang() {
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://awsimages.detik.net.id/community/media/visual/2017/02/02/32fb49bc-a1b8-4a8c-9349-a84c1f7083fc.jpg?w=700&q=90)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://www.taysbakers.com/wp-content/uploads/2016/04/Kentang-e1461740372213-738x369.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg  )" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://statik.tempo.co/data/2017/03/21/id_591873/591873_620.jpg  )" }}>
                 </button>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -35,15 +35,15 @@ export default function Kentang() {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg" class="d-block w-100" alt="..." />
+                <img src="https://awsimages.detik.net.id/community/media/visual/2017/02/02/32fb49bc-a1b8-4a8c-9349-a84c1f7083fc.jpg?w=700&q=90" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.taysbakers.com/wp-content/uploads/2016/04/Kentang-e1461740372213-738x369.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg" class="d-block w-100" alt="..." />
+                <img src="https://statik.tempo.co/data/2017/03/21/id_591873/591873_620.jpg" class="d-block w-100" alt="..." />
               </div>
 
             </div>
@@ -54,27 +54,27 @@ export default function Kentang() {
 
         <div className="col-md-5 ">
           <div className="Detail-page text-center">
-            <h1>Sayur Sawi</h1>
+            <h1>Kentang</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
-              <p>terjual <span>10</span></p>
+              <p>terjual <span>8</span></p>
               <i class="fas fa-star stars">5</i>
-              <p><span>(20 rating)</span></p>
+              <p><span>(24 rating)</span></p>
             </div>
 
           </div>
           <br />
           <div className='harga'>
-            <h1>Rp 2000</h1>
+            <h1>Rp 5000</h1>
           </div>
 
           <div className=''>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>
-            <p><span>Berat:</span>100 g</p>
+            <p><span>Berat:</span>700 g</p>
             <p><span>Kategori:</span>Sayur</p>
-            <p> Sayur sawi yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Sawi merupakan sayur kaya vitamin A, C, dan K yang penting menjaga fungsi tubuh. Vitamin C dan A adalah antioksidan alami yang kuat melindungi tubuh dari radikal bebas, memperkuat imunitas dan menjaga kesehatan penglihatan. </p>
+            <p> Kentang yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Manfaat kentang yang kaya antioksidan ternyata juga berguna untuk memelihara kesehatan jantung. Selain itu, kentang juga mengandung serat, kalium, vitamin C, dan vitamin B6 yang akan memaksimal fungsinya untuk menjaga kesehatan jantung. Kentang kaya akan serat, yang akan membantu menurunkan jumlah total kolesterol. </p>
           </div>
         </div>
 

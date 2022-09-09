@@ -16,13 +16,13 @@ export default function Cabai() {
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://asset.kompas.com/crops/0bQZazreqC3rXuoZOPv1FDQWLl4=/0x0:1000x667/750x500/data/photo/2020/03/26/5e7cbe05c9d12.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://mhomecare.co.id/blog/wp-content/uploads/2020/05/Manfaat-Cabe-Rawit-Untuk-Kesehatan.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg  )" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://www.harapanrakyat.com/wp-content/uploads/2020/01/Manfaat-Cabai-Rawit-untuk-Kesehatan.jpg  )" }}>
                 </button>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -36,15 +36,15 @@ export default function Cabai() {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg" class="d-block w-100" alt="..." />
+                <img src="https://asset.kompas.com/crops/0bQZazreqC3rXuoZOPv1FDQWLl4=/0x0:1000x667/750x500/data/photo/2020/03/26/5e7cbe05c9d12.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg" class="d-block w-100" alt="..." />
+                <img src="https://mhomecare.co.id/blog/wp-content/uploads/2020/05/Manfaat-Cabe-Rawit-Untuk-Kesehatan.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg" class="d-block w-100" alt="..." />
+                <img src="https://www.harapanrakyat.com/wp-content/uploads/2020/01/Manfaat-Cabai-Rawit-untuk-Kesehatan.jpg" class="d-block w-100" alt="..." />
               </div>
 
             </div>
@@ -55,10 +55,10 @@ export default function Cabai() {
 
         <div className="col-md-5 ">
           <div className="Detail-page text-center">
-            <h1>Sayur Sawi</h1>
+            <h1>Cabai</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
-              <p>terjual <span>10</span></p>
+              <p>terjual <span>49</span></p>
               <i class="fas fa-star stars">5</i>
               <p><span>(20 rating)</span></p>
             </div>
@@ -66,16 +66,16 @@ export default function Cabai() {
           </div>
           <br />
           <div className='harga'>
-            <h1>Rp 2000</h1>
+            <h1>Rp 5000</h1>
           </div>
 
           <div className=''>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>
-            <p><span>Berat:</span>100 g</p>
+            <p><span>Berat:</span>10 g</p>
             <p><span>Kategori:</span>Sayur</p>
-            <p> Sayur sawi yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Sawi merupakan sayur kaya vitamin A, C, dan K yang penting menjaga fungsi tubuh. Vitamin C dan A adalah antioksidan alami yang kuat melindungi tubuh dari radikal bebas, memperkuat imunitas dan menjaga kesehatan penglihatan. </p>
+            <p> Cabai  yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Selain lezat dikonsumsi, cabai mengandung sejumlah manfaat kesehatan. Beberapa manfaat cabai antara lain mencegah penyakit radang, menurunkan kolesterol darah, dan membersihkan hidung tersumbat. Khasiat tersebut dijelaskan dalam buku The Food Bible. </p>
           </div>
         </div>
 
@@ -85,7 +85,7 @@ export default function Cabai() {
                 <div className="row d-flex justify-content-between align-items-center">
                   
                 
-                    <h2 className="lead fw-normal mb-2">Sawi</h2>
+                    <h2 className="lead fw-normal mb-2">Cabai</h2>
                    <h5>Atur Jumlah Pembelian</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-2 d-flex">
