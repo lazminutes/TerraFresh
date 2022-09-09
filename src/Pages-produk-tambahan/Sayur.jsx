@@ -3,6 +3,12 @@ import { Link } from 'react-router-dom'
 import '../Assets-produk/css-produk/produk.css'
 //import sayuran
 import sawi from '../Assets-Home/Img Swiper/sawi.png'
+import bayam from '../Assets-Home/Img Swiper/bayam.png'
+import cabai from '../Assets-Home/Img Swiper/cabai.png'
+import kentang from '../Assets-Home/Img Swiper/kentang.png'
+import kol from '../Assets-Home/Img Swiper/kol.png'
+import paprika from '../Assets-Home/Img Swiper/paprika.png'
+import wortel from '../Assets-Home/Img Swiper/wortel.png'
 
 export default function Sayur() {
 
@@ -44,7 +50,7 @@ export default function Sayur() {
         </div>
         <div class="card" >
         <div className='item'>
-          <img src={sawi} class="card-img-top" alt="" />
+          <img src={bayam} class="card-img-top" alt="" />
           </div>
           <div class="card-body">
           <div class="stars">
@@ -55,7 +61,103 @@ export default function Sayur() {
             <i class="fas fa-star"></i>
           </div>
 
-            <h5 class="card-title">Manggo</h5>
+            <h5 class="card-title">bayam</h5>
+            <p class="card-text">Rp 3000</p>
+            <div className='shopnow'>
+            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           
+            <i className="fas fa-shopping-cart" />
+            </div>
+            <p>stock:10</p>
+           
+          </div>
+        </div>
+        <div class="card" >
+        <div className='item'>
+          <img src={cabai} class="card-img-top" alt="" />
+          </div>
+          <div class="card-body">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+
+            <h5 class="card-title">cabai</h5>
+            <p class="card-text">Rp 5000</p>
+            <div className='shopnow'>
+            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           
+            <i className="fas fa-shopping-cart" />
+            </div>
+            <p>stock:10</p>
+           
+          </div>
+        </div>
+        <div class="card" >
+        <div className='item'>
+          <img src={kentang} class="card-img-top" alt="" />
+          </div>
+          <div class="card-body">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+
+            <h5 class="card-title">Kentang</h5>
+            <p class="card-text">Rp 5000</p>
+            <div className='shopnow'>
+            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           
+            <i className="fas fa-shopping-cart" />
+            </div>
+            <p>stock:10</p>
+           
+          </div>
+        </div>
+        <div class="card" >
+        <div className='item'>
+          <img src={kol} class="card-img-top" alt="" />
+          </div>
+          <div class="card-body">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+
+            <h5 class="card-title">Kol</h5>
+            <p class="card-text">Rp 2000</p>
+            <div className='shopnow'>
+            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           
+            <i className="fas fa-shopping-cart" />
+            </div>
+            <p>stock:10</p>
+           
+          </div>
+        </div>
+        <div class="card" >
+        <div className='item'>
+          <img src={paprika} class="card-img-top" alt="" />
+          </div>
+          <div class="card-body">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+
+            <h5 class="card-title">Paprika</h5>
             <p class="card-text">Rp 6000</p>
             <div className='shopnow'>
             <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
@@ -68,7 +170,7 @@ export default function Sayur() {
         </div>
         <div class="card" >
         <div className='item'>
-          <img src={sawi} class="card-img-top" alt="" />
+          <img src={wortel} class="card-img-top" alt="" />
           </div>
           <div class="card-body">
           <div class="stars">
@@ -80,7 +182,7 @@ export default function Sayur() {
           </div>
 
             <h5 class="card-title">Manggo</h5>
-            <p class="card-text">Rp 6000</p>
+            <p class="card-text">Rp 4000</p>
             <div className='shopnow'>
             <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
            
@@ -92,7 +194,7 @@ export default function Sayur() {
         </div>
         <div class="card" >
         <div className='item'>
-          <img src={sawi} class="card-img-top" alt="" />
+          <img src='https://desasesela.com/wp-content/uploads/2021/09/Kangkung.jpg'class="card-img-top" alt="" />
           </div>
           <div class="card-body">
           <div class="stars">
@@ -103,8 +205,8 @@ export default function Sayur() {
             <i class="fas fa-star"></i>
           </div>
 
-            <h5 class="card-title">Manggo</h5>
-            <p class="card-text">Rp 6000</p>
+            <h5 class="card-title">Bayam</h5>
+            <p class="card-text">Rp 3000</p>
             <div className='shopnow'>
             <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
            
@@ -116,7 +218,7 @@ export default function Sayur() {
         </div>
         <div class="card" >
         <div className='item'>
-          <img src={sawi} class="card-img-top" alt="" />
+          <img src='https://asset-a.grid.id/crop/7x21:619x436/700x465/photo/2021/09/07/bean-sprouts-white-surface_55883-20210907070823.jpg' class="card-img-top" alt="" />
           </div>
           <div class="card-body">
           <div class="stars">
@@ -127,103 +229,7 @@ export default function Sayur() {
             <i class="fas fa-star"></i>
           </div>
 
-            <h5 class="card-title">Manggo</h5>
-            <p class="card-text">Rp 6000</p>
-            <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
-            <i className="fas fa-shopping-cart" />
-            </div>
-            <p>stock:10</p>
-           
-          </div>
-        </div>
-        <div class="card" >
-        <div className='item'>
-          <img src={sawi} class="card-img-top" alt="" />
-          </div>
-          <div class="card-body">
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-
-            <h5 class="card-title">Manggo</h5>
-            <p class="card-text">Rp 6000</p>
-            <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
-            <i className="fas fa-shopping-cart" />
-            </div>
-            <p>stock:10</p>
-           
-          </div>
-        </div>
-        <div class="card" >
-        <div className='item'>
-          <img src={sawi} class="card-img-top" alt="" />
-          </div>
-          <div class="card-body">
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-
-            <h5 class="card-title">Manggo</h5>
-            <p class="card-text">Rp 6000</p>
-            <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
-            <i className="fas fa-shopping-cart" />
-            </div>
-            <p>stock:10</p>
-           
-          </div>
-        </div>
-        <div class="card" >
-        <div className='item'>
-          <img src={sawi} class="card-img-top" alt="" />
-          </div>
-          <div class="card-body">
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-
-            <h5 class="card-title">Manggo</h5>
-            <p class="card-text">Rp 6000</p>
-            <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
-            <i className="fas fa-shopping-cart" />
-            </div>
-            <p>stock:10</p>
-           
-          </div>
-        </div>
-        <div class="card" >
-        <div className='item'>
-          <img src={sawi} class="card-img-top" alt="" />
-          </div>
-          <div class="card-body">
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-
-            <h5 class="card-title">Manggo</h5>
+            <h5 class="card-title">Kecamba</h5>
             <p class="card-text">Rp 6000</p>
             <div className='shopnow'>
             <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
@@ -237,7 +243,7 @@ export default function Sayur() {
 
         <div class="card" >
         <div className='item'>
-          <img src={sawi} class="card-img-top" alt="" />
+          <img src='https://www.pngmart.com/files/1/Eggplant-PNG-Image.png' class="card-img-top" alt="" />
           </div>
           <div class="card-body">
           <div class="stars">

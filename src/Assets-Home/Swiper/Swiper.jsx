@@ -15,6 +15,7 @@ import 'swiper/css/scrollbar';
 
 // Import Swiper styles
 import 'swiper/css';
+import '../Home-Css/home.css'
 
 export default () => {
   return (

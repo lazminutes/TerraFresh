@@ -5,7 +5,7 @@ import '../Assets-produk/Css-Detail/Detail.css'
 export default function Sawi() {
   return (
     <div className="container">
-      <Link to='/produk/sayur' className='Link'>
+      <Link to='/produk/sayur' className='Link '>
       <h1><i class="fa-solid fa-angle-left stars" ></i>Back</h1>
       </Link>
       <div className="row d-flex">
