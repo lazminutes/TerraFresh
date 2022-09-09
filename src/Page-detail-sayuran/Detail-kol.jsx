@@ -15,13 +15,13 @@ export default function Kol() {
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://akcdn.detik.net.id/visual/2019/07/02/67d5ae98-41e6-4e69-a8ee-ac40e9a78e23_169.jpeg?w=650)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://foto.kontan.co.id/eW9waA8xMYwZkjEil2bN5WWVgxc=/smart/2014/09/08/720753714p.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg  )" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://blogpictures.99.co/1.jpeg  )" }}>
                 </button>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -35,15 +35,15 @@ export default function Kol() {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg" class="d-block w-100" alt="..." />
+                <img src="https://akcdn.detik.net.id/visual/2019/07/02/67d5ae98-41e6-4e69-a8ee-ac40e9a78e23_169.jpeg?w=650" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg" class="d-block w-100" alt="..." />
+                <img src="https://foto.kontan.co.id/eW9waA8xMYwZkjEil2bN5WWVgxc=/smart/2014/09/08/720753714p.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg" class="d-block w-100" alt="..." />
+                <img src="https://blogpictures.99.co/1.jpeg" class="d-block w-100" alt="..." />
               </div>
 
             </div>
@@ -54,7 +54,7 @@ export default function Kol() {
 
         <div className="col-md-5 ">
           <div className="Detail-page text-center">
-            <h1>Sayur Sawi</h1>
+            <h1>Sayur Kol</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
               <p>terjual <span>10</span></p>
@@ -74,7 +74,7 @@ export default function Kol() {
             <p><span>Kondisi:</span>Segar,baru petik</p>
             <p><span>Berat:</span>100 g</p>
             <p><span>Kategori:</span>Sayur</p>
-            <p> Sayur sawi yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Sawi merupakan sayur kaya vitamin A, C, dan K yang penting menjaga fungsi tubuh. Vitamin C dan A adalah antioksidan alami yang kuat melindungi tubuh dari radikal bebas, memperkuat imunitas dan menjaga kesehatan penglihatan. </p>
+            <p> Sayur Kol yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Sayur kol atau kubis menyehatkan bagi tubuh karena mengandung nutrisi seperti folat, mangan, vitamin B6, C, kalium, kalsium, magnesium, dan kaya akan serat. Terlebih lagi, sayur hijau satu ini juga kaya akan antioksidan yang membantu tubuh untuk menangkal radikal bebas. </p>
           </div>
         </div>
 
@@ -84,7 +84,7 @@ export default function Kol() {
                 <div className="row d-flex justify-content-between align-items-center">
                   
                 
-                    <h2 className="lead fw-normal mb-2">Sawi</h2>
+                    <h2 className="lead fw-normal mb-2">Kol</h2>
                    <h5>Atur Jumlah Pembelian</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-2 d-flex">

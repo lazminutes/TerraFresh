@@ -15,13 +15,13 @@ export default function Paprika() {
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2021/01/Featured_Manfaat-Paprika-Buah-Asal-Amerika-Khasiat-Tak-Terduga.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/01/11/409429142.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg  )" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeSsDIu2_LDFihQA2DhiS9EtF_C4NHuh7_Gg&usqp=CAU  )" }}>
                 </button>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -35,15 +35,15 @@ export default function Paprika() {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg" class="d-block w-100" alt="..." />
+                <img src="https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2021/01/Featured_Manfaat-Paprika-Buah-Asal-Amerika-Khasiat-Tak-Terduga.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg" class="d-block w-100" alt="..." />
+                <img src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/01/11/409429142.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg" class="d-block w-100" alt="..." />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeSsDIu2_LDFihQA2DhiS9EtF_C4NHuh7_Gg&usqp=CAU" class="d-block w-100" alt="..." />
               </div>
 
             </div>
@@ -54,18 +54,18 @@ export default function Paprika() {
 
         <div className="col-md-5 ">
           <div className="Detail-page text-center">
-            <h1>Sayur Sawi</h1>
+            <h1>Paprika</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
-              <p>terjual <span>10</span></p>
+              <p>terjual <span>17</span></p>
               <i class="fas fa-star stars">5</i>
-              <p><span>(20 rating)</span></p>
+              <p><span>(40 rating)</span></p>
             </div>
 
           </div>
           <br />
           <div className='harga'>
-            <h1>Rp 2000</h1>
+            <h1>Rp 6000</h1>
           </div>
 
           <div className=''>
@@ -74,7 +74,7 @@ export default function Paprika() {
             <p><span>Kondisi:</span>Segar,baru petik</p>
             <p><span>Berat:</span>100 g</p>
             <p><span>Kategori:</span>Sayur</p>
-            <p> Sayur sawi yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Sawi merupakan sayur kaya vitamin A, C, dan K yang penting menjaga fungsi tubuh. Vitamin C dan A adalah antioksidan alami yang kuat melindungi tubuh dari radikal bebas, memperkuat imunitas dan menjaga kesehatan penglihatan. </p>
+            <p> Paprika yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Paprika termasuk dalam sayuran. Sama seperti sayuran lainnya, paprika juga baik untuk kesehatan. Beberapa manfaat yang dapat dirasakan, yaitu meningkatkan kesehatan mata, mencegah anemia, hingga mempertahankan berat badan sehat. Baik paprika hijau, kuning, oranye, hingga merah, memiliki manfaat yang sama. </p>
           </div>
         </div>
 
@@ -84,7 +84,7 @@ export default function Paprika() {
                 <div className="row d-flex justify-content-between align-items-center">
                   
                 
-                    <h2 className="lead fw-normal mb-2">Sawi</h2>
+                    <h2 className="lead fw-normal mb-2">Paprika</h2>
                    <h5>Atur Jumlah Pembelian</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-2 d-flex">
