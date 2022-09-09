@@ -13,6 +13,7 @@ import Swiper from "./Assets-Home/Swiper/Swiper"
 import Footer from "./pages/Footer"
 import Buah from "./Pages-produk-tambahan/Buah"
 import Sayur from "./Pages-produk-tambahan/Sayur"
+import Sawi from "./Page-detail-sayuran/Detail-Sawi"
 function App() {
 
   return (
@@ -65,6 +66,11 @@ function App() {
         
         <Route path="/produk/buah" element={<Buah/>}/>
         <Route path="/produk/sayur" element={<Sayur/>}/>
+  
+{/* Import Detail sayur */}
+
+<Route path='/produk/sayur/detail-sawi' element={<Sawi/>}/>
+
       </Routes>
       
 

@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar'
+import { Link } from 'react-router-dom'
 import '../Assets-produk/css-produk/produk.css'
 //import sayuran
 import sawi from '../Assets-Home/Img Swiper/sawi.png'
@@ -30,10 +31,10 @@ export default function Sayur() {
             <i class="fas fa-star"></i>
           </div>
 
-            <h5 class="card-title">Manggo</h5>
-            <p class="card-text">Rp 6000</p>
+            <h5 class="card-title">Sawi</h5>
+            <p class="card-text">Rp 2000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+         <Link to='/produk/sayur/detail-sawi'>  <button class="btn-Costum">Detail</button> </Link> 
            
             <i className="fas fa-shopping-cart" />
             </div>
