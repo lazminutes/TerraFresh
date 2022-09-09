@@ -15,13 +15,13 @@ export default function Kangkung() {
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://foto.kontan.co.id/kH6W8v0sFxKxEewe4EEBjZ5JAzM=/smart/2021/06/16/414321180p.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://risetcdn.jatimtimes.com/images/2022/02/27/Kangkung-Foto-klikdokter-P80b0ee85dacfbf66.md.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg  )" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://cdf.orami.co.id/unsafe/cdn-cas.orami.co.id/parenting/images/manfaat-kangkung.width-800.jpegquality-80.jpg  )" }}>
                 </button>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -35,15 +35,15 @@ export default function Kangkung() {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-1.timesmedia.co.id/images/2022/03/18/Sawi.jpg" class="d-block w-100" alt="..." />
+                <img src="https://foto.kontan.co.id/kH6W8v0sFxKxEewe4EEBjZ5JAzM=/smart/2021/06/16/414321180p.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://cdn-cas.orami.co.id/parenting/images/jenis-sawi.width-800.jpegquality-80.jpg" class="d-block w-100" alt="..." />
+                <img src="https://risetcdn.jatimtimes.com/images/2022/02/27/Kangkung-Foto-klikdokter-P80b0ee85dacfbf66.md.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://www.harapanrakyat.com/wp-content/uploads/2019/10/Manfaat-Sawi-Hijau.jpg" class="d-block w-100" alt="..." />
+                <img src="https://cdf.orami.co.id/unsafe/cdn-cas.orami.co.id/parenting/images/manfaat-kangkung.width-800.jpegquality-80.jpg" class="d-block w-100" alt="..." />
               </div>
 
             </div>
@@ -54,18 +54,18 @@ export default function Kangkung() {
 
         <div className="col-md-5 ">
           <div className="Detail-page text-center">
-            <h1>Sayur Sawi</h1>
+            <h1>Sayur Kangkung</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
-              <p>terjual <span>10</span></p>
+              <p>terjual <span>13</span></p>
               <i class="fas fa-star stars">5</i>
-              <p><span>(20 rating)</span></p>
+              <p><span>(22 rating)</span></p>
             </div>
 
           </div>
           <br />
           <div className='harga'>
-            <h1>Rp 2000</h1>
+            <h1>Rp 3000</h1>
           </div>
 
           <div className=''>
@@ -74,7 +74,7 @@ export default function Kangkung() {
             <p><span>Kondisi:</span>Segar,baru petik</p>
             <p><span>Berat:</span>100 g</p>
             <p><span>Kategori:</span>Sayur</p>
-            <p> Sayur sawi yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Sawi merupakan sayur kaya vitamin A, C, dan K yang penting menjaga fungsi tubuh. Vitamin C dan A adalah antioksidan alami yang kuat melindungi tubuh dari radikal bebas, memperkuat imunitas dan menjaga kesehatan penglihatan. </p>
+            <p> Sayur Kangkung yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Sayuran yang sangat mudah diolah ini punya banyak manfaat dan kandungan gizi untuk tubuh. Ya, khasiat kangkung ternyata sangat beragam, mulai dari menjaga kesehatan mata, mencegah diabetes, melawan penyakit hati (liver), dan lainnya. </p>
           </div>
         </div>
 
@@ -84,7 +84,7 @@ export default function Kangkung() {
                 <div className="row d-flex justify-content-between align-items-center">
                   
                 
-                    <h2 className="lead fw-normal mb-2">Sawi</h2>
+                    <h2 className="lead fw-normal mb-2">Kangkung</h2>
                    <h5>Atur Jumlah Pembelian</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-2 d-flex">

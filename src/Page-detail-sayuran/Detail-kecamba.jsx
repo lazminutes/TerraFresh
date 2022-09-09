@@ -54,7 +54,7 @@ export default function Kecamba() {
 
         <div className="col-md-5 ">
           <div className="Detail-page text-center">
-            <h1>Sayur Sawi</h1>
+            <h1>Kecambah</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
               <p>terjual <span>10</span></p>
@@ -65,16 +65,17 @@ export default function Kecamba() {
           </div>
           <br />
           <div className='harga'>
-            <h1>Rp 2000</h1>
+            <h1>Rp 6000</h1>
           </div>
 
-          <div className=''>
+          <div className=''> 
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>
             <p><span>Berat:</span>100 g</p>
             <p><span>Kategori:</span>Sayur</p>
-            <p> Sayur sawi yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Sawi merupakan sayur kaya vitamin A, C, dan K yang penting menjaga fungsi tubuh. Vitamin C dan A adalah antioksidan alami yang kuat melindungi tubuh dari radikal bebas, memperkuat imunitas dan menjaga kesehatan penglihatan. </p>
+            <p> kecambah yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Apakah kecambah sehat?
+Toge atau kecambah adalah sayuran yang berasal dari biji kacang hijau atau kacang kedelai. Walau ukurannya kecil dan harganya murah, toge mengandung beragam nutrisi yang sangat baik untuk kesehatan tubuh, seperti karbohidrat, protein, dan serat. Berbagai jenis vitamin dan mineral juga terkandung di dalam toge </p>
           </div>
         </div>
 
@@ -84,7 +85,7 @@ export default function Kecamba() {
                 <div className="row d-flex justify-content-between align-items-center">
                   
                 
-                    <h2 className="lead fw-normal mb-2">Sawi</h2>
+                    <h2 className="lead fw-normal mb-2">Kecambah</h2>
                    <h5>Atur Jumlah Pembelian</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-2 d-flex">
