@@ -305,7 +305,9 @@ color:  #10ed1b;
 .footer .box-container{
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    flex-wrap: wrap;
     gap:1.5rem;
+    justify-content: space-around;
 }
 
 .footer .box-container .box h3{

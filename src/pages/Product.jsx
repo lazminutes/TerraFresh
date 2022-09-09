@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar'
 import '../Assets-produk/css-produk/produk.css'
 import sayuran from '../Assets-Home/Img Swiper/sayuran.png'
 import buahan from '../Assets-Home/Img Swiper/buah.png'
-
+import Footer from './Footer'
 //import router-dom
 import { Link } from 'react-router-dom'
 
@@ -38,6 +38,7 @@ export default function Product() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

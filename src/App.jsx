@@ -67,7 +67,7 @@ function App() {
         <Route path="/produk/sayur" element={<Sayur/>}/>
       </Routes>
       
-<Footer/>
+
    
     </>
   )

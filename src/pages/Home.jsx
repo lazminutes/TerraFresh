@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom'
 
 import Navbar from '../components/Navbar'
 import '../Assets-Home/Home-css/home.css'
+import Footer from './Footer'
 export default function Home() {
   return (
 
@@ -134,6 +135,7 @@ export default function Home() {
         <Swiper/>
         </div>
       </div>
+      <Footer/>
       </div>
    
   )
