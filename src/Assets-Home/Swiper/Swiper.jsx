@@ -45,7 +45,9 @@ export default () => {
             <h5 class="card-title">Manggo</h5>
             <p class="card-text">Rp 6000</p>
             <div className='shopnow'>
+              <Link to='/produk/Buah/detail-Mangga'>
           <button class="btn-Costum">Detail</button> 
+          </Link>
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -70,7 +72,9 @@ export default () => {
           <h5 class="card-title">Apel</h5>
           <p class="card-text"> Rp 5000</p>
           <div className='shopnow'>
+            <Link to='/produk/Buah/detail-apel'>
           <button class="btn-Costum">Detail</button> 
+          </Link>
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -94,7 +98,9 @@ export default () => {
           <h5 class="card-title">Pepaya</h5>
           <p class="card-text">Rp 10.000</p>
           <div className='shopnow'>
+            <Link to='/produk/Buah/detail-Pepaya'>
           <button class="btn-Costum">Detail</button> 
+          </Link>
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
