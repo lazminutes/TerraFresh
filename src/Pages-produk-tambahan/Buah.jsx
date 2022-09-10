@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 //import gsmbsr buah
 import apel from '../Assets-Home/Img Swiper/apel.png'
 import durian from '../Assets-Home/Img Swiper/durian.png'
@@ -36,7 +37,7 @@ export default function Buah() {
             <h5 class="card-title">Apel</h5>
             <p class="card-text">Rp 5000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <Link to='/produk/Buah/detail-apel'><button class="btn-Costum">Detail</button> </Link>
            
             <i className="fas fa-shopping-cart" />
             </div>
@@ -60,7 +61,7 @@ export default function Buah() {
             <h5 class="card-title">Durian</h5>
             <p class="card-text">Rp 10.000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <Link to='/produk/Buah/detail-Durian'><button class="btn-Costum">Detail</button> </Link>
            
             <i className="fas fa-shopping-cart" />
             </div>
@@ -84,7 +85,7 @@ export default function Buah() {
             <h5 class="card-title">Jeruk</h5>
             <p class="card-text">Rp 5000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <Link to='/produk/Buah/detail-Jeruk'><button class="btn-Costum">Detail</button> </Link>
            
             <i className="fas fa-shopping-cart" />
             </div>
@@ -108,7 +109,7 @@ export default function Buah() {
             <h5 class="card-title">Manggo</h5>
             <p class="card-text">Rp 6000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <Link to='/produk/Buah/detail-Mangga'><button class="btn-Costum">Detail</button> </Link>
            
             <i className="fas fa-shopping-cart" />
             </div>
@@ -132,7 +133,7 @@ export default function Buah() {
             <h5 class="card-title">melon</h5>
             <p class="card-text">Rp 6000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <Link to='/produk/Buah/detail-Melon'><button class="btn-Costum">Detail</button> </Link>
            
             <i className="fas fa-shopping-cart" />
             </div>
@@ -156,7 +157,7 @@ export default function Buah() {
             <h5 class="card-title">naga</h5>
             <p class="card-text">Rp 8000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <Link to='/produk/Buah/detail-Naga'><button class="btn-Costum">Detail</button> </Link>
            
             <i className="fas fa-shopping-cart" />
             </div>
@@ -180,7 +181,7 @@ export default function Buah() {
             <h5 class="card-title">Pepaya</h5>
             <p class="card-text">Rp 6000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <Link to='/produk/Buah/detail-Pepaya'><button class="btn-Costum">Detail</button> </Link>
            
             <i className="fas fa-shopping-cart" />
             </div>
@@ -204,7 +205,7 @@ export default function Buah() {
             <h5 class="card-title">Pisang</h5>
             <p class="card-text">Rp 4000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <Link to='/produk/Buah/detail-Pisang'><button class="btn-Costum">Detail</button> </Link>
            
             <i className="fas fa-shopping-cart" />
             </div>
@@ -228,7 +229,7 @@ export default function Buah() {
             <h5 class="card-title">Rambutan</h5>
             <p class="card-text">Rp 3000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <Link to='/produk/Buah/detail-Rambutan'><button class="btn-Costum">Detail</button> </Link>
            
             <i className="fas fa-shopping-cart" />
             </div>
@@ -250,10 +251,10 @@ export default function Buah() {
             <i class="fas fa-star"></i>
           </div>
 
-            <h5 class="card-title">Rambutan</h5>
+            <h5 class="card-title">Srikaya</h5>
             <p class="card-text">Rp 6000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
+           <Link to='/produk/Buah/detail-Srikaya'><button class="btn-Costum">Detail</button> </Link>
            
             <i className="fas fa-shopping-cart" />
             </div>
