@@ -38,11 +38,11 @@ export default function Wortel() {
                 <img src="https://asset.kompas.com/crops/0IdFfzSyf0w9DxTIauNwpCi8w9Q=/0x83:1000x583/750x500/data/photo/2019/08/06/5d492f045d831.jpg " class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item text-center gambar-sawi">
                 <img src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1595842758/attached_image/manfaat-wortel-bagi-kesehatan.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item text-center gambar-sawi">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4J9VUAM-8wvYIfFNTdfqpiOCtdH5MxZs-CLWzqlBk2Ku771DSDz6ZDt91WA-oxKH_KXY&usqp=CAU" class="d-block w-100" alt="..." />
               </div>
 

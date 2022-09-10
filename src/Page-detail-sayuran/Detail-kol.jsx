@@ -38,11 +38,11 @@ export default function Kol() {
                 <img src="https://akcdn.detik.net.id/visual/2019/07/02/67d5ae98-41e6-4e69-a8ee-ac40e9a78e23_169.jpeg?w=650" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item  text-center gambar-sawi">
                 <img src="https://foto.kontan.co.id/eW9waA8xMYwZkjEil2bN5WWVgxc=/smart/2014/09/08/720753714p.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item  text-center gambar-sawi">
                 <img src="https://blogpictures.99.co/1.jpeg" class="d-block w-100" alt="..." />
               </div>
 

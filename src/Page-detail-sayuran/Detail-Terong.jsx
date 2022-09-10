@@ -38,11 +38,11 @@ export default function Terong() {
                 <img src="https://cms.sehatq.com/public/img/article_img/di-balik-kelezatannya-ini-manfaat-terong-ungu-untuk-tubuh-anda-1572343600.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item text-center gambar-sawi">
                 <img src="https://awsimages.detik.net.id/community/media/visual/2017/02/17/d984d581-dd4b-45a6-8a00-bf8ba40ccdf2_169.jpg?w=700&q=90" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item text-center gambar-sawi">
                 <img src="https://asset.kompas.com/crops/44x0REJzhINXNuA8J1SakgbBqGM=/35x0:983x632/750x500/data/photo/2021/07/25/60fd94dadbd49.jpg" class="d-block w-100" alt="..." />
               </div>
 

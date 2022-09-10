@@ -38,11 +38,11 @@ export default function Kentang() {
                 <img src="https://awsimages.detik.net.id/community/media/visual/2017/02/02/32fb49bc-a1b8-4a8c-9349-a84c1f7083fc.jpg?w=700&q=90" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item  text-center gambar-sawi">
                 <img src="https://www.taysbakers.com/wp-content/uploads/2016/04/Kentang-e1461740372213-738x369.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item  text-center gambar-sawi">
                 <img src="https://statik.tempo.co/data/2017/03/21/id_591873/591873_620.jpg" class="d-block w-100" alt="..." />
               </div>
 

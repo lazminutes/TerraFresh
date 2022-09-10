@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom'
 //import gambar
 import apel from '../Img Swiper/apel.png'
 import pepaya from '../Img Swiper/pepaya.png'
@@ -31,7 +31,7 @@ export default () => {
     >
       <SwiperSlide>
         <div class="card" >
-        <div className='fruit text-center '>
+        <div className='item text-center '>
           <img src={mangga} class="card-img-top" alt="" />
           </div>
           <div class="card-body">
@@ -45,8 +45,7 @@ export default () => {
             <h5 class="card-title">Manggo</h5>
             <p class="card-text">Rp 6000</p>
             <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+          <button class="btn-Costum">Detail</button> 
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -56,7 +55,7 @@ export default () => {
       <SwiperSlide>
       
          <div class="card" >
-          <div className='fruit text-center '>
+          <div className='item text-center '>
          <img src={apel} class="card-img-top imgTR" alt="" />
           </div>
         <div class="card-body">
@@ -71,8 +70,7 @@ export default () => {
           <h5 class="card-title">Apel</h5>
           <p class="card-text"> Rp 5000</p>
           <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+          <button class="btn-Costum">Detail</button> 
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -81,8 +79,8 @@ export default () => {
      
       
       </SwiperSlide>
-      <SwiperSlide> <div class="card" >
-      <div className='fruit text-center '>
+      <SwiperSlide> <div class="card " >
+      <div className='item text-center '>
         <img src={pepaya} class="card-img-top" alt="" />
         </div>
         <div class="card-body">
@@ -96,8 +94,7 @@ export default () => {
           <h5 class="card-title">Pepaya</h5>
           <p class="card-text">Rp 10.000</p>
           <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+          <button class="btn-Costum">Detail</button> 
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -105,7 +102,7 @@ export default () => {
       </div>
       </SwiperSlide>
       <SwiperSlide> <div class="card" >
-      <div className='fruit text-center '>
+      <div className='item text-center '>
         <img src={sawi} class="card-img-top" alt="" />
         </div>
         <div class="card-body">
@@ -119,8 +116,9 @@ export default () => {
           <h5 class="card-title">Sawi</h5>
           <p class="card-text">Rp 3000</p>
           <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+            <Link to='/produk/sayur/detail-sawi'>
+          <button class="btn-Costum">Detail</button> 
+          </Link>
             <i className="fas fa-shopping-cart" />
             </div>
             <p>stock:10</p>
@@ -129,7 +127,7 @@ export default () => {
       <SwiperSlide>
      
          <div class="card" >
-         <div className='fruit text-center  '>
+         <div className='item text-center  '>
         <img src={cabai} class="card-img-top" alt="" />  
         </div>
         <div class="card-body">
@@ -143,8 +141,9 @@ export default () => {
           <h5 class="card-title">Cabai</h5>
           <p class="card-text">Rp 2000</p>
           <div className='shopnow'>
-            <a href="#" ><button class="btn-Costum">Detail</button>  </a> 
-           
+            <Link to='/produk/sayur/detail-cabai'>
+          <button class="btn-Costum">Detail</button> 
+          </Link>
             <i className="fas fa-shopping-cart" />
             </div>
         </div>

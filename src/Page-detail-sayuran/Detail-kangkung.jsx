@@ -38,11 +38,11 @@ export default function Kangkung() {
                 <img src="https://foto.kontan.co.id/kH6W8v0sFxKxEewe4EEBjZ5JAzM=/smart/2021/06/16/414321180p.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item text-center gambar-sawi">
                 <img src="https://risetcdn.jatimtimes.com/images/2022/02/27/Kangkung-Foto-klikdokter-P80b0ee85dacfbf66.md.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item  text-center gambar-sawi">
                 <img src="https://cdf.orami.co.id/unsafe/cdn-cas.orami.co.id/parenting/images/manfaat-kangkung.width-800.jpegquality-80.jpg" class="d-block w-100" alt="..." />
               </div>
 

@@ -38,11 +38,11 @@ export default function Kecamba() {
                 <img src="https://nusantaranews.co/assets/uploads/2017/10/Kecambah-atau-Tauge.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item  text-center gambar-sawi">
                 <img src="https://cdf.orami.co.id/unsafe/cdn-cas.orami.co.id/parenting/images/kecambah_uurvdk4.width-800.jpegquality-80.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item  text-center gambar-sawi">
                 <img src="https://cdn1.katadata.co.id/media/images/thumb/2021/09/21/Taoge-2021_09_21-13_46_10_4c101ff7774758c57679e71d6d7482f1_620x413_thumb.jpg" class="d-block w-100" alt="..." />
               </div>
 

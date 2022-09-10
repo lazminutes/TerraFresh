@@ -38,11 +38,11 @@ export default function Bayam() {
                 <img src="https://akcdn.detik.net.id/visual/2018/07/11/cc01493c-6a04-4bea-b33d-3be0086c9f09_169.jpeg?w=650" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item  text-center gambar-sawi">
                 <img src="https://asset.kompas.com/crops/kImQvn-ngy3nkw-sBtXgVIy69rE=/0x53:1000x553/750x500/data/photo/2019/08/06/5d492c3be426b.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item  text-center gambar-sawi">
                 <img src="http://4.bp.blogspot.com/-kRr6MPzrvkg/TWOkIYLFzUI/AAAAAAAAAGA/4Ue-TN8qEg8/s1600/1203237_bayamratu.jpg" class="d-block w-100" alt="..." />
               </div>
 

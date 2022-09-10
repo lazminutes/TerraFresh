@@ -39,11 +39,11 @@ export default function Cabai() {
                 <img src="https://asset.kompas.com/crops/0bQZazreqC3rXuoZOPv1FDQWLl4=/0x0:1000x667/750x500/data/photo/2020/03/26/5e7cbe05c9d12.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item  text-center gambar-sawi">
                 <img src="https://mhomecare.co.id/blog/wp-content/uploads/2020/05/Manfaat-Cabe-Rawit-Untuk-Kesehatan.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item text-center gambar-sawi">
                 <img src="https://www.harapanrakyat.com/wp-content/uploads/2020/01/Manfaat-Cabai-Rawit-untuk-Kesehatan.jpg" class="d-block w-100" alt="..." />
               </div>
 

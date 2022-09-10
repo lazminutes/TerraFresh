@@ -38,11 +38,11 @@ export default function Paprika() {
                 <img src="https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2021/01/Featured_Manfaat-Paprika-Buah-Asal-Amerika-Khasiat-Tak-Terduga.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item  text-center gambar-sawi">
                 <img src="https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2020/01/11/409429142.jpg" class="d-block w-100" alt="..." />
               </div>
 
-              <div class="carousel-item active text-center gambar-sawi">
+              <div class="carousel-item  text-center gambar-sawi">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeSsDIu2_LDFihQA2DhiS9EtF_C4NHuh7_Gg&usqp=CAU" class="d-block w-100" alt="..." />
               </div>
 
