@@ -15,13 +15,13 @@ export default function Durian() {
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://akcdn.detik.net.id/visual/2018/07/11/cc01493c-6a04-4bea-b33d-3be0086c9f09_169.jpeg?w=650)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://foto.kontan.co.id/Yp201LSkwMEHn1ukrTpaZA9c_Mk=/smart/2022/05/31/921220359p.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://asset.kompas.com/crops/kImQvn-ngy3nkw-sBtXgVIy69rE=/0x53:1000x553/750x500/data/photo/2019/08/06/5d492c3be426b.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://asset.kompas.com/crops/-UiRgla2rB23sBS-zG0RhxmCpJU=/0x39:676x490/780x390/data/photo/2020/02/20/5e4e5b40c6428.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(http://4.bp.blogspot.com/-kRr6MPzrvkg/TWOkIYLFzUI/AAAAAAAAAGA/4Ue-TN8qEg8/s1600/1203237_bayamratu.jpg  )" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(http://assets.kompasiana.com/items/album/2021/04/22/jonny-clow-xza4jue7edm-unsplash-60810f7c8ede4841c83a8a53.jpg  )" }}>
                 </button>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -35,15 +35,15 @@ export default function Durian() {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://akcdn.detik.net.id/visual/2018/07/11/cc01493c-6a04-4bea-b33d-3be0086c9f09_169.jpeg?w=650" class="d-block w-100" alt="..." />
+                <img src="https://foto.kontan.co.id/Yp201LSkwMEHn1ukrTpaZA9c_Mk=/smart/2022/05/31/921220359p.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item  text-center gambar-sawi">
-                <img src="https://asset.kompas.com/crops/kImQvn-ngy3nkw-sBtXgVIy69rE=/0x53:1000x553/750x500/data/photo/2019/08/06/5d492c3be426b.jpg" class="d-block w-100" alt="..." />
+                <img src="https://asset.kompas.com/crops/-UiRgla2rB23sBS-zG0RhxmCpJU=/0x39:676x490/780x390/data/photo/2020/02/20/5e4e5b40c6428.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item  text-center gambar-sawi">
-                <img src="http://4.bp.blogspot.com/-kRr6MPzrvkg/TWOkIYLFzUI/AAAAAAAAAGA/4Ue-TN8qEg8/s1600/1203237_bayamratu.jpg" class="d-block w-100" alt="..." />
+                <img src="http://assets.kompasiana.com/items/album/2021/04/22/jonny-clow-xza4jue7edm-unsplash-60810f7c8ede4841c83a8a53.jpg" class="d-block w-100" alt="..." />
               </div>
 
             </div>
@@ -54,27 +54,27 @@ export default function Durian() {
 
         <div className="col-md-5 ">
           <div className="Detail-page text-center">
-            <h1>Sayur Bayam</h1>
+            <h1>Durian</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
-              <p>terjual <span>20</span></p>
-              <i class="fas fa-star stars">5</i>
-              <p><span>(10 rating)</span></p>
+              <p>terjual <span>15</span></p>
+              <i class="fas fa-star-half-alt stars">3</i>
+              <p><span>(3,9 rating)</span></p>
             </div>
 
           </div>
           <br />
           <div className='harga'>
-            <h1>Rp 3000</h1>
+            <h1>Rp 10.000</h1>
           </div>
 
           <div className=''>
             <br />
             <h5>Detail:</h5>
-            <p><span>Kondisi:</span>Segar,baru petik</p>
-            <p><span>Berat:</span>90 g</p>
-            <p><span>Kategori:</span>Sayur</p>
-            <p> Sayur bayam yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Manfaat lainnya dari bayam yang belum banyak diketahui ialah ternyata bayam mampu membantu mencegah kanker dan membantu memperlambat pertumbuhan sel tumor. Bayam mengandung beta karoten dan vitamin C yang aktif berperan dalam perlindungan terhadap perkembangan sel kanker. </p>
+            <p><span>Kondisi:</span>Segar,Pemetikan 2 hari </p>
+            <p><span>Berat:</span>3 kg g</p>
+            <p><span>Kategori:</span>Buah</p>
+            <p> Durian  yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Durian juga mengandung kalium yang dipercaya dapat memberikan beragam kebaikan untuk tubuh. Setidaknya terkandung 436 mg kalium di dalam 1 buah durian. Kalium sendiri dapat membantu tubuh dalam menjaga kesehatan otot, tulang, saraf dan pembuluh darah, serta menurunkan tekanan darah tinggi. </p>
           </div>
         </div>
 
@@ -84,7 +84,7 @@ export default function Durian() {
                 <div className="row d-flex justify-content-between align-items-center">
                   
                 
-                    <h2 className="lead fw-normal mb-2">Bayam</h2>
+                    <h2 className="lead fw-normal mb-2"></h2>
                    <h5>Atur Jumlah Pembelian</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-6 d-flex">

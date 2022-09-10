@@ -15,13 +15,13 @@ export default function Jeruk() {
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://akcdn.detik.net.id/visual/2018/07/11/cc01493c-6a04-4bea-b33d-3be0086c9f09_169.jpeg?w=650)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2020/06/Blog_Manfaat-Jeruk-Buah-Termasyhur-yang-Penuh-Nutrisi.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://asset.kompas.com/crops/kImQvn-ngy3nkw-sBtXgVIy69rE=/0x53:1000x553/750x500/data/photo/2019/08/06/5d492c3be426b.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2020/06/Kandungan-Buah-Jeruk-1024x529.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(http://4.bp.blogspot.com/-kRr6MPzrvkg/TWOkIYLFzUI/AAAAAAAAAGA/4Ue-TN8qEg8/s1600/1203237_bayamratu.jpg  )" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://berita.news/wp-content/uploads/2020/04/jeruk.jpeg  )" }}>
                 </button>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -35,15 +35,15 @@ export default function Jeruk() {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://akcdn.detik.net.id/visual/2018/07/11/cc01493c-6a04-4bea-b33d-3be0086c9f09_169.jpeg?w=650" class="d-block w-100" alt="..." />
+                <img src="https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2020/06/Blog_Manfaat-Jeruk-Buah-Termasyhur-yang-Penuh-Nutrisi.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item  text-center gambar-sawi">
-                <img src="https://asset.kompas.com/crops/kImQvn-ngy3nkw-sBtXgVIy69rE=/0x53:1000x553/750x500/data/photo/2019/08/06/5d492c3be426b.jpg" class="d-block w-100" alt="..." />
+                <img src="https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2020/06/Kandungan-Buah-Jeruk-1024x529.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item  text-center gambar-sawi">
-                <img src="http://4.bp.blogspot.com/-kRr6MPzrvkg/TWOkIYLFzUI/AAAAAAAAAGA/4Ue-TN8qEg8/s1600/1203237_bayamratu.jpg" class="d-block w-100" alt="..." />
+                <img src="https://berita.news/wp-content/uploads/2020/04/jeruk.jpeg" class="d-block w-100" alt="..." />
               </div>
 
             </div>
@@ -54,7 +54,7 @@ export default function Jeruk() {
 
         <div className="col-md-5 ">
           <div className="Detail-page text-center">
-            <h1>Sayur Bayam</h1>
+            <h1>Jeruk</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
               <p>terjual <span>20</span></p>
@@ -65,16 +65,16 @@ export default function Jeruk() {
           </div>
           <br />
           <div className='harga'>
-            <h1>Rp 3000</h1>
+            <h1>Rp 5000</h1>
           </div>
 
           <div className=''>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>
-            <p><span>Berat:</span>90 g</p>
-            <p><span>Kategori:</span>Sayur</p>
-            <p> Sayur bayam yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Manfaat lainnya dari bayam yang belum banyak diketahui ialah ternyata bayam mampu membantu mencegah kanker dan membantu memperlambat pertumbuhan sel tumor. Bayam mengandung beta karoten dan vitamin C yang aktif berperan dalam perlindungan terhadap perkembangan sel kanker. </p>
+            <p><span>Berat:</span>70 g</p>
+            <p><span>Kategori:</span>Buah</p>
+            <p> Buah Jeruk yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Jeruk bukan sumber zat besi, tetapi buah berwarna oranye ini mengandung asam askorbat (vitamin C) dan asam sitrat yang tinggi. Kedua jenis asam pada jeruk ini memiliki manfaat berupa meningkatkan penyerapan zat besi pada saluran pencernaan. </p>
           </div>
         </div>
 

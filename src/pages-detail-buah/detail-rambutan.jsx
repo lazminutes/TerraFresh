@@ -15,13 +15,13 @@ export default function Rambutan() {
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://akcdn.detik.net.id/visual/2018/07/11/cc01493c-6a04-4bea-b33d-3be0086c9f09_169.jpeg?w=650)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn1.katadata.co.id/media/images/thumb/2022/03/21/Buah_rambutan-2022_03_21-10_11_16_969b80bf4ce0bb4fcec98c1806b97af9_400x267_thumb.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://asset.kompas.com/crops/kImQvn-ngy3nkw-sBtXgVIy69rE=/0x53:1000x553/750x500/data/photo/2019/08/06/5d492c3be426b.jpg)" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" style={{ backgroundImage:"url(https://res.cloudinary.com/dk0z4ums3/image/upload/v1623730444/attached_image/6-manfaat-buah-rambutan-untuk-kesehatan.jpg)" }}>
                 </button>
 
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(http://4.bp.blogspot.com/-kRr6MPzrvkg/TWOkIYLFzUI/AAAAAAAAAGA/4Ue-TN8qEg8/s1600/1203237_bayamratu.jpg  )" }}>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"style={{ backgroundImage:"url(https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2021/10/Manfaat-Buah-Rambutan.jpg  )" }}>
                 </button>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -35,15 +35,15 @@ export default function Rambutan() {
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active text-center gambar-sawi">
-                <img src="https://akcdn.detik.net.id/visual/2018/07/11/cc01493c-6a04-4bea-b33d-3be0086c9f09_169.jpeg?w=650" class="d-block w-100" alt="..." />
+                <img src="https://cdn1.katadata.co.id/media/images/thumb/2022/03/21/Buah_rambutan-2022_03_21-10_11_16_969b80bf4ce0bb4fcec98c1806b97af9_400x267_thumb.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item  text-center gambar-sawi">
-                <img src="https://asset.kompas.com/crops/kImQvn-ngy3nkw-sBtXgVIy69rE=/0x53:1000x553/750x500/data/photo/2019/08/06/5d492c3be426b.jpg" class="d-block w-100" alt="..." />
+                <img src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1623730444/attached_image/6-manfaat-buah-rambutan-untuk-kesehatan.jpg" class="d-block w-100" alt="..." />
               </div>
 
               <div class="carousel-item  text-center gambar-sawi">
-                <img src="http://4.bp.blogspot.com/-kRr6MPzrvkg/TWOkIYLFzUI/AAAAAAAAAGA/4Ue-TN8qEg8/s1600/1203237_bayamratu.jpg" class="d-block w-100" alt="..." />
+                <img src="https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2021/10/Manfaat-Buah-Rambutan.jpg" class="d-block w-100" alt="..." />
               </div>
 
             </div>
@@ -54,7 +54,7 @@ export default function Rambutan() {
 
         <div className="col-md-5 ">
           <div className="Detail-page text-center">
-            <h1>Sayur Bayam</h1>
+            <h1>Buah Rambutan</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
               <p>terjual <span>20</span></p>
@@ -73,8 +73,8 @@ export default function Rambutan() {
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>
             <p><span>Berat:</span>90 g</p>
-            <p><span>Kategori:</span>Sayur</p>
-            <p> Sayur bayam yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Manfaat lainnya dari bayam yang belum banyak diketahui ialah ternyata bayam mampu membantu mencegah kanker dan membantu memperlambat pertumbuhan sel tumor. Bayam mengandung beta karoten dan vitamin C yang aktif berperan dalam perlindungan terhadap perkembangan sel kanker. </p>
+            <p><span>Kategori:</span>Buah</p>
+            <p> Buah Rambutan yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Buah rambutan juga kaya akan vitamin C yang dapat memudahkan tubuh untuk menyerap zat besi. Tak hanya itu, vitamin C dapat bertindak sebagai antioksidan dan dapat melindungi tubuh dari kerusakan sel. Konsumsi 5-6 buah rambutan akan memenuhi 50% kebutuhan vitamin C harian </p>
           </div>
         </div>
 
@@ -84,7 +84,7 @@ export default function Rambutan() {
                 <div className="row d-flex justify-content-between align-items-center">
                   
                 
-                    <h2 className="lead fw-normal mb-2">Bayam</h2>
+                    <h2 className="lead fw-normal mb-2">Rambutan</h2>
                    <h5>Atur Jumlah Pembelian</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-6 d-flex">
