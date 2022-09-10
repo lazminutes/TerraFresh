@@ -29,9 +29,9 @@
 }
 
 /* SAyur page */
-.card{
+.list-produk{
     width: 200px;
-}
+} 
 .item{
     width: 150px;
     height: 150px;
@@ -67,7 +67,7 @@
     }
 
     /* SAyur page */
-.card{
+    .list-produk{
     width: 100px;
     height: 10px;
 }

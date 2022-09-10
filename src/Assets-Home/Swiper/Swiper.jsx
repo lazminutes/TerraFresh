@@ -30,7 +30,7 @@ export default () => {
       className='bgshop'
     >
       <SwiperSlide>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item text-center '>
           <img src={mangga} class="card-img-top" alt="" />
           </div>
@@ -54,7 +54,7 @@ export default () => {
         </div></SwiperSlide>
       <SwiperSlide>
       
-         <div class="card" >
+         <div class="card list-produk" >
           <div className='item text-center '>
          <img src={apel} class="card-img-top imgTR" alt="" />
           </div>
@@ -79,7 +79,7 @@ export default () => {
      
       
       </SwiperSlide>
-      <SwiperSlide> <div class="card " >
+      <SwiperSlide> <div class="card list-produk" >
       <div className='item text-center '>
         <img src={pepaya} class="card-img-top" alt="" />
         </div>
@@ -101,7 +101,7 @@ export default () => {
         </div>
       </div>
       </SwiperSlide>
-      <SwiperSlide> <div class="card" >
+      <SwiperSlide> <div class="card list-produk" >
       <div className='item text-center '>
         <img src={sawi} class="card-img-top" alt="" />
         </div>
@@ -126,7 +126,7 @@ export default () => {
       </div></SwiperSlide>
       <SwiperSlide>
      
-         <div class="card" >
+         <div class="card list-produk" >
          <div className='item text-center  '>
         <img src={cabai} class="card-img-top" alt="" />  
         </div>
