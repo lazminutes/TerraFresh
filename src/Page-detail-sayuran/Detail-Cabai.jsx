@@ -88,7 +88,7 @@ export default function Cabai() {
                     <h2 className="lead fw-normal mb-2">Cabai</h2>
                    <h5>Atur Jumlah Pembelian</h5>
                  
-                  <div className="col-md-3 col-lg-3 col-xl-2 d-flex">
+                  <div className="col-md-3 col-lg-3 col-xl-6 d-flex">
                     <button
                       className="btn btn-link px-2"
                       onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
