@@ -32,7 +32,7 @@ export default () => {
       <SwiperSlide>
         <div class="card list-produk" >
         <div className='item text-center '>
-          <img src={mangga} class="card-img-top" alt="" />
+          <img src={mangga} class="card-img-top size-img " alt="" />
           </div>
           <div class="card-body">
           <div class="stars">
@@ -58,7 +58,7 @@ export default () => {
       
          <div class="card list-produk" >
           <div className='item text-center '>
-         <img src={apel} class="card-img-top imgTR" alt="" />
+         <img src={apel} class="card-img-top mini " alt="" />
           </div>
         <div class="card-body">
           <div class="stars">
@@ -85,7 +85,7 @@ export default () => {
       </SwiperSlide>
       <SwiperSlide> <div class="card list-produk" >
       <div className='item text-center '>
-        <img src={pepaya} class="card-img-top" alt="" />
+        <img src={pepaya} class="card-img-top size-img" alt="" />
         </div>
         <div class="card-body">
         <div class="stars">
@@ -109,7 +109,7 @@ export default () => {
       </SwiperSlide>
       <SwiperSlide> <div class="card list-produk" >
       <div className='item text-center '>
-        <img src={sawi} class="card-img-top" alt="" />
+        <img src={sawi} class="card-img-top size-img" alt="" />
         </div>
         <div class="card-body">
         <div class="stars">
@@ -134,7 +134,7 @@ export default () => {
      
          <div class="card list-produk" >
          <div className='item text-center  '>
-        <img src={cabai} class="card-img-top" alt="" />  
+        <img src={cabai} class="card-img-top  size-img" alt="" />  
         </div>
         <div class="card-body">
         <div class="stars">
