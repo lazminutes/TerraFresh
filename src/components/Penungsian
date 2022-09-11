@@ -47,7 +47,7 @@
   <div className="d-flex align-items-center">
     {/* Icon */}
     <a className="text-reset me-3" to="#">
-      <i className="fas fa-shopping-cart" />
+      <i className="fas fa-shopping-cart" >
     </a>
     {/* Notifications */}
     <div className="dropdown">
@@ -65,8 +65,8 @@
         </span>
       </a>
       <ul
-        className="dropdown-menu dropdown-menu-end"
-        aria-labelledby="navbarDropdownMenuLink"
+       className="dropdown-menu dropdown-menu-end"
+        aria-labelledby="navbarDropdownMenuAvatar"
       >
         <li>
           <a className="dropdown-item" to="#">

@@ -40,7 +40,7 @@
 .Sayur{
     flex-wrap: wrap;
     
-    margin-left:50px ;
+    margin-left:100px ;
 }
  .size-img{
     width: 150px !important;
@@ -51,6 +51,7 @@
     width: 200px !important;
    
  }
+ 
 @media screen and (max-width:420px){
 
     .imgproduk{
