@@ -21,7 +21,7 @@ export default function Buah() {
           <h1>Buah Segar Hari ini</h1>
           </div>
           <div className='Sayur d-flex text-center'>
-      <div class="card" >
+      <div class="card list-produk" >
         <div className='item'>
           <img src={apel} class="card-img-top" alt="" />
           </div>
@@ -45,7 +45,7 @@ export default function Buah() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={durian} class="card-img-top" alt="" />
           </div>
@@ -69,7 +69,7 @@ export default function Buah() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={jeruk} class="card-img-top" alt="" />
           </div>
@@ -93,7 +93,7 @@ export default function Buah() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={mangga} class="card-img-top" alt="" />
           </div>
@@ -117,7 +117,7 @@ export default function Buah() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={melon} class="card-img-top" alt="" />
           </div>
@@ -141,7 +141,7 @@ export default function Buah() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={naga} class="card-img-top" alt="" />
           </div>
@@ -165,7 +165,7 @@ export default function Buah() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={pepaya} class="card-img-top" alt="" />
           </div>
@@ -189,7 +189,7 @@ export default function Buah() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={pisang} class="card-img-top" alt="" />
           </div>
@@ -213,7 +213,7 @@ export default function Buah() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src='https://images.genpi.co/uploads/arsip/normal/2021/10/15/sering-makan-buah-rambutan-gula-darah-dan-3-penyakit-ini-am-oot1.jpeg' class="card-img-top" alt="" />
           </div>
@@ -238,7 +238,7 @@ export default function Buah() {
           </div>
         </div>
 
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src='https://cdn0-production-images-kly.akamaized.net/4z5RGcfBjSLQ5rSgOY7mmCj2oV0=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2874491/original/038968300_1565087262-iStock-1040422630.jpg' class="card-img-top" alt="" />
           </div>

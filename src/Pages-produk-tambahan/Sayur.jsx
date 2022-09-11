@@ -28,7 +28,7 @@ export default function Sayur() {
           <div className='Sayur d-flex text-center'>
 
 
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={sawi} class="card-img-top" alt="" />
           </div>
@@ -52,7 +52,7 @@ export default function Sayur() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={bayam} class="card-img-top" alt="" />
           </div>
@@ -77,7 +77,7 @@ export default function Sayur() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={cabai} class="card-img-top" alt="" />
           </div>
@@ -102,7 +102,7 @@ export default function Sayur() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={kentang} class="card-img-top" alt="" />
           </div>
@@ -127,7 +127,7 @@ export default function Sayur() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={kol} class="card-img-top" alt="" />
           </div>
@@ -152,7 +152,7 @@ export default function Sayur() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={paprika} class="card-img-top" alt="" />
           </div>
@@ -177,7 +177,7 @@ export default function Sayur() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src={wortel} class="card-img-top" alt="" />
           </div>
@@ -202,7 +202,7 @@ export default function Sayur() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src='https://desasesela.com/wp-content/uploads/2021/09/Kangkung.jpg'class="card-img-top" alt="" />
           </div>
@@ -227,7 +227,7 @@ export default function Sayur() {
            
           </div>
         </div>
-        <div class="card" >
+        <div class="card list-produk" >
         <div className='item'>
           <img src='https://asset-a.grid.id/crop/7x21:619x436/700x465/photo/2021/09/07/bean-sprouts-white-surface_55883-20210907070823.jpg' class="card-img-top" alt="" />
           </div>
@@ -253,7 +253,7 @@ export default function Sayur() {
           </div>
         </div>
 
-        <div class="card" >
+        <div class="card list-produk  " >
         <div className='item'>
           <img src='https://www.pngmart.com/files/1/Eggplant-PNG-Image.png' class="card-img-top" alt="" />
           </div>
