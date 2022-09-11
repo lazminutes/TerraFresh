@@ -33,7 +33,7 @@ export default function Melon() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://cdn1-production-images-kly.akamaized.net/RpcsY13h2arvzigZnVQ2BztpZLg=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2788283/original/058257500_1556184725-iStock-910127132.jpg" class="d-block w-100" alt="..." />
               </div>
@@ -68,7 +68,7 @@ export default function Melon() {
             <h1>Rp 6000</h1>
           </div>
 
-          <div className=''>
+          <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>

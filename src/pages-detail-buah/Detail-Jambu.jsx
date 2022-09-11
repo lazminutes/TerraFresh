@@ -33,7 +33,7 @@ export default function Jambu() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://cdn1-production-images-kly.akamaized.net/975JKeyMdOPveo3s1BeTv3XoXCM=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1906218/original/077629500_1518794656-Benarkah-Tanaman-Jambu-Efektif-Atasi-Diare.jpg" class="d-block w-100" alt="..." />
               </div>
@@ -68,7 +68,7 @@ export default function Jambu() {
             <h1>Rp 3000</h1>
           </div>
 
-          <div className=''>
+          <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru di petik </p>

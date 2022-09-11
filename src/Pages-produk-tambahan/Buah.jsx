@@ -18,7 +18,7 @@ export default function Buah() {
        <Navbar/>
        <div className="container">
         <div className='card-title'>
-          <h1>Buah Segar Hari ini</h1>
+          <h2 className='text-center'>Buah Segar Hari ini</h2>
           </div>
           <div className='Sayur d-flex text-center'>
       <div class="card list-produk" >

@@ -23,7 +23,7 @@ export default function Sayur() {
         <Navbar/>
       <div className='container'>
         <div className='card-title'>
-          <h1>Sayur Segar Hari ini</h1>
+          <h2 className='text-center '>Sayur Segar Hari ini</h2>
           </div>
           <div className='Sayur d-flex text-center'>
 

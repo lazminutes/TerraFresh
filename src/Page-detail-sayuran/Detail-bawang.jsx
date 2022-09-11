@@ -33,7 +33,7 @@ export default function Bawang() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://asset.kompas.com/crops/A1pqv_0Um0AOuA4rMshY5Xg3BAw=/0x0:1000x667/750x500/data/photo/2019/06/06/1393496124.jpg" class="d-block w-100" alt="..." />
               </div>
@@ -68,7 +68,7 @@ export default function Bawang() {
             <h1>Rp 3000</h1>
           </div>
 
-          <div className=''>
+          <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>

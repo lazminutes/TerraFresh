@@ -33,7 +33,7 @@ export default function Kol() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://akcdn.detik.net.id/visual/2019/07/02/67d5ae98-41e6-4e69-a8ee-ac40e9a78e23_169.jpeg?w=650" class="d-block w-100" alt="..." />
               </div>
@@ -68,7 +68,7 @@ export default function Kol() {
             <h1>Rp 2000</h1>
           </div>
 
-          <div className=''>
+          <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>

@@ -33,7 +33,7 @@ export default function Srikaya() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1643805055/attached_image/beragam-manfaat-srikaya-bagi-kesehatan.jpg" class="d-block w-100" alt="..." />
               </div>
@@ -68,7 +68,7 @@ export default function Srikaya() {
             <h1>Rp 3000</h1>
           </div>
 
-          <div className=''>
+          <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>

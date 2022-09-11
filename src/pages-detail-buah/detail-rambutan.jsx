@@ -33,7 +33,7 @@ export default function Rambutan() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://cdn1.katadata.co.id/media/images/thumb/2022/03/21/Buah_rambutan-2022_03_21-10_11_16_969b80bf4ce0bb4fcec98c1806b97af9_400x267_thumb.jpg" class="d-block w-100" alt="..." />
               </div>
@@ -68,7 +68,7 @@ export default function Rambutan() {
             <h1>Rp 3000</h1>
           </div>
 
-          <div className=''>
+          <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>

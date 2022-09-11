@@ -33,7 +33,7 @@ export default function Kecamba() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://nusantaranews.co/assets/uploads/2017/10/Kecambah-atau-Tauge.jpg" class="d-block w-100" alt="..." />
               </div>
@@ -68,7 +68,7 @@ export default function Kecamba() {
             <h1>Rp 6000</h1>
           </div>
 
-          <div className=''> 
+          <div className='des-detail'> 
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>

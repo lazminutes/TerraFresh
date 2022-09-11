@@ -33,7 +33,7 @@ export default function Kentang() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://awsimages.detik.net.id/community/media/visual/2017/02/02/32fb49bc-a1b8-4a8c-9349-a84c1f7083fc.jpg?w=700&q=90" class="d-block w-100" alt="..." />
               </div>
@@ -68,7 +68,7 @@ export default function Kentang() {
             <h1>Rp 5000</h1>
           </div>
 
-          <div className=''>
+          <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>

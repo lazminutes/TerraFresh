@@ -46,3 +46,41 @@ margin-top: 20px;
     text-decoration: none;
     color: black    ;
 }
+
+
+
+@media screen and (max-width:420px){
+    .gambar-sawi{
+        margin-top: 0 ;
+        
+    }
+    .detail-carousel{
+        background-color: white;
+    }
+    .Detail-page{
+        font-size: 12px;
+    }
+    .deskripsi-sawi{
+        justify-content: space-around;
+        margin-top: 20px;    
+    }
+    .des-detail{
+        font-size: 10px;
+    }
+    .container .Rincian{
+        margin-top: 30px;
+      
+    }
+    .container .carousel-controls{
+        position: absolute;
+        left: 50%;
+        bottom: 10%;
+        z-index: 10;
+        transform: translateX(-50%); 
+        }
+
+        .slide{
+            height: 320px;
+        }
+    
+}

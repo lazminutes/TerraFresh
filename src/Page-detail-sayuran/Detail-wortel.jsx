@@ -33,7 +33,7 @@ export default function Wortel() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://asset.kompas.com/crops/0IdFfzSyf0w9DxTIauNwpCi8w9Q=/0x83:1000x583/750x500/data/photo/2019/08/06/5d492f045d831.jpg " class="d-block w-100" alt="..." />
               </div>
@@ -68,7 +68,7 @@ export default function Wortel() {
             <h1>Rp 4000</h1>
           </div>
 
-          <div className=''>
+          <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>

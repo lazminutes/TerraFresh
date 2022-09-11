@@ -33,7 +33,7 @@ export default function Naga() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://asset.kompas.com/crops/uT43V1OGX3AjpKWFEydqz9NZwUM=/0x0:1125x750/750x500/data/photo/2021/03/10/60485483e977f.jpeg" class="d-block w-100" alt="..." />
               </div>
@@ -68,7 +68,7 @@ export default function Naga() {
             <h1>Rp 8000</h1>
           </div>
 
-          <div className=''>
+          <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>

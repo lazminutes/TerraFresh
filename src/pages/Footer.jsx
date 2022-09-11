@@ -1,4 +1,5 @@
 import '../Assets-Home/Home-css/home.css'
+import { Link } from 'react-router-dom'
 export default function () {
     return (
      
@@ -17,11 +18,11 @@ export default function () {
 
     <div className="box">
         <h3 className="titlefooter">quick links</h3>
-        <a href="#home">home</a>
-        <a href="#rekommendation">rekommendation</a>
-        <a href="#fitur">fitur</a>
-        <a href="#products">products</a>
-        <a href="#reviews">reviews</a>
+        <Link to='/'>home</Link> 
+       <Link to='/product'>Product</Link> 
+        <Link to='/about'> About </Link>
+        <Link to='/dasboard'>Dasboard</Link> 
+       
        
     </div>
 

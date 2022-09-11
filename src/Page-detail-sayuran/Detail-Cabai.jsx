@@ -34,7 +34,7 @@ export default function Cabai() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://asset.kompas.com/crops/0bQZazreqC3rXuoZOPv1FDQWLl4=/0x0:1000x667/750x500/data/photo/2020/03/26/5e7cbe05c9d12.jpg" class="d-block w-100" alt="..." />
               </div>
@@ -69,7 +69,7 @@ export default function Cabai() {
             <h1>Rp 5000</h1>
           </div>
 
-          <div className=''>
+          <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>

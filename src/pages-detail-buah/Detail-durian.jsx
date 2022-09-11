@@ -33,7 +33,7 @@ export default function Durian() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://foto.kontan.co.id/Yp201LSkwMEHn1ukrTpaZA9c_Mk=/smart/2022/05/31/921220359p.jpg" class="d-block w-100" alt="..." />
               </div>
@@ -68,7 +68,7 @@ export default function Durian() {
             <h1>Rp 10.000</h1>
           </div>
 
-          <div className=''>
+          <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,Pemetikan 2 hari </p>

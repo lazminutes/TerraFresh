@@ -33,7 +33,7 @@ export default function Pisang() {
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-light">
               <div class="carousel-item active text-center gambar-sawi">
                 <img src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1627458125/attached_image/sehat-tiap-hari-berkat-manfaat-pisang.jpg" class="d-block w-100" alt="..." />
               </div>
@@ -68,7 +68,7 @@ export default function Pisang() {
             <h1>Rp 4000</h1>
           </div>
 
-          <div className=''>
+          <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
             <p><span>Kondisi:</span>Segar,baru petik</p>
