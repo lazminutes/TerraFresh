@@ -25,6 +25,8 @@ import Kol from "./Page-detail-sayuran/Detail-kol"
 import Paprika from "./Page-detail-sayuran/Detail-paprika"
 import Terong from "./Page-detail-sayuran/Detail-Terong"
 import Wortel from "./Page-detail-sayuran/Detail-wortel"
+import Bawang from "./Page-detail-sayuran/Detail-bawang"
+import Tomat from "./Page-detail-sayuran/Detail-Tomat"
 
 //import detail buah
 import Apel from "./pages-detail-buah/Detail-apel"
@@ -118,7 +120,8 @@ function App() {
 <Route path='/produk/Buah/detail-Srikaya' element={<Srikaya/>}/>
 <Route path='/produk/Buah/detail-Sirsak' element={<Sirsak/>}/>
 <Route path='/produk/Buah/detail-Jambu-biji' element={<Jambu/>}/>
-
+<Route path='/produk/sayur/detail-Bawang-Merah' element={<Bawang/>}/>
+<Route path='/produk/Sayur/detail-Tomat' element={<Tomat/>}/>
 
       </Routes>
       

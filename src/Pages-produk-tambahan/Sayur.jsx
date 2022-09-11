@@ -278,6 +278,58 @@ export default function Sayur() {
            
           </div>
         </div>
+
+        <div class="card list-produk" >
+        <div className='item'>
+          <img src='https://ews.kemendag.go.id/file/news/Bawang%20Merah%20(3).jpg' class="card-img-top size-img" alt="" />
+          </div>
+          <div class="card-body">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+
+            <h5 class="card-title">Bawang Merah</h5>
+            <p class="card-text">Rp 3000</p>
+            <div className='shopnow'>
+               <Link to='/produk/sayur/detail-Bawang-Merah'>
+            <button class="btn-Costum">Detail</button>  
+          </Link>
+            <i className="fas fa-shopping-cart" />
+            </div>
+            <p>stock:10</p>
+           
+          </div>
+        </div>
+
+        <div class="card list-produk" >
+        <div className='item'>
+          <img src='https://png.pngtree.com/element_our/20190601/ourlarge/pngtree-big-tomato-complete-one-image_1333301.jpg' class="card-img-top size-img" alt="" />
+          </div>
+          <div class="card-body">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+
+            <h5 class="card-title">Tomat</h5>
+            <p class="card-text">Rp 5000</p>
+            <div className='shopnow'>
+               <Link to='/produk/sayur/detail-Tomat'>
+            <button class="btn-Costum">Detail</button>  
+          </Link>
+            <i className="fas fa-shopping-cart" />
+            </div>
+            <p>stock:10</p>
+           
+          </div>
+        </div>
         </div>
       </div>
       </>
