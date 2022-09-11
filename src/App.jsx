@@ -37,7 +37,8 @@ import Pepaya from "./pages-detail-buah/detail-pepaya"
 import Pisang from "./pages-detail-buah/detail-pisang"
 import Rambutan from "./pages-detail-buah/detail-rambutan"
 import Srikaya from "./pages-detail-buah/detail-srikaya"
-
+import Sirsak from "./pages-detail-buah/Detail-Sirsak"
+import Jambu from "./pages-detail-buah/Detail-Jambu"
 
 function App() {
 
@@ -115,6 +116,8 @@ function App() {
 <Route path='/produk/Buah/detail-Pisang' element={<Pisang/>}/>
 <Route path='/produk/Buah/detail-Rambutan' element={<Rambutan/>}/>
 <Route path='/produk/Buah/detail-Srikaya' element={<Srikaya/>}/>
+<Route path='/produk/Buah/detail-Sirsak' element={<Sirsak/>}/>
+<Route path='/produk/Buah/detail-Jambu-biji' element={<Jambu/>}/>
 
 
       </Routes>

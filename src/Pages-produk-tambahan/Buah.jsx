@@ -262,6 +262,59 @@ export default function Buah() {
            
           </div>
         </div>
+
+        
+        <div class="card list-produk" >
+        <div className='item'>
+          <img src='https://cdn-cas.orami.co.id/parenting/images/buah_sirsak.width-800.png' class="card-img-top  mini" alt="" />
+          </div>
+          <div class="card-body">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+
+            <h5 class="card-title">Sirsak</h5>
+            <p class="card-text">Rp 6000</p>
+            <div className='shopnow'>
+           <Link to='/produk/Buah/detail-Sirsak'>
+            
+            <button class="btn-Costum">Detail</button> </Link>
+           
+            <i className="fas fa-shopping-cart" />
+            </div>
+            <p>stock:10</p>
+           
+          </div>
+        </div>
+        
+        <div class="card list-produk" >
+        <div className='item'>
+          <img src='https://www.pngitem.com/pimgs/m/271-2714319_red-guava-png-free-download-jambu-biji-merah.png' class="card-img-top  mini" alt="" />
+          </div>
+          <div class="card-body">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+
+            <h5 class="card-title">Jambu Biji</h5>
+            <p class="card-text">Rp 3000</p>
+            <div className='shopnow'>
+           <Link to='/produk/Buah/detail-Jambu-biji'><button class="btn-Costum">Detail</button> </Link>
+           
+            <i className="fas fa-shopping-cart" />
+            </div>
+            <p>stock:10</p>
+           
+          </div>
+        </div>  
         </div>
       </div>
       </>
