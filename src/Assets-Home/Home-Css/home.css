@@ -267,18 +267,21 @@ color:  #10ed1b;
 
 .background-white{
     background-color: #fff;
-    margin: 1.5px;
+   width: 150px;
     border-radius: 30px;
+    height: 130px;
 }
 .background-white0{
     background-color: #fff;
-
+margin: 20px;
     border-radius: 30px;
+    width: 140px;
 }
 .background-white1{
     background-color: #fff;
-    
+    margin: 20px;
     border-radius: 30px;
+    width: 140px;
 }
 .carousel-inner{
     background-color: #ffc107;
