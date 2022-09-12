@@ -163,6 +163,9 @@ color:  #10ed1b;
     height: 300px;
 }
 
+.text-putih{
+    color: #fff;
+}
 /*Footer*/
 .footer .box-container{
     display: grid;

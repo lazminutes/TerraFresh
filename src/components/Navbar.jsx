@@ -8,7 +8,7 @@ export default function Navbar() {
      <nav class="navbar navbar-expand-lg bg-warning ">
   <div class="container-fluid">
   <NavLink className="nav-link text-light " to="/">
-    <img src={logo} alt="" className='logo animate__animated animate__lightSpeedInLeft animate__delay-0s' />
+    <img src={logo} alt="" className='logo animate__animated animate__lightSpeedInLeft animate__delay-0.8s' />
     </NavLink>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
