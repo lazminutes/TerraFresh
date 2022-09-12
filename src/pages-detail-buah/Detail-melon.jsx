@@ -12,7 +12,7 @@ export default function Melon() {
 
         <div className="col-md-4">
 
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide jarak-img" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn1-production-images-kly.akamaized.net/RpcsY13h2arvzigZnVQ2BztpZLg=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2788283/original/058257500_1556184725-iStock-910127132.jpg)" }}>

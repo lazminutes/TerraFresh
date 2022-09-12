@@ -12,7 +12,7 @@ export default function Jambu() {
 
         <div className="col-md-4">
 
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide jarak-img" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn1-production-images-kly.akamaized.net/975JKeyMdOPveo3s1BeTv3XoXCM=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1906218/original/077629500_1518794656-Benarkah-Tanaman-Jambu-Efektif-Atasi-Diare.jpg)" }}>

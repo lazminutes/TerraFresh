@@ -12,7 +12,7 @@ export default function Durian() {
 
         <div className="col-md-4">
 
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide jarak-img" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://foto.kontan.co.id/Yp201LSkwMEHn1ukrTpaZA9c_Mk=/smart/2022/05/31/921220359p.jpg)" }}>

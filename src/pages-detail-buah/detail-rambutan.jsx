@@ -12,7 +12,7 @@ export default function Rambutan() {
 
         <div className="col-md-4">
 
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide jarak-img" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://cdn1.katadata.co.id/media/images/thumb/2022/03/21/Buah_rambutan-2022_03_21-10_11_16_969b80bf4ce0bb4fcec98c1806b97af9_400x267_thumb.jpg)" }}>

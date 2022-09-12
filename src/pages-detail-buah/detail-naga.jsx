@@ -12,7 +12,7 @@ export default function Naga() {
 
         <div className="col-md-4">
 
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide jarak-img" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://asset.kompas.com/crops/uT43V1OGX3AjpKWFEydqz9NZwUM=/0x0:1125x750/750x500/data/photo/2021/03/10/60485483e977f.jpeg)" }}>
