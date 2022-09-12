@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom"
+import '../src/Assets-Home/Home-Css/home.css'
 import Navbar from "./components/Navbar"
 import Home from "./pages/Home"
 import Product from "./pages/Product"
@@ -62,9 +63,9 @@ function App() {
         }
         />
         <Route path="/about" element={
-          <LayoutDefault>
+         
             <About />
-          </LayoutDefault>
+      
         }
         />
         <Route path="/cart" element={

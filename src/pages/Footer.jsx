@@ -35,13 +35,6 @@ export default function () {
         <a href="#">Sumbawa, NTB, - 84456</a>
     </div>
 
-    <div className="box">
-        <h3 className="titlefooter">follow us</h3>
-        <a href="#">facebook</a>
-        <a href="#">twitter</a>
-        <a href="#">instagram</a>
-        <a href="#">linkedin</a>
-    </div>
 
 </div >
 

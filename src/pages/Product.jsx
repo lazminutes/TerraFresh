@@ -12,7 +12,7 @@ export default function Product() {
       <Navbar />
       <div className='produk'>
         <div className='text-center'>
-          <h2>Produk</h2>
+          <h2 className=' title-web'>Produk</h2>
           <div className='row '>
 
           

@@ -96,7 +96,7 @@ export default function Home() {
       {/* fitur */}
       <div className='fitur '>
         <div className='text-center '>
-          <h1 className='title-fitur'>FITUR KAMI</h1>
+          <h1 className='title-fitur title-web'>FITUR KAMI</h1>
           <br />
         </div>
 
