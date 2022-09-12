@@ -4,6 +4,9 @@
     background-color: #ffc107;
     
 }
+
+  
+
 .carousel-inner{
     height: 600px;
 } 
@@ -182,6 +185,12 @@ color:  #10ed1b;
 
 
 @media screen and (max-width:420px){
+
+    
+    .logo{
+        width: 100px;
+    }
+    
     .img{
         width: 200px;
     }

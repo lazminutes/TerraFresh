@@ -18,7 +18,7 @@ export default function Home() {
 <Navbar />
       {/* // Carousel start */}
      
-      <div id="carouselExampleFade" className="carousel slide carousel-fade " data-bs-ride="carousel"> 
+      <div id="carouselExampleFade" className="carousel slide carousel-fade bg-warning" data-bs-ride="carousel "> 
         <div className="carousel-inner backgroundHome">
 
           {/* slide 1 */}

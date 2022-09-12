@@ -12,7 +12,7 @@ export default function Kentang() {
 
         <div className="col-md-4">
 
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide jarak-img" data-bs-ride="carousel">
             <div className='carousel-controls'>
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active " aria-current="true" aria-label="Slide 1" style={{ backgroundImage:"url(https://awsimages.detik.net.id/community/media/visual/2017/02/02/32fb49bc-a1b8-4a8c-9349-a84c1f7083fc.jpg?w=700&q=90)" }}>
