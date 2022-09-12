@@ -94,7 +94,7 @@ export default function Home() {
       {/* carousel end */}
 
       {/* fitur */}
-      <div className='fitur'>
+      <div className='fitur '>
         <div className='text-center '>
           <h1 className='title-fitur'>FITUR KAMI</h1>
           <br />
@@ -103,16 +103,16 @@ export default function Home() {
         <div className='fitur-all'>
 
           <div className='fitur-1 col-md-3 text-center background-white0'>
-            <i class="fa-solid fa-truck-fast icon"></i>
+            <i class="fa-solid fa-truck-fast icon animate__animated animate__bounce animate__delay-0s"></i>
             <br />
             <br />
-            <p className='deskripsi'>fast delivery
+            <p className='deskripsi '>fast delivery
               aman sampai tujuan</p>
           </div>
 
 
           <div className='fitur-1 col-md-3 text-center background-white'>
-            <i class="fa-solid fa-hand-holding-dollar icon"></i>
+            <i class="fa-solid fa-hand-holding-dollar icon animate__animated animate__bounce animate__delay-0s"></i>
             <br />
             <br />
             <p className='deskripsi'>COD System, bisa bayar di tempat</p>
@@ -120,7 +120,7 @@ export default function Home() {
 
 
           <div className='fitur-1 col-md-3 text-center background-white1'>
-            <i class="fa-solid fa-seedling icon" ></i>
+            <i class="fa-solid fa-seedling icon animate__animated animate__bounce animate__delay-0s" ></i>
             <br />
             <br />
             <p className='deskripsi'>100% Organic, tanpa Pestisida</p>

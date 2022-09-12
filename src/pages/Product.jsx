@@ -16,7 +16,7 @@ export default function Product() {
           <div className='row '>
 
           
-              <div className='col-md-6 selsectproduk' style={{
+              <div className='col-md-6 selsectproduk animate__animated animate__bounceIn animate__delay-0s' style={{
                 borderRadius: '100px'
               }} >
                   <Link to='/produk/sayur'><img src={sayuran} alt="" className='imgproduk' /> </Link>
@@ -25,7 +25,7 @@ export default function Product() {
            
 
             
-              <div className='col-md-6 selsectproduk'
+              <div className='col-md-6 selsectproduk animate__animated animate__bounceIn animate__delay-0s'
                 style={{
                   borderRadius: '100px'
                 }}
