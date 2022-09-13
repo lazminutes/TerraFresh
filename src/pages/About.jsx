@@ -6,15 +6,19 @@ export default function About() {
     <>
       <Navbar />
       <div className="Title bg-warning">
+        
         <h3 className="title-web text-center">Terra Team</h3>
         <div className="imgAbout text-center d-flex align-items-center">
 
           <div className='Link'>
-          <a href="">
+           
+          <a href=""> 
+           
             <img src="https://nando-portofolio.netlify.app/static/media/foto.b2867b0ab5404a6aeff3.jpg" alt="" className="anggota nimate__animated animate__bounceIn animate__delay-1s" />
               </a>
+            
             <p className="text-putih">Nandito</p>
-
+           
           
           </div>
 
@@ -61,7 +65,7 @@ export default function About() {
 
         <div>
           <h1 className="title-web text-center ">Terra Fresh</h1>
-          <p className="col-6 text-center about-text"> TerraFresh berguna untuk membantu pembeli dalam memilih buah dan sayuran yang berkualitas, kaya akan kandungan gizi, dan ramah lingkungan.  Permasalahan yang ada diberbagai negara khususnya di Indonesia, buah maupun sayuran yang komersil di pasaran  saat ini masih banyak yang mengandung bahan kimia. Hal tersebut tentunya mengkhawatirkan masyarakat yang ingin membeli karena berbagai dampak negatif bagi kesehatan. Untuk menjawab permasalahan tersebut, TerraFresh ini hadir untuk membantu masyarakat dalam memilih dan membeli buah maupun sayuran yang kaya akan kandungan gizi serta 100% organik tanpa bahan kimia.  </p>
+          <p className="col-10 text-center about-text"> TerraFresh berguna untuk membantu pembeli dalam memilih buah dan sayuran yang berkualitas, kaya akan kandungan gizi, dan ramah lingkungan.  Permasalahan yang ada diberbagai negara khususnya di Indonesia, buah maupun sayuran yang komersil di pasaran  saat ini masih banyak yang mengandung bahan kimia. Hal tersebut tentunya mengkhawatirkan masyarakat yang ingin membeli karena berbagai dampak negatif bagi kesehatan. Untuk menjawab permasalahan tersebut, TerraFresh ini hadir untuk membantu masyarakat dalam memilih dan membeli buah maupun sayuran yang kaya akan kandungan gizi serta 100% organik tanpa bahan kimia.  </p>
         </div>
 
       </div>

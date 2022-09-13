@@ -47,12 +47,14 @@
     border-radius: 30px;
     color: #fff;
     font-size: 20px;
+ 
  }
  .btn-Costum:hover{
     background-color:white;
     font-size: 23px;
     color: #ffc107;
     transition: 0.4s;
+ 
  }
 
  /* Fitur */
@@ -143,12 +145,21 @@ color:  #10ed1b;
     font-size: 40px;
     color: #fff;
 }
+/*img-about*/
 .anggota{
     width: 100px;
     border-radius: 100%;
     margin:40px;
-    
+    filter: grayscale(100%);
 }
+.anggota:hover{
+    filter: grayscale(0%);
+    width: 105px;
+    transition: 0.2s ease-in-out;
+}
+
+
+
 .imgAbout{
     margin-left: 200px;
     flex-wrap: wrap;
@@ -156,9 +167,9 @@ color:  #10ed1b;
     font-family: 'Permanent Marker', cursive;
 }
 
-.about-text{
-    margin-top: 40px;
-    margin-left: 350px;
+.about-text {
+    margin-top: 45px;
+   margin-left: 100px;
     color: rgba(0, 0, 0, 0.37);
     height: 300px;
 }
@@ -166,6 +177,13 @@ color:  #10ed1b;
 .text-putih{
     color: #fff;
 }
+
+.bg{
+    position: absolute;
+    width: 100px;
+}
+
+
 /*Footer*/
 .footer .box-container{
     display: grid;
@@ -393,6 +411,41 @@ margin: 20px;
     color:#ffc107;
 }
 
+
+/*About*/
+.title-web{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: #fff;
+
+}
+.anggota{
+    width: 50px;
+    border-radius: 100%;
+    margin:10px;
+    
+}
+.imgAbout{
+    margin-left: 10px;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.about-text{
+    margin-top: 40px;
+    margin-left: 30px;
+  margin-right: 0px;
+    color: rgba(0, 0, 0, 0.37);
+    height: 250px;
+    font-size: 10px;
+}
+
+.text-putih{
+    color: #fff;
+}
 
 
 }
