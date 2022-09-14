@@ -1,0 +1,107 @@
+
+/* 
+body {
+    padding: 5px;
+    background-color: #f1bb01;
+} 
+
+ p {
+    margin: 0%;
+} */
+
+
+
+
+.box-1 {
+    max-width: 450px;
+    padding: 10px 40px;
+    user-select: none;
+}
+
+.box-1 img.pic {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.dis {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+label.box {
+    width: 100%;
+    font-size: 12px;
+    background: #ddd;
+    margin-top: 12px;
+    padding: 10px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+img{
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* warna border radiobtn */
+
+#one:checked~label.first,
+#two:checked~label.second,
+#three:checked~label.third,
+#four:checked~label.fourth,
+#five:checked~label.fifth,
+#six:checked~label.sixth,
+#seven:checked~label.seventh {
+    border-color: #f1bb01;
+}
+
+/* warna bullet radio btn */
+#one:checked~label.first .circle,
+#two:checked~label.second .circle,
+#three:checked~label.third .circle,
+#four:checked~label.fourth .circle,
+#five:checked~label.fifth .circle,
+#six:checked~label.sixth .circle, 
+#seven:checked~label.seventh .circle {
+    border-color: #f1bb01;
+    background-color: #fff;
+}
+
+label.box .course {
+    width: 100%;
+}
+
+/* membuat bullet */
+label.box .circle {
+    height: 12px;
+    width: 12px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 4px solid transparent;
+    display: inline-block;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.box-2 {
+    max-width: 450px;
+    padding: 10px 40px;
+}
+
+/* warna form alamat*/
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #f1bb01;
+}
+
+::placeholder {
+    font-size: 12px;
+}
