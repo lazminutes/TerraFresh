@@ -1,6 +1,13 @@
 import React from 'react'
 import "./style.css";
 import ava from "../assets/ava.png"
+import tera from "../assets/tera.jpg"
+import bni from "../assets/bni.png"
+import bri from "../assets/bri.png"
+import bsi from "../assets/bsi.png"
+import grab from "../assets/grab.png"
+import gojek from "../assets/gojek.png"
+import mandiri from "../assets/mandiri.png"
 
 
 export default function Payment() {
@@ -11,7 +18,7 @@ export default function Payment() {
         {/* Box 1 */}
         <div className="box-1 bg-light user" style={{marginTop: '20px'}}>
           <div className="d-flex align-items-center mb-3">
-            <img src={ava} className="pic rounded-circle" alt="avatar" />
+            <img className="pic rounded-circle imagine" src={ava}  alt="avatar" />
             <p className="ps-2 name"  style={{marginTop: '20px'}}>user</p>
           </div>
           {/* Pembayaran */}
@@ -73,7 +80,7 @@ export default function Payment() {
               <label htmlFor="one" className="box py-2 first">
                 <div className="d-flex align-items-start">
                   <span className="circle" style={{marginTop: '15px'}} />
-                  <img src="Img/grab.png" alt="" />
+                  <img className="imagine" src={grab} alt="" />
                   <div className="course">
                     <div className="d-flex align-items-center justify-content-between mb-2">
                       <span className="fw-bold">
@@ -87,7 +94,7 @@ export default function Payment() {
               <label htmlFor="two" className="box py-2 second">
                 <div className="d-flex">
                   <span className="circle" style={{marginTop: '15px'}} />
-                  <img src="Img/gojek.png" alt="" />
+                  <img className="imagine" src={gojek} alt="" />
                   <div className="course">
                     <div className="d-flex align-items-center justify-content-between mb-2">
                       <span className="fw-bold">
@@ -134,7 +141,7 @@ export default function Payment() {
                 <label htmlFor="three" className="box py-2 third">
                   <div className="d-flex">
                     <span className="circle" style={{marginTop: '15px'}} />
-                    <img src="Img/tera.jpg" alt="" />
+                    <img className="imagine" src={tera} alt="" />
                     <div className="course">
                       <div className="d-flex align-items-center justify-content-between mb-2">
                         <span className="fw-bold">
@@ -148,7 +155,7 @@ export default function Payment() {
                 <label htmlFor="four" className="box py-2 fourth">
                   <div className="d-flex">
                     <span className="circle" style={{marginTop: '15px'}} />
-                    <img src="Img/bri.png" alt="" />
+                    <img className="imagine" src={bri} alt="" />
                     <div className="course">
                       <div className="d-flex align-items-center justify-content-between mb-2">
                         <span className="fw-bold">
@@ -162,7 +169,7 @@ export default function Payment() {
                 <label htmlFor="five" className="box py-2 fifth">
                   <div className="d-flex">
                     <span className="circle" style={{marginTop: '15px'}} />
-                    <img src="Img/bni.PNG" alt="" />
+                    <img className="imagine" src={bni} alt="" />
                     <div className="course">
                       <div className="d-flex align-items-center justify-content-between mb-2">
                         <span className="fw-bold">
@@ -176,7 +183,7 @@ export default function Payment() {
                 <label htmlFor="six" className="box py-2 sixth">
                   <div className="d-flex">
                     <span className="circle" style={{marginTop: '15px'}} />
-                    <img src="Img/bsi1.PNG" alt="" />
+                    <img className="imagine" src={bsi} alt="" />
                     <div className="course">
                       <div className="d-flex align-items-center justify-content-between mb-2">
                         <span className="fw-bold">
@@ -190,7 +197,7 @@ export default function Payment() {
                 <label htmlFor="seven" className="box py-2 seventh">
                   <div className="d-flex">
                     <span className="circle" style={{marginTop: '15px'}} />
-                    <img src="Img/mandiri.png" alt="" />
+                    <img className="imagine" src={mandiri} alt="" />
                     <div className="course">
                       <div className="d-flex align-items-center justify-content-between mb-2">
                         <span className="fw-bold">

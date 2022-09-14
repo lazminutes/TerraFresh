@@ -10,8 +10,6 @@ body {
 } */
 
 
-
-
 .box-1 {
     max-width: 450px;
     padding: 10px 40px;
@@ -40,7 +38,7 @@ label.box {
     border: 1px solid transparent;
 }
 
-img{
+.imagine{
     margin-right: 10px;
     margin-top: 5px;
     width: 30px;
