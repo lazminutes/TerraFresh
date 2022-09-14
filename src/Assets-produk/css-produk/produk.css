@@ -1,0 +1,107 @@
+.produk{
+    background-color: #ffc107;
+}
+.imgproduk{
+    width: 500px;
+    margin-top:60px;
+}
+.imgproduk:hover{
+    width: 600px;
+    transition: 0.4s;
+}
+
+
+.imgprodukb{
+    width: 500px;
+    margin-top: 60px;
+}
+.imgprodukb:hover{
+    width: 600px;
+    transition: 0.4s;
+}
+
+
+.produk{
+    height: 600px;
+}
+.selsectproduk{
+    height:400px;
+}
+
+/* SAyur page */
+.list-produk{
+    width: 200px;
+    margin:10px;
+} 
+.item{
+    width: 150px;
+    height: 150px;
+}
+.Sayur{
+    flex-wrap: wrap;
+    
+    margin-left:100px ;
+}
+ .size-img{
+    width: 150px !important;
+    margin-left: 30px !important;
+    margin-top: 20px !important;
+ }
+ .mini{
+    width: 200px !important;
+   
+ }
+ 
+@media screen and (max-width:420px){
+
+    .imgproduk{
+        width: 100px;
+    }
+    .imgproduk:hover{
+        width: 150px;
+        transition: 0.4s;
+    }
+    .imgprodukb{
+        width: 100px;
+        margin-top: 120px;
+    }
+    .imgprodukb:hover{
+        width: 150px;
+        transition: 0.4s;
+    }
+    .selsectproduk{
+        height:100px;
+    }
+    .produk{
+        height: 450px;
+    }
+
+    /* SAyur page */
+    .list-produk{
+    width: 100px;
+    height: 10px;
+}
+.item{
+    width: 50px;
+    height: 50px;
+}
+.card-title{
+    font-size: 10px;
+}
+.Sayur{
+    flex-wrap: wrap;
+    
+    margin-left:30px ;
+}
+.size-img{
+    width: 50px !important;
+    margin-left: 20px !important;
+    margin-top: 15px !important;
+ }
+ .mini{
+    width: 70px !important;
+    margin-left: 20px !important;
+    margin-top: 15px !important;
+ }
+ 
+}

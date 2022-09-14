@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/* background corusel */
+.backgroundHome{
+    background-color: #ffc107;
+    
+}
+
+  
+
+.carousel-inner{
+    height: 600px;
+} 
+.img{
+    width: 700px;
+    
+}
+.img2{
+    width: 700px;
+    height: 557px;
+}
+
+.info{
+    background-color: black;
+    color: #fff;
+}
+
+
+/* teks */
+.Text{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+.deskripsi{
+    color: rgb(74, 74, 74);
+}
+
+
+
+ /* Button */
+ .btn-Costum{
+    background-color: #d2a10e;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+ 
+ }
+ .btn-Costum:hover{
+    background-color:white;
+    font-size: 23px;
+    color: #ffc107;
+    transition: 0.4s;
+ 
+ }
+
+ /* Fitur */
+.fitur{
+    background-color: #ffc107;
+    height: 400px;
+}
+
+.icon{
+    color: #fff;
+    font-size: 100px;
+}
+.icon:hover{
+font-size: 120px;
+}
+
+.fitur-all{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    height: 250px;
+} 
+
+/* fitur rinci */
+.fa-truck-fast{
+    margin-top: 15px;
+color: red;
+}
+.fa-hand-holding-dollar{
+    margin-top: 15px;
+color: green;
+}
+.fa-seedling{
+    margin-top: 15px;
+color:  #10ed1b;
+}
+
+.background-white{
+    background-color: #fff;
+    margin: 1.5px;
+    border-radius: 30px;
+}
+.background-white0{
+    background-color: #fff;
+    margin-left: 75px;
+    border-radius: 30px;
+}
+.background-white1{
+    background-color: #fff;
+    margin-right: 75px;
+    border-radius: 30px;
+}
+
+
+
+/* TopRecomned */
+
+.card{
+ background-color: #fff;
+ box-shadow: black;
+}
+
+/* swiper img*/
+.fruit{
+    height: 130px;
+}
+
+.btn-warning{
+    margin: 0;
+}
+
+.stars{
+    color: #ffc107;
+}
+
+.shopnow{
+    display: flex;
+}
+
+.fa-shopping-cart{
+    margin-left: 50px;
+}
+
+
+/*About*/
+.title-web{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color: #fff;
+}
+/*img-about*/
+.anggota{
+    width: 100px;
+    border-radius: 100%;
+    margin:40px;
+    filter: grayscale(100%);
+}
+.anggota:hover{
+    filter: grayscale(0%);
+    width: 105px;
+    transition: 0.2s ease-in-out;
+}
+
+
+
+.imgAbout{
+    margin-left: 200px;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.about-text {
+    margin-top: 45px;
+   margin-left: 100px;
+    color: rgba(0, 0, 0, 0.37);
+    height: 300px;
+}
+
+.text-putih{
+    color: #fff;
+}
+
+.bg{
+    position: absolute;
+    width: 100px;
+}
+
+
+/*Footer*/
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+    
+}
+
+.footer .box-container .box h3{
+    padding:.5rem 0;
+    font-size: 2rem;
+    color:black;
+}
+
+.footer .box-container .box a{
+    display: block;
+    padding:.5rem 0;
+    font-size: 1rem;
+    color:grey;
+}
+
+.footer .box-container .box a:hover{
+    color:#ffc107;
+    text-decoration: underline;
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    font-size: 2rem;
+    color:var(--black);
+    padding:.5rem;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.footer .credit span{
+    color:#ffc107;
+}
+
+
+.logo{
+    width: 200px;
+}
+
+
+
+@media screen and (max-width:420px){
+
+    
+    .logo{
+        width: 100px;
+    }
+    
+    .img{
+        width: 200px;
+    }
+    .img2{
+        width: 200px;
+        height: 157px;
+    }
+
+    .info{
+        background-color: black;
+        color: #fff;
+        font-size: 5px;
+    }
+    
+    
+    /* teks */
+    .Text{
+        color: #fff;
+        font-size: 15px;
+    }
+    
+    .deskripsi{
+        color: rgb(74, 74, 74);
+        font-size: 5px;
+    }
+    
+     /* Button */
+     .btn-Costum{
+        background-color: #d2a10e;
+        border: none;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 10px;
+        
+     }
+     .btn-Costum:hover{
+        background-color:white;
+        font-size: 23px;
+        color: #ffc107;
+        transition: 0.4s;
+        font-size: 13px;
+        
+     }
+/* Fitur */
+
+.fitur{
+    background-color: #ffc107;
+    height: 240px;
+}
+.title-fitur{
+font-size: 20px;
+
+}
+
+.icon{
+    color: #fff;
+    font-size: 50px;
+}
+.icon:hover{
+font-size: 60px;
+}
+
+.fitur-all{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    height: 150px;
+} 
+
+/* fitur rinci */
+.fa-truck-fast{
+    margin-top: 15px;
+color: red;
+}
+.fa-hand-holding-dollar{
+    margin-top: 15px;
+color: green;
+}
+.fa-seedling{
+    margin-top: 15px;
+color:  #10ed1b;
+}
+
+.background-white{
+    background-color: #fff;
+   width: 150px;
+    border-radius: 30px;
+    height: 130px;
+}
+.background-white0{
+    background-color: #fff;
+margin: 20px;
+    border-radius: 30px;
+    width: 140px;
+}
+.background-white1{
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 30px;
+    width: 140px;
+}
+.carousel-inner{
+    background-color: #ffc107;
+    height: 250px;
+}
+     /* TopREcomend */
+
+.card{
+    width: 10rem;
+    height: 7rem;
+    font-size: 8px;
+}
+
+
+/* swiper img*/
+.fruit{
+    height: 80px;
+    width: 60px;
+    align-items: center;
+}
+
+.btn-warning{
+    font-size: 10px !important;
+}
+
+.fa-shopping-cart{
+    margin-left: 30px;
+}
+
+.imgTR{
+    width: 50px;
+}
+/* Footer */
+.footer .box-container{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    flex-wrap: wrap;
+    gap:1.5rem;
+    justify-content: space-around;
+}
+
+.footer .box-container .box h3{
+    padding:.5rem 0;
+    font-size: 10px;
+    color:black;
+}
+
+.footer .box-container .box a{
+    display: block;
+    padding:.5rem 0;
+    font-size:10px;
+    color:grey;
+}
+
+.footer .box-container .box a:hover{
+    color:#ffc107;
+    text-decoration: underline;
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid rgba(0,0,0,.1);
+    font-size:10px;
+    color:black;
+    padding:.5rem;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.footer .credit span{
+    color:#ffc107;
+}
+
+
+/*About*/
+.title-web{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: #fff;
+
+}
+.anggota{
+    width: 50px;
+    border-radius: 100%;
+    margin:10px;
+    
+}
+.imgAbout{
+    margin-left: 10px;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: 'Permanent Marker', cursive;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.about-text{
+    margin-top: 40px;
+    margin-left: 30px;
+  margin-right: 0px;
+    color: rgba(0, 0, 0, 0.37);
+    height: 250px;
+    font-size: 10px;
+}
+
+.text-putih{
+    color: #fff;
+}
+
+
+}
