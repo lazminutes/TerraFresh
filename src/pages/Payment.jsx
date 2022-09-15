@@ -14,9 +14,9 @@ export default function Payment() {
   return (
         <>
         {/*Container*/}
-      <div className="container d-lg-flex" style={{borderRadius: '15px'}}>
+      <div className="d-lg-flex contain border border-warning shadow-inner" style={{borderRadius: '15px', boxShadow:"rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px"}}>
         {/* Box 1 */}
-        <div className="box-1 bg-light user" style={{marginTop: '20px'}}>
+        <div className="box-1 bg-light user" style={{marginTop: '20px', margin: 'auto'}}>
           <div className="d-flex align-items-center mb-3">
             <img className="pic rounded-circle imagine" src={ava}  alt="avatar" />
             <p className="ps-2 name"  style={{marginTop: '20px'}}>user</p>
@@ -230,7 +230,7 @@ export default function Payment() {
                 <p className="fw-bold">Total</p>
                 <p className="fw-bold">Rp 25.000</p>
               </div>
-              <div className="btn btn-warning mt-2">Bayar Rp50.000</div>
+              <div className="btn btn-warning mt-2" style={{boxShadow:"rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset"}}>Bayar Rp50.000</div>
             </div>
           </div>
         </div>
