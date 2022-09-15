@@ -112,10 +112,6 @@ color:  #10ed1b;
 
 /* TopRecomned */
 
-.card{
- background-color: #fff;
- box-shadow: black;
-}
 
 /* swiper img*/
 .fruit{
@@ -345,11 +341,11 @@ margin: 20px;
 }
      /* TopREcomend */
 
-.card{
-    width: 10rem;
+/* .card{
+    width: 100rem;
     height: 7rem;
     font-size: 8px;
-}
+} */
 
 
 /* swiper img*/

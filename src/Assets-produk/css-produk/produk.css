@@ -153,5 +153,58 @@ transition: 0.4s;
     margin-left: 20px !important;
     margin-top: 15px !important;
  }
+
+
+ .editStart{
+    font-size: 5px;
+    float: right;
+}
  
+.oval{
+    width: 50px;
+    height: 50px;
+    background-color: #ffc107;
+    border-radius: 100%;
+    position:absolute;
+   margin-left: 25px;
+   margin-top: 10px;
+   display: none;
+}
+
+.item:hover  {
+    visibility: visible;
+    height: 70px;
+    margin-top: 0px;
+    transition: 0.4s;
+  
+     }
+
+    .btn-Costum{
+        font-size: 5px;
+    }
+
+    
+    .item:hover .oval{
+        display: block;
+        transition: 0.4s;
+    }
+     
+    .item:hover .size-img{
+        width: 55px !important;
+        transition: 0.5s;
+     }
+    
+     .bodyCard{
+        height: 85px;
+    }
+    
+    .item:hover .shopnow {
+        visibility: visible;
+        height: 70px;
+        margin-top: 20px;
+        transition: 0.4s;
+        margin-left: 50px;
+         }
+
+
 }
