@@ -47,11 +47,11 @@
     border-radius: 30px;
     color: #fff;
     font-size: 20px;
- 
+ padding: 10px;
  }
  .btn-Costum:hover{
     background-color:white;
-    font-size: 23px;
+  border: 1px solid #ffc107;
     color: #ffc107;
     transition: 0.4s;
  

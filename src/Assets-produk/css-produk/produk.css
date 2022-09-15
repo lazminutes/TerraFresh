@@ -28,15 +28,27 @@
     height:400px;
 }
 
+.bodyCard{
+    height: 145px;
+}
+
+.editStart{
+    font-size: 10px;
+    float: right;
+}
+
+
+
 /* SAyur page */
 .list-produk{
     width: 200px;
     margin:10px;
 } 
 .item{
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: 199px;
 }
+
 .Sayur{
     flex-wrap: wrap;
     
@@ -44,14 +56,52 @@
 }
  .size-img{
     width: 150px !important;
-    margin-left: 30px !important;
-    margin-top: 20px !important;
- }
- .mini{
-    width: 200px !important;
+    position: relative;
    
  }
+
  
+
+ .oval{
+    width: 150px;
+    height: 150px;
+    background-color: #ffc107;
+    border-radius: 100%;
+    position:absolute;
+   margin-left: 25px;
+   margin-top: 10px;
+   display: none;
+}
+
+ .mini{
+    width: 200px !important;
+    position: relative;
+ }
+ .shopnow{
+    justify-content: center;
+    height: 120px;
+  visibility: hidden;
+ position: relative;
+ }
+
+ .item:hover .shopnow {
+visibility: visible;
+height: 70px;
+margin-top: 20px;
+transition: 0.4s;
+ }
+
+.item:hover .oval{
+    display: block;
+    transition: 0.4s;
+}
+ 
+.item:hover .size-img{
+    width: 165px !important;
+    transition: 0.5s;
+ }
+
+
 @media screen and (max-width:420px){
 
     .imgproduk{
