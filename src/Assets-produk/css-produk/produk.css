@@ -30,13 +30,13 @@
 
 .bodyCard{
     height: 145px;
+    margin-top: 30px;
 }
 
 .editStart{
     font-size: 10px;
     float: right;
 }
-
 
 
 /* SAyur page */
@@ -101,6 +101,11 @@ transition: 0.4s;
     transition: 0.5s;
  }
 
+ .tengah{
+    margin-top: 20px;
+ }
+
+ 
 
 @media screen and (max-width:420px){
 
@@ -161,12 +166,12 @@ transition: 0.4s;
 }
  
 .oval{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: #ffc107;
     border-radius: 100%;
     position:absolute;
-   margin-left: 25px;
+   margin-left: 20px;
    margin-top: 10px;
    display: none;
 }
@@ -196,15 +201,24 @@ transition: 0.4s;
     
      .bodyCard{
         height: 85px;
+        
     }
     
     .item:hover .shopnow {
         visibility: visible;
         height: 70px;
-        margin-top: 20px;
+        margin-top: 0px;
         transition: 0.4s;
         margin-left: 50px;
          }
+.stock{
+font-size: 10px;
+}
+.card-text{
+    font-size: 10px;
+    margin: 0;
+}
+
 
 
 }

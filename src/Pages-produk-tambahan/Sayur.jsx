@@ -34,7 +34,7 @@ export default function Sayur() {
         <div class="card list-produk" >
         <div className='item'>
           <div className='oval'></div>
-          <img src={sawi} class="card-img-top size-img" alt="" />
+          <img src={sawi} class="card-img-top size-img tengah sedang" alt="" />
 
           <div className='shopnow align-items-center'>
          <Link to='/produk/sayur/detail-sawi'>  <button class="btn-Costum">Detail</button> </Link> 
@@ -55,14 +55,14 @@ export default function Sayur() {
             <h5 class="card-title">Sawi</h5>
             <p class="card-text">Rp 2000</p>
             
-            <p>stock:10</p>
+            <p className='stock'>stock:10</p>
            
           </div>
         </div>
         <div class="card list-produk" >
         <div className='item'>
           <div className='oval'></div>
-          <img src={bayam} class="card-img-top size-img" alt="" />
+          <img src={bayam} class="card-img-top size-img tengah" alt="" />
 
           <div className='shopnow align-items-center'>
               <Link to='/produk/sayur/detail-bayam'>
@@ -84,14 +84,14 @@ export default function Sayur() {
             <h5 class="card-title">bayam</h5>
             <p class="card-text">Rp 3000</p>
            
-            <p>stock:10</p>
+            <p className='stock'>stock:10</p>
            
           </div>
         </div>
         <div class="card list-produk" >
         <div className='item'>
           <div className='oval'></div>
-          <img src={cabai} class="card-img-top size-img" alt="" />
+          <img src={cabai} class="card-img-top size-img tengah" alt="" />
 
           <div className='shopnow align-items-center'>
               <Link to='/produk/sayur/detail-cabai'>
@@ -113,14 +113,14 @@ export default function Sayur() {
             <h5 class="card-title">cabai</h5>
             <p class="card-text">Rp 5000</p>
           
-            <p>stock:10</p>
+            <p className='stock'>stock:10</p>
            
           </div>
         </div>
         <div class="card list-produk" >
         <div className='item'>
           <div className='oval'></div>
-          <img src={kentang} class="card-img-top size-img" alt="" />
+          <img src={kentang} class="card-img-top size-img tengah" alt="" />
 
           <div className='shopnow align-items-center'>
               <Link to='/produk/sayur/detail-Kentang'>
@@ -142,14 +142,14 @@ export default function Sayur() {
             <h5 class="card-title">Kentang</h5>
             <p class="card-text">Rp 5000</p>
          
-            <p>stock:10</p>
+            <p className='stock'>stock:10</p>
            
           </div>
         </div>
         <div class="card list-produk" >
         <div className='item'>
           <div className='oval'></div>
-          <img src={kol} class="card-img-top mini" alt="" />
+          <img src={kol} class="card-img-top mini tengah" alt="" />
 
           <div className='shopnow align-items-center'>
               <Link to='/produk/sayur/detail-Kol'>
@@ -171,14 +171,14 @@ export default function Sayur() {
             <h5 class="card-title">Kol</h5>
             <p class="card-text">Rp 2000</p>
            
-            <p>stock:10</p>
+            <p className='stock'>stock:10</p>
            
           </div>
         </div>
         <div class="card list-produk" >
         <div className='item'>
           <div className='oval'></div>
-          <img src={paprika} class="card-img-top size-img" alt="" />
+          <img src={paprika} class="card-img-top size-img tengah" alt="" />
 
 
           <div className='shopnow align-items-center'>
@@ -201,14 +201,14 @@ export default function Sayur() {
             <h5 class="card-title">Paprika</h5>
             <p class="card-text">Rp 6000</p>
           
-            <p>stock:10</p>
+            <p className='stock'>stock:10</p>
            
           </div>
         </div>
         <div class="card list-produk" >
         <div className='item'>
           <div className='oval'></div>
-          <img src={wortel} class="card-img-top size-img" alt="" />
+          <img src={wortel} class="card-img-top size-img tengah" alt="" />
 
           <div className='shopnow align-items-center'>
               <Link to='/produk/sayur/detail-Wortel'> 
@@ -230,14 +230,14 @@ export default function Sayur() {
             <h5 class="card-title">Wortel</h5>
             <p class="card-text">Rp 4000</p>
           
-            <p>stock:10</p>
+            <p className='stock'>stock:10</p>
            
           </div>
         </div>
         <div class="card list-produk" >
         <div className='item'>
           <div className='oval'></div>
-          <img src={kangkung}class="card-img-top size-img" alt="" />
+          <img src={kangkung}class="card-img-top size-img tengah" alt="" />
 
           <div className='shopnow align-items-center'>
               <Link to='/produk/sayur/detail-Kangkung'>
@@ -259,14 +259,14 @@ export default function Sayur() {
             <h5 class="card-title">Kangkung</h5>
             <p class="card-text">Rp 3000</p>
            
-            <p>stock:10</p>
+            <p className='stock'>stock:10</p>
            
           </div>
         </div>
         <div class="card list-produk" >
         <div className='item'>
           <div className='oval'></div>
-          <img src={kecamba} class="card-img-top size-img" alt="" />
+          <img src={kecamba} class="card-img-top size-img tengah" alt="" />
 
           <div className='shopnow align-items-center'>
                <Link to='/produk/sayur/detail-Kecamba'>
@@ -288,7 +288,7 @@ export default function Sayur() {
             <h5 class="card-title">Kecamba</h5>
             <p class="card-text">Rp 6000</p>
           
-            <p>stock:10</p>
+            <p className='stock'>stock:10</p>
            
           </div>
         </div>
@@ -296,7 +296,7 @@ export default function Sayur() {
         <div class="card list-produk  " >
         <div className='item'>
           <div className='oval'></div>
-          <img src={terong} class="card-img-top size-img" alt="" />
+          <img src={terong} class="card-img-top size-img tengah sedang" alt="" />
 
           <div className='shopnow align-items-center'>
               <Link to='/produk/sayur/detail-Terong'>
@@ -318,7 +318,7 @@ export default function Sayur() {
             <h5 class="card-title">Terong</h5>
             <p class="card-text">Rp 6000</p>
            
-            <p>stock:10</p>
+            <p className='stock'>stock:10</p>
            
           </div>
         </div>
@@ -326,7 +326,7 @@ export default function Sayur() {
         <div class="card list-produk" >
         <div className='item'>
           <div className='oval'></div>
-          <img src={bawang}class="card-img-top size-img" alt="" />
+          <img src={bawang}class="card-img-top size-img tengah" alt="" />
 
           <div className='shopnow align-items-center'>
                <Link to='/produk/sayur/detail-Bawang-Merah'>
@@ -348,7 +348,7 @@ export default function Sayur() {
             <h5 class="card-title">Bawang Merah</h5>
             <p class="card-text">Rp 3000</p>
            
-            <p>stock:10</p>
+            <p className='stock'>stock:10</p>
            
           </div>
         </div>
@@ -356,7 +356,7 @@ export default function Sayur() {
         <div class="card list-produk" >
         <div className='item'>
           <div className='oval'></div>
-          <img src={tomat} class="card-img-top size-img" alt="" />
+          <img src={tomat} class="card-img-top size-img tengah" alt="" />
 
           <div className='shopnow align-items-center'>
                <Link to='/produk/sayur/detail-Tomat'>
@@ -378,7 +378,7 @@ export default function Sayur() {
             <h5 class="card-title">Tomat</h5>
             <p class="card-text">Rp 5000</p>
            
-            <p>stock:10</p>
+            <p className='stock'>stock:10</p>
            
           </div>
         </div>

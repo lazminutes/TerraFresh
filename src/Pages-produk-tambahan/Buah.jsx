@@ -50,14 +50,14 @@ export default function Buah() {
               <h5 class="card-title">Apel</h5>
               <p class="card-text">Rp 5000</p>
 
-              <p>stock:10</p>
+              <p className='stock'>stock:10</p>
 
             </div>
           </div>
           <div class="card list-produk" >
             <div className='item'>
-              <div className='oval'></div>
-              <img src={durian} class="card-img-top size-img" alt="" />
+              <div className='oval'></div> 
+              <img src={durian} class="card-img-top size-img tengah" alt="" />
 
               <div className='shopnow align-items-center'>
                 <Link to='/produk/Buah/detail-Durian'><button class="btn-Costum">Detail</button> </Link>
@@ -78,14 +78,14 @@ export default function Buah() {
               <h5 class="card-title">Durian</h5>
               <p class="card-text">Rp 10.000</p>
              
-              <p>stock:10</p>
+              <p className='stock'>stock:10</p>
 
             </div>
           </div>
           <div class="card list-produk" >
             <div className='item'>
               <div className='oval'></div>
-              <img src={jeruk} class="card-img-top size-img" alt="" style={{ marginTop: '5px' }} />
+              <img src={jeruk} class="card-img-top size-img tengah" alt=""  />
 
               <div className='shopnow align-items-center'>
                 <Link to='/produk/Buah/detail-Jeruk'><button class="btn-Costum">Detail</button> </Link>
@@ -106,14 +106,14 @@ export default function Buah() {
               <h5 class="card-title">Jeruk</h5>
               <p class="card-text">Rp 5000</p>
              
-              <p>stock:10</p>
+              <p className='stock'>stock:10</p>
 
             </div>
           </div>
           <div class="card list-produk" >
             <div className='item'>
               <div className='oval'></div>
-              <img src={mangga} class="card-img-top size-img " alt="" />
+              <img src={mangga} class="card-img-top size-img tengah" alt="" />
 
               <div className='shopnow align-items-center'>
                 <Link to='/produk/Buah/detail-Mangga'><button class="btn-Costum">Detail</button> </Link>
@@ -134,7 +134,7 @@ export default function Buah() {
               <h5 class="card-title">Manggo</h5>
               <p class="card-text">Rp 6000</p>
               
-              <p>stock:10</p>
+              <p className='stock'>stock:10</p>
 
             </div>
           </div>
@@ -162,14 +162,14 @@ export default function Buah() {
               <h5 class="card-title">melon</h5>
               <p class="card-text">Rp 6000</p>
             
-              <p>stock:10</p>
+              <p className='stock'>stock:10</p>
 
             </div>
           </div>
           <div class="card list-produk" >
             <div className='item'>
               <div className='oval'></div>
-              <img src={naga} class="card-img-top size-img" alt="" style={{ marginLeft: '20px' }} />
+              <img src={naga} class="card-img-top size-img tengah" alt="" style={{ marginLeft: '20px' }} />
 
               <div className='shopnow align-items-center'>
                 <Link to='/produk/Buah/detail-Naga'><button class="btn-Costum">Detail</button> </Link>
@@ -190,14 +190,14 @@ export default function Buah() {
               <h5 class="card-title">naga</h5>
               <p class="card-text">Rp 8000</p>
              
-              <p>stock:10</p>
+              <p className='stock'>stock:10</p>
 
             </div>
           </div>
           <div class="card list-produk" >
             <div className='item '>
               <div className='oval'></div>
-              <img src={pepaya} class="card-img-top size-img" alt="" />
+              <img src={pepaya} class="card-img-top size-img tengah" alt="" />
 
               <div className='shopnow align-items-center'>
                 <Link to='/produk/Buah/detail-Pepaya'><button class="btn-Costum">Detail</button> </Link>
@@ -218,14 +218,14 @@ export default function Buah() {
               <h5 class="card-title">Pepaya</h5>
               <p class="card-text">Rp 6000</p>
              
-              <p>stock:10</p>
+              <p className='stock'>stock:10</p>
 
             </div>
           </div>
           <div class="card list-produk" >
             <div className='item'>
               <div className='oval'></div>
-              <img src={pisang} class="card-img-top size-img" alt="" style={{ marginLeft: '15px' }} />
+              <img src={pisang} class="card-img-top size-img tengah" alt="" style={{ marginLeft: '15px' }} />
 
               <div className='shopnow align-items-center'>
                 <Link to='/produk/Buah/detail-Pisang'><button class="btn-Costum">Detail</button> </Link>
@@ -246,14 +246,14 @@ export default function Buah() {
               <h5 class="card-title">Pisang</h5>
               <p class="card-text">Rp 4000</p>
             
-              <p>stock:10</p>
+              <p className='stock'>stock:10</p>
 
             </div>
           </div>
           <div class="card list-produk" >
             <div className='item'>
               <div className='oval'></div>
-              <img src={rambutan} class="card-img-top size-img" alt="" />
+              <img src={rambutan} class="card-img-top size-img tengah" alt="" />
 
               <div className='shopnow align-items-center'>
                 <Link to='/produk/Buah/detail-Rambutan'><button class="btn-Costum">Detail</button> </Link>
@@ -274,7 +274,7 @@ export default function Buah() {
               <h5 class="card-title">Rambutan</h5>
               <p class="card-text">Rp 3000</p>
             
-              <p>stock:10</p>
+              <p className='stock'>stock:10</p>
 
             </div>
           </div>
@@ -303,7 +303,7 @@ export default function Buah() {
               <h5 class="card-title">Srikaya</h5>
               <p class="card-text">Rp 6000</p>
              
-              <p>stock:10</p>
+              <p className='stock'>stock:10</p>
 
             </div>
           </div>
@@ -335,7 +335,7 @@ export default function Buah() {
               <h5 class="card-title">Sirsak</h5>
               <p class="card-text">Rp 6000</p>
              
-              <p>stock:10</p>
+              <p className='stock'>stock:10</p>
 
             </div>
           </div>
@@ -361,10 +361,10 @@ export default function Buah() {
                 <i class="fas fa-star"></i>
               </div>
 
-              <h5 class="card-title">Jambu Biji</h5>
+              <h5 class="card-title">Jambu</h5>
               <p class="card-text">Rp 3000</p>
              
-              <p>stock:10</p>
+              <p className='stock'>stock:10</p>
 
             </div>
           </div>
