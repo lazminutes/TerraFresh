@@ -1,13 +1,16 @@
 
 import { Link } from 'react-router-dom'
 import '../Assets-produk/Css-Detail/Detail.css'
+import React from 'react'
+import { AppContext } from '../Context/AppContext'
 
 
 export default function Cabai() {
+  const Contex =React.useContext(AppContext)
   return (
     <div className="container">
       <Link to='/produk/sayur' className='Link '>
-      <h1><i class="fa-solid fa-angle-left stars" ></i>Back</h1>
+      <h1><i class="fa-solid fa-angle-left stars" ></i>{Contex.lang ==='en' ?'Back':'Kembali'}</h1>
       </Link>
       <div className="row d-flex">
 
@@ -58,7 +61,7 @@ export default function Cabai() {
             <h1>Cabai</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
-              <p>terjual <span>49</span></p>
+              <p>{Contex.lang ==='en' ?'sold':'Terjual'} <span>49</span></p>
               <i class="fas fa-star stars">5</i>
               <p><span>(20 rating)</span></p>
             </div>
@@ -72,10 +75,10 @@ export default function Cabai() {
           <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
-            <p><span>Kondisi:</span>Segar,baru petik</p>
-            <p><span>Berat:</span>10 g</p>
-            <p><span>Kategori:</span>Sayur</p>
-            <p> Cabai  yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Selain lezat dikonsumsi, cabai mengandung sejumlah manfaat kesehatan. Beberapa manfaat cabai antara lain mencegah penyakit radang, menurunkan kolesterol darah, dan membersihkan hidung tersumbat. Khasiat tersebut dijelaskan dalam buku The Food Bible. </p>
+            <p><span>{Contex.lang ==='en' ?'Condition:':'Kondisi:'}</span>{Contex.lang ==='en' ?'Fresh,Just Picked':'Segar,Baru Petik'}</p>
+            <p><span>{Contex.lang ==='en' ?'Heavy:':'Berat:'}</span>10 g</p>
+            <p><span>{Contex.lang ==='en' ?'Category':'Kategori'}</span>{Contex.lang ==='en' ?'Vegetable':'Sayur'}</p>
+            <p> {Contex.lang ==='en' ?'The chili that we sell is 100% grown without using pesticides because it is 100% organic. Besides being delicious to eat, chili contains a number of health benefits. Some of the benefits of chili include preventing inflammatory diseases, lowering blood cholesterol, and clearing nasal congestion. These properties are described in the book The Food Bible.':'Cabai  yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Selain lezat dikonsumsi, cabai mengandung sejumlah manfaat kesehatan. Beberapa manfaat cabai antara lain mencegah penyakit radang, menurunkan kolesterol darah, dan membersihkan hidung tersumbat. Khasiat tersebut dijelaskan dalam buku The Food Bible.'} </p>
           </div>
         </div>
 
@@ -86,7 +89,7 @@ export default function Cabai() {
                   
                 
                     <h2 className="lead fw-normal mb-2">Cabai</h2>
-                   <h5>Atur Jumlah Pembelian</h5>
+                   <h5>{Contex.lang ==='en' ?'set Purchase amount':'atur jumlah Pembelian'}</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-6 d-flex">
                     <button
@@ -121,10 +124,10 @@ export default function Cabai() {
                 </div>
                 <br />
                 <div className='text-center btn-detail'>
-                <button className='btn btn-warning'>Keranjang</button>
+                <button className='btn btn-warning'>{Contex.lang ==='en' ?'Cart':'Keranjang'}</button>
                 <br />
                 <br />
-                <button className='btn-beli'>Beli Sekarang</button>
+                <button className='btn-beli'>{Contex.lang ==='en' ?'Buy Now':'Beli Sekarang'}</button>
                 </div>
               </div>
           </div>

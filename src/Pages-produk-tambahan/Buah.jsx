@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import React from 'react'
+import { AppContext } from '../Context/AppContext'
 //import gsmbsr buah
 import apel from '../Assets-Home/Img Swiper/apel.png'
 import durian from '../Assets-Home/Img Swiper/durian.png'
@@ -16,12 +18,13 @@ import jambu from '../Assets-Home/Img Swiper/Jambu.png'
 import Navbar from "../components/Navbar"
 
 export default function Buah() {
+  const Contex=React.useContext(AppContext)
   return (
     <>
       <Navbar />
       <div className="container">
         <div className='card-title'>
-          <h2 className='text-center'>Buah Segar Hari ini</h2>
+          <h2 className='text-center'> {Contex.lang ==='en' ?'Fresh Fruits of the Day':'Buah Segar Hari ini'}</h2>
         </div>
         <div className='Sayur d-flex text-center'>
           <div class="card list-produk" >

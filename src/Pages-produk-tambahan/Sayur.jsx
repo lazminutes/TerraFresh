@@ -1,5 +1,7 @@
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom'
+import React from 'react'
+import { AppContext } from '../Context/AppContext'
 import '../Assets-produk/css-produk/produk.css'
 //import sayuran
 import sawi from '../Assets-Home/Img Swiper/sawi.png'
@@ -19,14 +21,14 @@ import tomat from '../Assets-Home/Img Swiper/Tomat.png'
 
 export default function Sayur() {
 
-  
+  const Contex=React.useContext(AppContext)
 
     return (
         <>
         <Navbar/>
       <div className='container'>
         <div className='card-title'>
-          <h2 className='text-center '>Sayur Segar Hari ini</h2>
+          <h2 className='text-center '> {Contex.lang ==='en' ?'Fresh Vegetables of the Day':'Sayur Segar Hari ini'}</h2>
           </div>
           <div className='Sayur d-flex text-center'>
 

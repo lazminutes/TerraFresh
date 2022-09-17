@@ -66,9 +66,9 @@ function Import() {
         }
         />
         <Route path="/cart" element={
-          <LayoutDefault>
+        
             <Cart />
-          </LayoutDefault>
+      
         }
         />
         <Route path="/payment" element={

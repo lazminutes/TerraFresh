@@ -37,13 +37,17 @@ export default function Navbar() {
         {Contex.lang ==='en' ?'Cart':'Keranjang'}
         </NavLink>
       </li>
+
+      
       </ul>
       
       <form class="d-flex bg-warning " role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
         <button class="btn btn-outline-light" type="submit" >Search</button>
       </form>
+      
       <a className="text-reset me-3" to="#">
+        
       <i className="fas fa-shopping-cart text-light " />
     </a>
       <a
@@ -59,7 +63,7 @@ export default function Navbar() {
           1
         </span>
       </a>
-      <div class="dropdown">
+      <div class="dropdown d-flex">
   <img 
   class="btn btn-secondary dropdown-toggle" 
   type="button"
@@ -78,6 +82,7 @@ export default function Navbar() {
     <li><a class="dropdown-item" href="#">Setting</a></li>
     <li><a class="dropdown-item" href="#">Log Out</a></li>
   </ul>
+  <button class="nav-link bahasa" style={{marginLeft:'10px'}} onClick={() => Contex.onchangebahasa(Contex.lang === "en" ? "id" : "en")} >{Contex.lang==="en"?"en":"id"}</button>
 </div>
     </div>
   </div>

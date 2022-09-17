@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom'
 import '../Assets-produk/Css-Detail/Detail.css'
-
+import React from 'react'
+import { AppContext } from '../Context/AppContext'
 
 export default function Paprika() {
+  const Contex =React.useContext
   return (
     <div className="container">
       <Link to='/produk/sayur' className='Link '>
-      <h1><i class="fa-solid fa-angle-left stars" ></i>Back</h1>
+      <h1><i class="fa-solid fa-angle-left stars" ></i>{Contex.lang ==='en' ?'Back':'Kembali'}</h1>
       </Link>
       <div className="row d-flex">
 
@@ -57,7 +59,7 @@ export default function Paprika() {
             <h1>Paprika</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
-              <p>terjual <span>17</span></p>
+              <p>{Contex.lang ==='en' ?'sold':'Terjual'} <span>17</span></p>
               <i class="fas fa-star stars">5</i>
               <p><span>(40 rating)</span></p>
             </div>
@@ -71,10 +73,10 @@ export default function Paprika() {
           <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
-            <p><span>Kondisi:</span>Segar,baru petik</p>
-            <p><span>Berat:</span>100 g</p>
-            <p><span>Kategori:</span>Sayur</p>
-            <p> Paprika yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Paprika termasuk dalam sayuran. Sama seperti sayuran lainnya, paprika juga baik untuk kesehatan. Beberapa manfaat yang dapat dirasakan, yaitu meningkatkan kesehatan mata, mencegah anemia, hingga mempertahankan berat badan sehat. Baik paprika hijau, kuning, oranye, hingga merah, memiliki manfaat yang sama. </p>
+            <p><span>{Contex.lang ==='en' ?'Condition:':'Kondisi:'}</span>{Contex.lang ==='en' ?'Fresh,Just Picked':'Segar,Baru Petik'}</p>
+            <p><span>{Contex.lang ==='en' ?'Heavy:':'Berat:'}</span>90 g</p>
+            <p><span>{Contex.lang ==='en' ?'Category':'Kategori'}</span>{Contex.lang ==='en' ?'Vegetable':'Sayur'}</p>
+            <p>{Contex.lang ==='en' ?'The peppers we sell are 100% grown without using pesticides because they are 100% organic. Peppers are included in vegetables. Just like other vegetables, peppers are also good for health. Some of the benefits that can be felt, namely improving eye health, preventing anemia, and maintaining a healthy weight. Both green, yellow, orange, and red peppers have the same benefits.':'Paprika yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Paprika termasuk dalam sayuran. Sama seperti sayuran lainnya, paprika juga baik untuk kesehatan. Beberapa manfaat yang dapat dirasakan, yaitu meningkatkan kesehatan mata, mencegah anemia, hingga mempertahankan berat badan sehat. Baik paprika hijau, kuning, oranye, hingga merah, memiliki manfaat yang sama. '} </p>
           </div>
         </div>
 
@@ -85,7 +87,7 @@ export default function Paprika() {
                   
                 
                     <h2 className="lead fw-normal mb-2">Paprika</h2>
-                   <h5>Atur Jumlah Pembelian</h5>
+                   <h5>{Contex.lang ==='en' ?'set Purchase amount':'atur jumlah Pembelian'}</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-6 d-flex">
                     <button
@@ -120,10 +122,10 @@ export default function Paprika() {
                 </div>
                 <br />
                 <div className='text-center btn-detail'>
-                <button className='btn btn-warning'>Keranjang</button>
+                <button className='btn btn-warning'>{Contex.lang ==='en' ?'Cart':'Keranjang'}</button>
                 <br />
                 <br />
-                <button className='btn-beli'>Beli Sekarang</button>
+                <button className='btn-beli'>{Contex.lang ==='en' ?'Buy Now':'Beli Sekarang'}</button>
                 </div>
               </div>
           </div>

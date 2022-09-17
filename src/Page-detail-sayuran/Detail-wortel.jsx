@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom'
 import '../Assets-produk/Css-Detail/Detail.css'
-
+import React from 'react'
+import { AppContext } from '../Context/AppContext'
 
 export default function Wortel() {
+  const Contex =React.useContext(AppContext)
   return (
     <div className="container">
       <Link to='/produk/sayur' className='Link '>
-      <h1><i class="fa-solid fa-angle-left stars" ></i>Back</h1>
+      <h1><i class="fa-solid fa-angle-left stars" ></i>{Contex.lang ==='en' ?'Back':'Kembali'}</h1>
       </Link>
       <div className="row d-flex">
 
@@ -57,7 +59,7 @@ export default function Wortel() {
             <h1>Wortel</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
-              <p>terjual <span>60</span></p>
+              <p>{Contex.lang ==='en' ?'sold':'Terjual'} <span>60</span></p>
               <i class="fas fa-star stars">5</i>
               <p><span>(100 rating)</span></p>
             </div>
@@ -71,10 +73,10 @@ export default function Wortel() {
           <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
-            <p><span>Kondisi:</span>Segar,baru petik</p>
-            <p><span>Berat:</span>600 g</p>
-            <p><span>Kategori:</span>Sayur</p>
-            <p> wortel yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Konsumsi wortel yang terlalu banyak bisa menyebabkan kulit berubah menjadi kuning. Kondisi ini terjadi karena wortel memiliki kandungan beta karoten. Jika masuk ke dalam tubuh dalam dosis tinggi, beta karoten dapat menumpuk dan mengubah warna kulit menjadi kekuningan. </p>
+            <p><span>{Contex.lang ==='en' ?'Condition:':'Kondisi:'}</span>{Contex.lang ==='en' ?'Fresh,Just Picked':'Segar,Baru Petik'}</p>
+            <p><span>{Contex.lang ==='en' ?'Heavy:':'Berat:'}</span>600 g</p>
+            <p><span>{Contex.lang ==='en' ?'Category':'Kategori'}</span>{Contex.lang ==='en' ?'Vegetable':'Sayur'}</p>
+            <p>{Contex.lang ==='en' ?'The carrots we sell are 100% grown without using pesticides because they are 100% organic. Consuming too many carrots can cause the skin to turn yellow. This condition occurs because carrots contain beta carotene. If entered into the body in high doses, beta carotene can accumulate and turn the skin color to yellow.':'wortel yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Konsumsi wortel yang terlalu banyak bisa menyebabkan kulit berubah menjadi kuning. Kondisi ini terjadi karena wortel memiliki kandungan beta karoten. Jika masuk ke dalam tubuh dalam dosis tinggi, beta karoten dapat menumpuk dan mengubah warna kulit menjadi kekuningan.'}  </p>
           </div>
         </div>
 
@@ -85,7 +87,7 @@ export default function Wortel() {
                   
                 
                     <h2 className="lead fw-normal mb-2">Wortel</h2>
-                   <h5>Atur Jumlah Pembelian</h5>
+                   <h5>{Contex.lang ==='en' ?'set Purchase amount':'atur jumlah Pembelian'}</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-6 d-flex">
                     <button
@@ -120,10 +122,10 @@ export default function Wortel() {
                 </div>
                 <br />
                 <div className='text-center btn-detail'>
-                <button className='btn btn-warning'>Keranjang</button>
+                <button className='btn btn-warning'>{Contex.lang ==='en' ?'Cart':'Keranjang'}</button>
                 <br />
                 <br />
-                <button className='btn-beli'>Beli Sekarang</button>
+                <button className='btn-beli'>{Contex.lang ==='en' ?'Buy Now':'Beli Sekarang'}</button>
                 </div>
               </div>
           </div>

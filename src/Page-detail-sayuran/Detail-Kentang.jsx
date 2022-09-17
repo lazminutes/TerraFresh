@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom'
 import '../Assets-produk/Css-Detail/Detail.css'
-
+import React from 'react'
+import { AppContext } from '../Context/AppContext'
 
 export default function Kentang() {
+  const Contex =React.useContext(AppContext)
+
   return (
     <div className="container">
       <Link to='/produk/sayur' className='Link '>
-      <h1><i class="fa-solid fa-angle-left stars" ></i>Back</h1>
+      <h1><i class="fa-solid fa-angle-left stars" ></i>{Contex.lang ==='en' ?'Back':'Kembali'}</h1>
       </Link>
       <div className="row d-flex">
 
@@ -57,7 +60,7 @@ export default function Kentang() {
             <h1>Kentang</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
-              <p>terjual <span>8</span></p>
+              <p>{Contex.lang ==='en' ?'sold':'Terjual'} <span>8</span></p>
               <i class="fas fa-star stars">5</i>
               <p><span>(24 rating)</span></p>
             </div>
@@ -71,10 +74,10 @@ export default function Kentang() {
           <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
-            <p><span>Kondisi:</span>Segar,baru petik</p>
-            <p><span>Berat:</span>700 g</p>
-            <p><span>Kategori:</span>Sayur</p>
-            <p> Kentang yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Manfaat kentang yang kaya antioksidan ternyata juga berguna untuk memelihara kesehatan jantung. Selain itu, kentang juga mengandung serat, kalium, vitamin C, dan vitamin B6 yang akan memaksimal fungsinya untuk menjaga kesehatan jantung. Kentang kaya akan serat, yang akan membantu menurunkan jumlah total kolesterol. </p>
+            <p><span>{Contex.lang ==='en' ?'Condition:':'Kondisi:'}</span>{Contex.lang ==='en' ?'Fresh,Just Picked':'Segar,Baru Petik'}</p>
+            <p><span>{Contex.lang ==='en' ?'Heavy:':'Berat:'}</span>500 g</p>
+            <p><span>{Contex.lang ==='en' ?'Category':'Kategori'}</span>{Contex.lang ==='en' ?'Vegetable':'Sayur'}</p>
+            <p> {Contex.lang ==='en' ?'The potatoes that we sell are 100% grown without using pesticides because they are 100% organic. The benefits of potatoes which are rich in antioxidants are also useful for maintaining heart health. In addition, potatoes also contain fiber, potassium, vitamin C, and vitamin B6 which will maximize its function to maintain heart health. Potatoes are rich in fiber, which will help lower the total amount of cholesterol.':'Kentang yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Manfaat kentang yang kaya antioksidan ternyata juga berguna untuk memelihara kesehatan jantung. Selain itu, kentang juga mengandung serat, kalium, vitamin C, dan vitamin B6 yang akan memaksimal fungsinya untuk menjaga kesehatan jantung. Kentang kaya akan serat, yang akan membantu menurunkan jumlah total kolesterol.'} </p>
           </div>
         </div>
 
@@ -84,8 +87,8 @@ export default function Kentang() {
                 <div className="row d-flex justify-content-between align-items-center">
                   
                 
-                    <h2 className="lead fw-normal mb-2">Sawi</h2>
-                   <h5>Atur Jumlah Pembelian</h5>
+                    <h2 className="lead fw-normal mb-2">Kentang</h2>
+                   <h5>{Contex.lang ==='en' ?'set Purchase amount':'atur jumlah Pembelian'}</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-6 d-flex">
                     <button
@@ -120,10 +123,10 @@ export default function Kentang() {
                 </div>
                 <br />
                 <div className='text-center btn-detail'>
-                <button className='btn btn-warning'>Keranjang</button>
+                <button className='btn btn-warning'>{Contex.lang ==='en' ?'Cart':'Keranjang'}</button>
                 <br />
                 <br />
-                <button className='btn-beli'>Beli Sekarang</button>
+                <button className='btn-beli'>{Contex.lang ==='en' ?'Buy Now':'Beli Sekarang'}</button>
                 </div>
               </div>
           </div>
