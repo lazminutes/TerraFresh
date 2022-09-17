@@ -1,8 +1,11 @@
 import logo from '../assets/Img/logo2.png'
 import { Link, NavLink } from "react-router-dom";
 import '../Assets-Home/Home-Css/home.css'
+import React from 'react';
+import { AppContext } from '../Context/AppContext';
 
 export default function Navbar() {
+  const Contex= React.useContext(AppContext)
   return (
     <>
      <nav class="navbar navbar-expand-lg bg-warning ">
@@ -20,18 +23,18 @@ export default function Navbar() {
 
         <li className="nav-item">
         <NavLink className="nav-link text-light" to="/product">
-          Product
+         {Contex.lang ==='en' ?'Product':'Produk'}
         </NavLink>
       </li>
 
       <li className="nav-item">
         <NavLink className="nav-link text-light" to="/about">
-          About
+        {Contex.lang ==='en' ?'About':'Tentang'}
         </NavLink>
       </li>
       <li className="nav-item ">
         <NavLink className="nav-link text-light" to="/cart">
-          Cart
+        {Contex.lang ==='en' ?'Cart':'Keranjang'}
         </NavLink>
       </li>
       </ul>

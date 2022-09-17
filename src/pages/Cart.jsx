@@ -1,11 +1,17 @@
+import React from "react"
+import { AppContext } from "../Context/AppContext"
+
 export default function Cart() {
+
+  const Contex = React.useContext(AppContext)
+
   return (
     <section className="h-100 bg-warning">
       <div className="container h-100 py-5">
         <div className="row d-flex justify-content-center align-items-center h-100">
           <div className="col-10">
             <div className="d-flex justify-content-between align-items-center mb-4">
-              <h3 className="fw-normal mb-0 text-black">Shopping Cart</h3>
+              <h3 className="fw-normal mb-0 text-black">{Contex.lang==="en"?"Shopping Cart":"Keranjang Belanja"}</h3>
               <div>
                 <p className="mb-0">
                   <span className="text-muted">Sort by:</span>{" "}
@@ -224,21 +230,21 @@ export default function Cart() {
                     className="form-control form-control-lg"
                   />
                   <label className="form-label" htmlFor="form1">
-                    Discound code
+                    {Contex.lang==="en"?"Discount Code":"Kode Diskon"}
                   </label>
                 </div>
                 <button
                   type="button"
                   className="btn btn-outline-warning btn-lg ms-3"
                 >
-                  Apply
+                  {Contex.lang ==="en"?"Apply":"Terapkan"}
                 </button>
               </div>
             </div>
             <div className="card">
               <div className="card-body">
                 <button type="button" className="btn btn-warning btn-block btn-lg">
-                  Proceed to Pay
+                 {Contex.lang ==="en"?" Proceed to Pay":'Proses Pembayaran'}
                 </button>
               </div>
             </div>

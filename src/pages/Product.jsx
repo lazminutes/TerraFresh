@@ -1,18 +1,21 @@
+import React from 'react'
 import Navbar from '../components/Navbar'
 import '../Assets-produk/css-produk/produk.css'
 import sayuran from '../Assets-Home/Img Swiper/sayuran.png'
 import buahan from '../Assets-Home/Img Swiper/buah.png'
 import Footer from './Footer'
+import { AppContext } from '../Context/AppContext'
 //import router-dom
 import { Link } from 'react-router-dom'
 
 export default function Product() {
+  const Contex = React.useContext(AppContext)
   return (
     <>
       <Navbar />
       <div className='produk'>
         <div className='text-center'>
-          <h2 className=' title-web'>Produk</h2>
+          <h2 className=' title-web'>{Contex.lang === "en"?"Product":"Produk"}</h2>
           <div className='row '>
 
           
@@ -20,7 +23,7 @@ export default function Product() {
                 borderRadius: '100px'
               }} >
                   <Link to='/produk/sayur'><img src={sayuran} alt="" className='imgproduk' /> </Link>
-                <h2>Sayur-Sayuran</h2>
+                <h2>{Contex.lang ==='en'?'vegetables':'Sayuran'}</h2>
               </div>
            
 
@@ -31,7 +34,7 @@ export default function Product() {
                 }}
               >
             <Link to='/produk/buah'><img src={buahan} alt="" className='imgprodukb' /></Link>
-                <h2>Buah-Buahan</h2>
+                <h2>{Contex.lang ==='en'?'Fruits':'Buah-buahan'}</h2>
               </div>
            
             

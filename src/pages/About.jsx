@@ -1,7 +1,10 @@
+import React from "react"
 import Navbar from "../components/Navbar"
+import { AppContext } from "../Context/AppContext"
 import Footer from './Footer'
 
 export default function About() {
+  const Contex = React.useContext(AppContext)
   return (
     <>
       <Navbar />
@@ -65,7 +68,7 @@ export default function About() {
 
         <div>
           <h1 className="title-web text-center ">Terra Fresh</h1>
-          <p className="col-10 text-center about-text"> TerraFresh berguna untuk membantu pembeli dalam memilih buah dan sayuran yang berkualitas, kaya akan kandungan gizi, dan ramah lingkungan.  Permasalahan yang ada diberbagai negara khususnya di Indonesia, buah maupun sayuran yang komersil di pasaran  saat ini masih banyak yang mengandung bahan kimia. Hal tersebut tentunya mengkhawatirkan masyarakat yang ingin membeli karena berbagai dampak negatif bagi kesehatan. Untuk menjawab permasalahan tersebut, TerraFresh ini hadir untuk membantu masyarakat dalam memilih dan membeli buah maupun sayuran yang kaya akan kandungan gizi serta 100% organik tanpa bahan kimia.  </p>
+          <p className="col-10 text-center about-text">{Contex.lang === 'en'?'TerraFresh is useful to help buyers in choosing quality fruits and vegetables, rich in nutrients, and environmentally friendly. The problems that exist in various countries, especially in Indonesia, commercial fruit and vegetables on the market today still contain many chemicals. This is certainly worrying people who want to buy because of various negative impacts on health. To answer this problem, TerraFresh is here to help the community in choosing and buying fruits and vegetables that are rich in nutritional content and are 100% organic without chemicals.':"TerraFresh berguna untuk membantu pembeli dalam memilih buah dan sayuran yang berkualitas, kaya akan kandungan gizi, dan ramah lingkungan.  Permasalahan yang ada diberbagai negara khususnya di Indonesia, buah maupun sayuran yang komersil di pasaran  saat ini masih banyak yang mengandung bahan kimia. Hal tersebut tentunya mengkhawatirkan masyarakat yang ingin membeli karena berbagai dampak negatif bagi kesehatan. Untuk menjawab permasalahan tersebut, TerraFresh ini hadir untuk membantu masyarakat dalam memilih dan membeli buah maupun sayuran yang kaya akan kandungan gizi serta 100% organik tanpa bahan kimia.  "} </p>
         </div>
 
       </div>

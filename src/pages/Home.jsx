@@ -1,4 +1,6 @@
+import React from 'react'
 import Swiper from '../Assets-Home/Swiper/Swiper'
+import { AppContext } from '../Context/AppContext'
 // import Gambar
 import slide1 from '../assets/Img/slide1.png'
 import slide2 from '../assets/Img/slide2.png'
@@ -11,6 +13,7 @@ import Navbar from '../components/Navbar'
 import '../Assets-Home/Home-css/home.css'
 import Footer from './Footer'
 export default function Home() {
+const Contex = React.useContext(AppContext)
   return (
 
 
@@ -26,12 +29,12 @@ export default function Home() {
             <div className='container d-flex justify-content-between'>
               <div className='d-flex justify-content-center align-items-start flex-column ms-5'>
 
-                <h5 className='info'>#Baru Di Petik</h5>
-                <h1 className='Text'>Apel Segar </h1>
-                <h3 className='Text'>It's Organic</h3>
-                <p className='deskripsi'>Apel yang kami tanam 100% Organik, tanpa menggunakan pestisida dalam Penanamannya, sehingga aman di konsumsi tanpa mengganggu kesehatan.   </p>
+                <h5 className='info'>{Contex.lang === "en"?"#freshly picked":"#Baru di Petik"}</h5>
+                <h1 className='Text'>{Contex.lang === "en"?"Fresh Apple":"Apel Segar"} </h1>
+                <h3 className='Text'>{Contex.lang === "en"?"100% Organic":" 100% Organik"}</h3>
+                <p className='deskripsi'>{Contex.lang === "en"?"The apples that we plant are 100% organic, without the use of pesticides in their planting, so they are safe for consumption without disturbing health.":" Apel yang kami tanam 100% Organik, tanpa menggunakan pestisida dalam Penanamannya, sehingga aman di konsumsi tanpa mengganggu kesehatan. "}  </p>
                 <Link to='/product'>
-                  <button type="button" class=" btn-Costum">Shop Now</button>
+                  <button type="button" class=" btn-Costum">{Contex.lang === "en"?"Shop Now":" Belanja Sekarang"}</button>
                 </Link>
               </div>
               <div>
@@ -47,12 +50,12 @@ export default function Home() {
             <div className='container d-flex justify-content-between'>
               <div className='d-flex justify-content-center align-items-start flex-column ms-5'>
 
-                <h5 className='info'>#Sayur Segar</h5>
-                <h1 className='Text'>  Sayuran Organik </h1>
+                <h5 className='info'>{Contex.lang === "en"?"#Fresh Vegetables":" #Sayur Segar"}</h5>
+                <h1 className='Text'>{Contex.lang === "en"?"Organic Vegetables":" Sayur Segar Organik"} </h1>
                 <h3 className='Text'></h3>
-                <p className='deskripsi'>Sayuran kami langsung berasal dari Petani  yang ditanam dengan baik, tanpa menggunakan pestisida atau pun obat-obatan.Untuk lebih jelasnya bisa di baca di <b>tentang kami</b> </p>
+                <p className='deskripsi'>{Contex.lang === "en"?"Our vegetables come directly from farmers who are planted well, without using pesticides or drugs. For more details, please read here":" Sayuran kami langsung berasal dari Petani  yang ditanam dengan baik, tanpa menggunakan pestisida atau pun obat-obatan.Untuk lebih jelasnya bisa di baca di "}<b>{Contex.lang === "en"?"About Us":"Tentang Kami"}</b> </p>
                 <Link to="/about">
-                  <button type="button" class=" btn-Costum">About Us</button>
+                  <button type="button" class=" btn-Costum">{Contex.lang === "en"?"About Us":"Tentang Kami"}</button>
                 </Link>
               </div>
               <div>
@@ -67,12 +70,12 @@ export default function Home() {
             <div className='container d-flex justify-content-between'>
               <div className='d-flex justify-content-center align-items-start flex-column ms-5'>
 
-                <h5 className='info'>#Diskon!!!</h5>
-                <h1 className='Text'>  For New User </h1>
+                <h5 className='info'>{Contex.lang === "en"?"#Discount!!!":"#Diskon!!!"}</h5>
+                <h1 className='Text'> {Contex.lang === "en"?"For New User":"Untuk Pengguna Baru"} </h1>
 
-                <p className='deskripsi'>kami memberikan diskon 40% bagi setiap pengguna baru, sebgai ucapan terima kasih kepada pengunjung yang menjadi Konsumnen kami </p>
+                <p className='deskripsi'>{Contex.lang === "en"?"we give a 40% discount for every new user, as a thank you to visitors who become our consumers":"Untuk Pengguna Barukami memberikan diskon 40% bagi setiap pengguna baru, sebgai ucapan terima kasih kepada pengunjung yang menjadi Konsumnen kami"} </p>
                 <Link to='/login'>
-                  <button type="button" class=" btn-Costum">Login Now!!</button>
+                  <button type="button" class=" btn-Costum">{Contex.lang === "en"?"Login Now!!":"Buruan Login!!"}</button>
                 </Link>
               </div>
               <div>
@@ -96,7 +99,7 @@ export default function Home() {
       {/* fitur */}
       <div className='fitur '>
         <div className='text-center '>
-          <h1 className='title-fitur title-web'>FITUR KAMI</h1>
+          <h1 className='title-fitur title-web'>{Contex.lang === "en"?"OUR FEATURE":"FITUR KAMI"}</h1>
           <br />
         </div>
 
@@ -106,8 +109,7 @@ export default function Home() {
             <i class="fa-solid fa-truck-fast icon animate__animated animate__bounce animate__delay-0s"></i>
             <br />
             <br />
-            <p className='deskripsi '>fast delivery
-              aman sampai tujuan</p>
+            <p className='deskripsi '>{Contex.lang === "en"?"fast delivery safe to destination":"pengiriman cepat selamat sampai tujuan"}</p>
           </div>
 
 
@@ -115,7 +117,7 @@ export default function Home() {
             <i class="fa-solid fa-hand-holding-dollar icon animate__animated animate__bounce animate__delay-0s"></i>
             <br />
             <br />
-            <p className='deskripsi'>COD System, bisa bayar di tempat</p>
+            <p className='deskripsi'>{Contex.lang === "en"?"COD system can pay on the spot":"COD bisa bayar ditempat"}</p>
           </div>
 
 
@@ -123,7 +125,7 @@ export default function Home() {
             <i class="fa-solid fa-seedling icon animate__animated animate__bounce animate__delay-0s" ></i>
             <br />
             <br />
-            <p className='deskripsi'>100% Organic, tanpa Pestisida</p>
+            <p className='deskripsi'>{Contex.lang === "en"?"100% Organic without pesticides":"100% Organik, tanpa Pestisida"}</p>
           </div>
         </div>
       </div>
@@ -131,7 +133,7 @@ export default function Home() {
      
       <div className='Top-recomed'>
         <div className='container'>
-        <div className='heading'><h1>Top Recomended</h1></div>
+        <div className='heading'><h1>{Contex.lang === "en"?"Top Recomended":"Top Rekomendasi"}</h1></div>
         <Swiper/>
         </div>
       </div>

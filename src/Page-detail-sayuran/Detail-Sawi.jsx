@@ -80,7 +80,7 @@ export default function Sawi() {
 
         <div className="col-md-3 Rincian">
           <div className="cart-detail">
-          <div className="card-body p-7">
+          <div className="card-body p-7 ">
                 <div className="row d-flex justify-content-between align-items-center">
                   
                 
