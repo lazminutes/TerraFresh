@@ -1,14 +1,13 @@
 
-/* 
-body {
-    padding: 5px;
-    background-color: #f1bb01;
-} 
 
- p {
-    margin: 0%;
-} */
 
+
+.contain {
+    max-width: 900px;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: #f8f9fa;
+}
 
 .box-1 {
     max-width: 450px;

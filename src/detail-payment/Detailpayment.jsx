@@ -1,5 +1,5 @@
 import React from 'react'
-import "./style.css";
+import "../pages/style.css";
 import tera from "../assets/tera.jpg"
 import bsi from "../assets/bsi.png"
 import kiwi from "../assets/kiwi.jpg"
@@ -9,11 +9,11 @@ import apel from "../assets/apel.jpg"
 
 export default function Detailpayment() {
   return (
-    <div className="container mt-5 mb-5">
-    <div className="row d-flex justify-content-center">
-      <div className="col-md-8">
-        <div className="card">
-          <div className="text-left logo p-2 px-5" style={{backgroundColor: "#eeeeeea8"}}>
+    <div className="container mt-5 mb-5" >
+    <div className="row d-flex justify-content-center" >
+      <div className="col-md-8" >
+        <div className="card border-warning shadow-inner" style={{borderRadius: '15px', boxShadow:"rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px"}}>
+          <div className="text-left logo p-2 px-5 container-fluid" style={{backgroundColor: "#eeeeeea8"}}>
             <img src={tera} width={50} />
           </div>
           <div className="invoice p-5">
@@ -180,11 +180,14 @@ export default function Detailpayment() {
                 </table>                         
               </div>
             </div>
-            <div className="btn btn-warning d-flex align-items-center justify-content-between">Back to home</div>
+            <div className="btn btn-warning d-flex align-items-center justify-content-between" style={{boxShadow:"rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset"}}>
+              <p className="m-auto" >Back to home</p>
+            </div>
             <p>We will be sending shipping confirmation email when the item shipped successfully!</p>
             <p className="font-weight-bold mb-0">Thanks for shopping with us!</p>
             <span>Tera Fresh Team</span>
           </div>
+          
           <div className="d-flex justify-content-between footer p-3">
             <span>Need Help? visit our <a href="#"> help center</a></span>
             <span>12 June, 2020</span>
