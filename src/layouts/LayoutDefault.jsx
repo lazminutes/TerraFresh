@@ -4,9 +4,9 @@ export default function LayoutDefault({ children }) {
   return (
     <>
       <Navbar />
-      <div className="container">
-        {children}
-      </div>
+        <div>
+          {children}
+        </div>
     </>
   )
 }
