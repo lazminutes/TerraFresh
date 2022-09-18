@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom'
 import '../Assets-produk/Css-Detail/Detail.css'
-
+import React from 'react'
+import { AppContext } from '../Context/AppContext'
 
 export default function Melon() {
+  const Contex =React.useContext(AppContext)
   return (
     <div className="container">
       <Link to='/produk/buah' className='Link '>
-      <h1><i class="fa-solid fa-angle-left stars" ></i>Back</h1>
+      <h1><i class="fa-solid fa-angle-left stars" ></i>{Contex.lang ==='en' ?'Back':'Kembali'}</h1>
       </Link>
       <div className="row d-flex">
 
@@ -57,7 +59,7 @@ export default function Melon() {
             <h1>Buah Melon</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
-              <p>terjual <span>20</span></p>
+              <p>{Contex.lang ==='en' ?'sold':'Terjual'}   <span>20</span></p>
               <i class="fas fa-star stars">5</i>
               <p><span>(10 rating)</span></p>
             </div>
@@ -71,10 +73,10 @@ export default function Melon() {
           <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
-            <p><span>Kondisi:</span>Segar,baru petik</p>
-            <p><span>Berat:</span>1 kg </p>
-            <p><span>Kategori:</span>Buah</p>
-            <p> Buah Melon yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Melon tidak hanya bermanfaat untuk pencernaan melainkan juga menurunkan tekanan darah, menjaga kesehatan tulang, meningkatkan kontrol gula darah, serta menyehatkan kulit. Melon mengandung sumber vitamin mulai dari vitamin K, kalium, tembaga, sehingga memang sangat baik untuk kesehatan. </p>
+            <p><span>{Contex.lang ==='en' ?'Condition:':'Kondisi:'}</span>{Contex.lang ==='en' ?'Fresh,Just Picked':'Segar,Baru Petik'}</p>
+            <p><span>{Contex.lang ==='en' ?'Heavy:':'Berat:'}</span>1 kg</p>
+            <p><span>{Contex.lang ==='en' ?'Category':'Kategori'}</span>{Contex.lang ==='en' ?'Fruits':'Buah'}</p>
+            <p> {Contex.lang ==='en' ?'The melons that we sell are 100% grown without using pesticides because they are 100% organic. Melon is not only beneficial for digestion but also lowers blood pressure, maintains bone health, improves blood sugar control, and nourishes the skin. Melon contains a source of vitamins ranging from vitamin K, potassium, copper, so it is very good for health.':'Buah Melon yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Melon tidak hanya bermanfaat untuk pencernaan melainkan juga menurunkan tekanan darah, menjaga kesehatan tulang, meningkatkan kontrol gula darah, serta menyehatkan kulit. Melon mengandung sumber vitamin mulai dari vitamin K, kalium, tembaga, sehingga memang sangat baik untuk kesehatan.'} </p>
           </div>
         </div>
 
@@ -85,7 +87,7 @@ export default function Melon() {
                   
                 
                     <h2 className="lead fw-normal mb-2">Jeruk</h2>
-                   <h5>Atur Jumlah Pembelian</h5>
+                   <h5>{Contex.lang ==='en' ?'set Purchase amount':'atur jumlah Pembelian'}</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-6 d-flex">
                     <button
@@ -120,10 +122,10 @@ export default function Melon() {
                 </div>
                 <br />
                 <div className='text-center btn-detail'>
-                <button className='btn btn-warning'>Keranjang</button>
+                <button className='btn btn-warning'>{Contex.lang ==='en' ?'Cart':'Keranjang'}</button>
                 <br />
                 <br />
-                <button className='btn-beli'>Beli Sekarang</button>
+                <button className='btn-beli'>{Contex.lang ==='en' ?'Buy Now':'Beli Sekarang'}</button>
                 </div>
               </div>
           </div>

@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom'
 import '../Assets-produk/Css-Detail/Detail.css'
-
+import React from 'react'
+import { AppContext } from '../Context/AppContext'
 
 export default function Apel() {
+  const Contex =React.useContext(AppContext)
   return (
     <div className="container">
       <Link to='/produk/buah' className='Link '>
-      <h1><i class="fa-solid fa-angle-left stars" ></i>Back</h1>
+      <h1><i class="fa-solid fa-angle-left stars" ></i>{Contex.lang ==='en' ?'Back':'Kembali'}</h1>
       </Link>
       <div className="row d-flex">
 
@@ -57,7 +59,7 @@ export default function Apel() {
             <h1>Apel</h1>
             <br />
             <div className='deskripsi-sawi d-flex'>
-              <p>terjual <span>20</span></p>
+              <p>{Contex.lang ==='en' ?'sold':'Terjual'}  <span>20</span></p>
               <i class="fas fa-star stars">5</i>
               <p><span>(10 rating)</span></p>
             </div>
@@ -71,10 +73,10 @@ export default function Apel() {
           <div className='des-detail'>
             <br />
             <h5>Detail:</h5>
-            <p><span>Kondisi:</span>Segar,baru petik</p>
-            <p><span>Berat:</span>40 g</p>
-            <p><span>Kategori:</span>Buah</p>
-            <p> Buah yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Mengonsumsi dua atau tiga apel merah mentah sehari dapat membantu menjaga kesehatan jantung. Hal itu juga berlaku bagi jus apel merah. Selain itu, ini memainkan peran penting dalam menurunkan tekanan darah tinggi. </p>
+            <p><span>{Contex.lang ==='en' ?'Condition:':'Kondisi:'}</span>{Contex.lang ==='en' ?'Fresh,Just Picked':'Segar,Baru Petik'}</p>
+            <p><span>{Contex.lang ==='en' ?'Heavy:':'Berat:'}</span>120 g</p>
+            <p><span>{Contex.lang ==='en' ?'Category':'Kategori'}</span>{Contex.lang ==='en' ?'Fruits':'Buah'}</p>
+            <p> {Contex.lang ==='en' ?'The fruit we sell is 100% grown without using pesticides because it is 100% organic. Consuming two or three raw red apples a day can help maintain a healthy heart. The same goes for red apple juice. Moreover, it plays an important role in lowering high blood pressure.':'Buah yang kami jual 100% ditanam tanpa menggunakan pestisida karana 100% organik,Mengonsumsi dua atau tiga apel merah mentah sehari dapat membantu menjaga kesehatan jantung. Hal itu juga berlaku bagi jus apel merah. Selain itu, ini memainkan peran penting dalam menurunkan tekanan darah tinggi.'} </p>
           </div>
         </div>
 
@@ -85,7 +87,7 @@ export default function Apel() {
                   
                 
                     <h2 className="lead fw-normal mb-2">Apel</h2>
-                   <h5>Atur Jumlah Pembelian</h5>
+                   <h5>{Contex.lang ==='en' ?'set Purchase amount':'atur jumlah Pembelian'}</h5>
                  
                   <div className="col-md-3 col-lg-3 col-xl-6 d-flex">
                     <button
@@ -120,10 +122,10 @@ export default function Apel() {
                 </div>
                 <br />
                 <div className='text-center btn-detail'>
-                <button className='btn btn-warning'>Keranjang</button>
+                <button className='btn btn-warning'>{Contex.lang ==='en' ?'Cart':'Keranjang'}</button>
                 <br />
                 <br />
-                <button className='btn-beli'>Beli Sekarang</button>
+                <button className='btn-beli'>{Contex.lang ==='en' ?'Buy Now':'Beli Sekarang'}</button>
                 </div>
               </div>
           </div>
