@@ -7,7 +7,6 @@ export default function About() {
   const Contex = React.useContext(AppContext)
   return (
     <>
-      <Navbar />
       <div className="Title bg-warning">
         
         <h3 className="title-web text-center">Terra Team</h3>

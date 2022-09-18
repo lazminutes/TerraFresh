@@ -1,21 +1,24 @@
 import React from 'react'
-import '../src/Assets-Home/Home-Css/home.css'
+import './assets/css/home.css'
 import Import from './Import'
 import { useState } from 'react';
-import { AppContext } from './Context/AppContext';
+import { AppContext } from './context/AppContext';
+import { APIContextProvider } from './context/APIContext';
 
 
 function App() {
   const [bahasa, setBahasa] = useState('id');
   return (
     <>
-         <AppContext.Provider
-        value={{
-          lang: bahasa,
-          onchangebahasa: setBahasa
-        }}>
-<Import/>
-    </AppContext.Provider>  
+      <APIContextProvider>
+        <AppContext.Provider
+          value={{
+            lang: bahasa,
+            onchangebahasa: setBahasa
+          }}>
+          <Import />
+        </AppContext.Provider>
+      </APIContextProvider>
     </>
   )
 }
