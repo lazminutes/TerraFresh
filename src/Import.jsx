@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom"
 import Home from "./pages/Home"
+import Admin from "./pages/Admin"
 import Product from "./pages/Product"
 import About from "./pages/About"
 import Cart from "./pages/Cart"
@@ -12,6 +13,8 @@ import LayoutAuth from "./layouts/LayoutAuth"
 import ProductFruit from "./pages/ProductFruit"
 import ProductVegetable from "./pages/ProductVegetable"
 import ProductDetail from './pages/ProductDetail';
+import Create from './pages/Create';
+import Edit from './pages/Edit';
 
 function Import() {
 
@@ -76,10 +79,22 @@ function Import() {
             <ProductVegetable />
           </LayoutDefault>
         } />
+        <Route path="/admin" element={
+          <LayoutDefault>
+            <Admin />
+          </LayoutDefault>
+        } />
+        <Route path="/create" element={
+          <LayoutDefault>
+            <Create />
+          </LayoutDefault>
+        } />
+        <Route path="/edit/:name" element={
+          <LayoutDefault>
+            <Edit />
+          </LayoutDefault>
+        } />
       </Routes>
-
-
-
     </div>
   );
 }

@@ -8,7 +8,7 @@ export default function Navbar() {
   const Contex = useContext(AppContext)
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-warning ">
+      <nav className="navbar navbar-expand-lg bg-warning">
         <div className="container">
           <NavLink className="nav-link text-light " to="/">
             <img src={logo} alt="" className='logo animate__animated animate__lightSpeedInLeft animate__delay-0.8s' />

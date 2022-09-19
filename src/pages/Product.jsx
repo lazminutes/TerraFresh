@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom'
 
 export default function Product() {
   const Contex = useContext(AppContext)
-  console.log(Contex)
   return (
     <>
       <div className='produk'>
