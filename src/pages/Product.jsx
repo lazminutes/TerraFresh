@@ -3,17 +3,18 @@ import '../assets/css/product.css'
 import sayuran from '../assets/Img/sayuran.png'
 import buahan from '../assets/Img/buah.png'
 import Footer from './Footer'
-import { AppContext } from '../Context/AppContext'
+import { AppContext } from '../context/AppContext'
 //import router-dom
 import { Link } from 'react-router-dom'
 
 export default function Product() {
   const Contex = useContext(AppContext)
+  console.log(Contex)
   return (
     <>
       <div className='produk'>
         <div className='text-center'>
-          <h2 className=' title-web'>{Contex.lang === "en" ? "Product" : "Produk"}</h2>
+          <h2 className=' title-web'>{Contex?.lang === "en" ? "Product" : "Produk"}</h2>
           <div className='row '>
 
 

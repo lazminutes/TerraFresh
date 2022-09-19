@@ -1,5 +1,5 @@
 import React from 'react'
-import "./style.css";
+import "../assets/css/style.css";
 import tera from "../assets/tera.jpg"
 import bsi from "../assets/bsi.png"
 import kiwi from "../assets/kiwi.jpg"
