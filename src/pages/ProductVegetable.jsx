@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 import { useContext } from 'react'
-import { AppContext } from '../Context/AppContext'
+import { AppContext } from '../context/AppContext'
 import '../assets/css/product.css'
-import { useAPI } from '../Context/APIContext'
+import { useAPI } from '../context/APIContext'
 
 
 

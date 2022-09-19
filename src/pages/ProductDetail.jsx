@@ -1,7 +1,7 @@
 import { Link, useNavigate } from 'react-router-dom'
 import { useContext } from 'react'
 import '../assets/css/detail.css'
-import { AppContext } from '../Context/AppContext'
+import { AppContext } from '../context/AppContext'
 import { useLocation } from 'react-router-dom'
 
 export default function ProductDetail() {

@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { AppContext } from '../Context/AppContext';
+import { AppContext } from '../context/AppContext';
 import "../assets/css/style.css";
 import ava from "../assets/ava.png"
 import tera from "../assets/tera.jpg"

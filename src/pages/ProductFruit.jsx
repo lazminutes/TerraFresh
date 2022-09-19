@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useContext } from 'react'
-import { AppContext } from '../Context/AppContext'
-import { useAPI } from '../Context/APIContext'
+import { AppContext } from '../context/AppContext'
+import { useAPI } from '../context/APIContext'
 
 export default function ProductFruit() {
   const { fruits } = useAPI()

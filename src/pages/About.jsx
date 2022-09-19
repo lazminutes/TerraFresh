@@ -1,6 +1,5 @@
 import React from "react"
-import Navbar from "../components/Navbar"
-import { AppContext } from "../Context/AppContext"
+import { AppContext } from "../context/AppContext"
 import Footer from './Footer'
 
 export default function About() {
