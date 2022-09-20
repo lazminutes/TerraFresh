@@ -23,7 +23,7 @@ export default function ProductVegetable() {
                 <img src={vegetable?.imgUrl} className="card-img-top size-img" alt="" style={{ marginTop: '30px' }} />
                 <div className='shopnow align-items-center  '>
                   <Link to={`/product/${vegetable?.name}`} state={vegetable}><button className="btn-Costum">Detail</button> </Link>
-                  <i className="fas fa-shopping-cart" />
+                
                 </div>
               </div>
               <div className="card-body bodyCard ">

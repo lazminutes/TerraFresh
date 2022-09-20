@@ -20,7 +20,7 @@ export default function ProductFruit() {
                 <img src={fruit?.imgUrl} className="card-img-top size-img" alt="" style={{ marginTop: '30px' }} />
                 <div className='shopnow align-items-center  '>
                   <Link to={`/product/${fruit?.name}`} state={fruit}><button className="btn-Costum">Detail</button> </Link>
-                  <i className="fas fa-shopping-cart" />
+                
                 </div>
               </div>
               <div className="card-body bodyCard ">

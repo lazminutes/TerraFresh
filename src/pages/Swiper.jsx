@@ -35,7 +35,7 @@ export default () => {
             <div className='shopnow align-items-center'>
               <Link to='/product/Mango'><button className="btn-Costum">Detail</button> </Link>
 
-              <i className="fas fa-shopping-cart" />
+           
             </div>
 
           </div>
@@ -66,7 +66,7 @@ export default () => {
 
               <Link to='/product/Apple'><button className="btn-Costum">Detail</button> </Link>
 
-              <i className="fas fa-shopping-cart" />
+           
             </div>
 
           </div>
@@ -99,7 +99,7 @@ export default () => {
             <div className='shopnow align-items-center'>
               <Link to='/product/Papaya'><button className="btn-Costum">Detail</button> </Link>
 
-              <i className="fas fa-shopping-cart" />
+           
             </div>
 
           </div>
@@ -129,7 +129,7 @@ export default () => {
             <div className='shopnow align-items-center'>
               <Link to='/product/Sawi'>  <button className="btn-Costum">Detail</button> </Link>
 
-              <i className="fas fa-shopping-cart" />
+           
             </div>
 
           </div>
@@ -160,7 +160,7 @@ export default () => {
               <Link to='/product/Chili'>
                 <button className="btn-Costum">Detail</button>
               </Link>
-              <i className="fas fa-shopping-cart" />
+           
             </div>
 
           </div>
