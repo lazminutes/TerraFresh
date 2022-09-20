@@ -40,7 +40,6 @@ export default function Create() {
       }
     })
   }
-  console.log(data)
   return (
     <div className="min-vh-100 bg-warning">
       <div className="container">
