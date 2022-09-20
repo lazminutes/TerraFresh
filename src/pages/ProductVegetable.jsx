@@ -9,6 +9,11 @@ import { useAPI } from '../context/APIContext'
 export default function ProductVegetable() {
   const { vegetables } = useAPI()
   const Contex = useContext(AppContext)
+  const [cart, setCart] = useState([]);
+
+  const addItem = (vegetables) => {
+    setCart([...cart, vegetables]);
+  }
   return (
     <>
       <div className='container'>
@@ -23,7 +28,7 @@ export default function ProductVegetable() {
                 <img src={vegetable?.imgUrl} className="card-img-top size-img" alt="" style={{ marginTop: '30px' }} />
                 <div className='shopnow align-items-center  '>
                   <Link to={`/product/${vegetable?.name}`} state={vegetable}><button className="btn-Costum">Detail</button> </Link>
-                  <button className='btn-Costum'>Cart</button>
+                  <button className="fas fa-shopping-cart" onClick={() =>addItem(vegetables)}>add</button>
                 </div>
               </div>
               <div className="card-body bodyCard ">
