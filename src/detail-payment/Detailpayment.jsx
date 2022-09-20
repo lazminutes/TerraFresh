@@ -13,7 +13,7 @@ export default function Detailpayment() {
     <div className="row d-flex justify-content-center" >
       <div className="col-md-8" >
         <div className="card border-warning shadow-inner" style={{borderRadius: '15px', boxShadow:"rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px"}}>
-          <div className="text-left logo p-2 px-5 container-fluid" style={{backgroundColor: "#eeeeeea8"}}>
+          <div className="text-left logo p-2 px-5 container-fluid" style={{borderRadius: '15px', backgroundColor: "#f9ca24"}}>
             <img src={tera} width={50} />
           </div>
           <div className="invoice p-5">
@@ -30,7 +30,7 @@ export default function Detailpayment() {
                         <span>20 September,2022</span>
                       </div>
                     </td>
-                    <td>
+                    <td>z
                       <div className="py-2">
                         <span className="d-block text-muted">Order No</span>
                         <span>MT12332345</span>
@@ -180,9 +180,9 @@ export default function Detailpayment() {
                 </table>                         
               </div>
             </div>
-            <div className="btn btn-warning d-flex align-items-center justify-content-between" style={{boxShadow:"rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset"}}>
-              <p className="m-auto" >Back to home</p>
-            </div>
+           <div className='m-auto align-items-center text-center my-2'>
+              <p className="btn btn-warning align-items-center" style={{boxShadow:"rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset"}}>Back to home</p>
+              </div>
             <p>We will be sending shipping confirmation email when the item shipped successfully!</p>
             <p className="font-weight-bold mb-0">Thanks for shopping with us!</p>
             <span>Tera Fresh Team</span>
