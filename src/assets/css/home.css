@@ -444,6 +444,8 @@ margin: 20px;
 .text-putih{
     color: #fff;
 }
-
+.btn-success{
+    font-size: 5px !important;
+}
 
 }
