@@ -5,6 +5,9 @@ const APIContext = createContext();
 export function APIContextProvider({ children }) {
   const [fruits, setFruits] = useState([]);
   const [vegetables, setVegetables] = useState([]);
+  const [users, setUsers] = useState([]);
+  const [cart, setCart] = useState([])
+
   async function fetchFruits() {
     const response = await fetch(`https://6326e609ba4a9c47532c9c95.mockapi.io/fruits`)
     const data = await response.json()
@@ -15,15 +18,25 @@ export function APIContextProvider({ children }) {
     const data = await response.json()
     setVegetables(data)
   }
+  async function fetchUsers() {
+    const response = await fetch(`https://6326e609ba4a9c47532c9c95.mockapi.io/users`)
+    const data = await response.json()
+    setUsers(data)
+  }
+
   useEffect(() => {
     fetchFruits()
     fetchVegetables()
+    fetchUsers()
   }, [])
   return (
     <APIContext.Provider
       value={{
         fruits,
-        vegetables
+        vegetables,
+        users,
+        cart,
+        setCart
       }}
     >
       {children}
