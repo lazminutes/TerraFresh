@@ -103,7 +103,7 @@ export default function Home() {
         <div className='fitur-all'>
 
           <div className='fitur-1 col-md-3 text-center background-white0'>
-          <i className="a-solid fa-truck-fast icon "></i>
+          <i class="fa-solid fa-truck-fast icon" ></i>
             <br />
             <br />
             <p className='deskripsi '>{Contex.lang === "en" ? "fast delivery safe to destination" : "pengiriman cepat selamat sampai tujuan"}</p>
@@ -111,7 +111,7 @@ export default function Home() {
 
 
           <div className='fitur-1 col-md-3 text-center background-white'>
-          <i className="a-solid fa-hand-holding-dollar icon "></i>
+          <i class="fa-solid fa-hand-holding-dollar icon"></i>
             <br />
             <br />
             <p className='deskripsi'>{Contex.lang === "en" ? "COD system can pay on the spot" : "COD bisa bayar ditempat"}</p>
@@ -119,7 +119,7 @@ export default function Home() {
 
 
           <div className='fitur-1 col-md-3 text-center background-white1'>
-          <i className="a-solid fa-seedling icon " ></i>
+          <i class="fa-solid fa-seedling icon"></i>
             <br />
             <br />
             <p className='deskripsi'>{Contex.lang === "en" ? "100% Organic without pesticides" : "100% Organik, tanpa Pestisida"}</p>
