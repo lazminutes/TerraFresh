@@ -91,29 +91,10 @@ export default function ProductDetail() {
 
 
                 <h2 className="lead fw-normal mb-2">{state?.name}</h2>
-                <h5>{Contex.lang === 'en' ? 'set Purchase amount' : 'atur jumlah Pembelian'}</h5>
+              
 
-                <div className="col-md-3 col-lg-3 col-xl-6 d-flex">
-                  <button
-                    className="btn btn-link px-2"
-                  >
-                    <i className="fas fa-minus" />
-                  </button>
-                  <input
-                    id="form1"
-                    min={0}
-                    name="quantity"
-                    defaultValue={2}
-                    type="number"
-                    className="form-control form-control-sm"
-                  />
-                  <button
-                    className="btn btn-link px-2"
-                  >
-                    <i className="fas fa-plus" />
-                  </button>
-                </div>
-                <div className="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                
+                <div className="col-md-3 col-lg-2 col-xl-2 offset-lg-1 d-flex">
                   <h5 className="mb-0"><span>Stock Total:</span> {state?.stock}</h5>
                 </div>
               </div>
@@ -122,7 +103,7 @@ export default function ProductDetail() {
                 <button className='btn btn-warning'>{Contex.lang === 'en' ? 'Cart' : 'Keranjang'}</button>
                 <br />
                 <br />
-                <button className='btn-beli'>{Contex.lang === 'en' ? 'Buy Now' : 'Beli Sekarang'}</button>
+              
               </div>
             </div>
           </div>
